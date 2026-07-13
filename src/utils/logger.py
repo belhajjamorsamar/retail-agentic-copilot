@@ -9,10 +9,13 @@ logs plus tard.
 
 import logging
 
+# Configuration globale — exécutée UNE SEULE FOIS, au chargement de ce module
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s | %(levelname)s | %(name)s | %(message)s",
+)
+
 
 def get_logger(name: str) -> logging.Logger:
-    logging.basicConfig(
-        level=logging.INFO,
-        format="%(asctime)s | %(levelname)s | %(name)s | %(message)s",
-    )
+    """Retourne un logger nommé, déjà configuré globalement ci-dessus."""
     return logging.getLogger(name)
