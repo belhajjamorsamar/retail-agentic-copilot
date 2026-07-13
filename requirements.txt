@@ -1,0 +1,13 @@
+langchain==0.3.*
+langgraph==0.2.*
+langchain-openai==0.2.*
+langchain-chroma==0.1.*
+chromadb==0.5.*
+openai==1.*
+pypdf==5.*
+python-dotenv==1.*
+pandas==2.*
+requests==2.*
+pydantic==2.*
+streamlit==1.*
+pytest==8.*
