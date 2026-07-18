@@ -16,3 +16,11 @@ USE_MMR = True
 
 CHROMA_PERSIST_DIR = "chroma_db"
 CHROMA_COLLECTION_NAME = "retail_catalog"
+
+# --- Phase 4 : agent anti-gaspillage ---
+MAX_AUTO_DISCOUNT_PERCENT = 30
+DISCOUNT_TIERS = {
+    1: 40,   # J-1 : -40%
+    3: 20,   # J-3 : -20%
+}
+DEFAULT_DISCOUNT_PERCENT = 0
