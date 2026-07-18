@@ -6,7 +6,7 @@ load_dotenv()
 OPEN_FOOD_FACTS_API_URL = "https://world.openfoodfacts.org/api/v2/search"
 
 # --- Phase 2 : RAG (agent service client) ---
-LLM_MODEL = "gpt-4o-mini"
+LLM_MODEL = "llama3.2"
 EMBEDDING_MODEL = "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
 CHUNK_SIZE = 800
 CHUNK_OVERLAP = 120

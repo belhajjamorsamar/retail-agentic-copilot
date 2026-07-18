@@ -11,3 +11,5 @@ requests
 pydantic
 streamlit
 pytest
+fastapi
+uvicorn
