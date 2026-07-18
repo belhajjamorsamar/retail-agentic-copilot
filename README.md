@@ -2,180 +2,151 @@
 
 Système multi-agents (LangGraph) pour la grande distribution : agent service
 client basé sur RAG et agent de tarification anti-gaspillage, orchestrés par
-un agent superviseur. Projet d'apprentissage agentic AI appliqué au retail,
-avec données Open Food Facts et données synthétiques réalistes.
+un agent superviseur, exposés via une API FastAPI et consommés par un
+frontend Next.js. Projet d'apprentissage agentic AI appliqué au retail,
+100% local et gratuit (embeddings HuggingFace, LLM via Ollama).
 
 ## Contexte et problème métier
 
 Les supermarchés (contexte tunisien : Aziza, Monoprix, Carrefour, MG) font
-face à trois problèmes récurrents :
+face à trois problèmes récurrents : rupture de stock et surstock simultanés,
+gaspillage alimentaire sur les produits proches de la péremption, et service
+client fragmenté (disponibilité, prix, information produit).
 
-1. Rupture de stock et surstock simultanés par mauvaise anticipation de la demande
-2. Gaspillage alimentaire sur les produits proches de la date de péremption (DLC)
-3. Service client fragmenté (disponibilité, prix, information produit)
+Ce projet répond aux problèmes 2 et 3 avec un système multi-agents réel,
+exposé via une vraie API et une interface web — pas un simple script.
 
-Ce projet répond aux problèmes 2 et 3 avec un système multi-agents réel :
-un agent service client (RAG) et un agent anti-gaspillage (pricing
-dynamique), orchestrés par un agent superviseur (LangGraph).
+## Architecture
+
+```
+Frontend (Next.js)
+        │  HTTP
+        ▼
+API (FastAPI) — /chat, /health
+        │
+        ▼
+Superviseur (LangGraph — à venir)
+   │              │
+   ▼              ▼
+Agent service   Agent anti-gaspillage
+client (RAG)    (à venir)
+   │              │
+   ▼              ▼
+Catalogue        Stock + DLC
+produits          (synthétique)
+```
 
 ## Stack technique
 
-- Orchestration agentique : LangGraph
-- LLM : OpenAI GPT-4o-mini
+- Orchestration agentique : LangGraph (à venir)
+- API : FastAPI + Uvicorn
+- Frontend : Next.js (TypeScript, App Router, Tailwind CSS)
+- LLM : Ollama (llama3.2) — 100% local, gratuit
+- Embeddings : sentence-transformers (paraphrase-multilingual-MiniLM-L12-v2) — 100% local
 - Vector store : ChromaDB
-- Embeddings : text-embedding-3-small
 - Validation de données : Pydantic
 
+**Choix assumé** : le projet utilise exclusivement des modèles locaux et
+gratuits (Ollama + HuggingFace) plutôt que des API payantes (OpenAI),
+après avoir rencontré des blocages d'accès sur les modèles OpenAI. Ce choix
+a un coût en précision (documenté ci-dessous, section Limites connues)
+mais élimine toute dépendance à un compte payant.
+
 ## Setup
+
+### Backend (Python)
 
 ```bash
 python -m venv venv
 source venv/bin/activate      # Windows : venv\Scripts\activate
 pip install -r requirements.txt
-cp .env.example .env          # puis renseigner OPENAI_API_KEY
 ```
+
+### Ollama (LLM local)
+
+```bash
+curl -fsSL https://ollama.com/install.sh | sh
+ollama pull llama3.2
+```
+
+### Frontend (Next.js)
+
+```bash
+cd frontend
+npm install
+```
+
+## Lancer le projet (3 serveurs en parallèle)
+
+```bash
+# Terminal 1 — API FastAPI
+uvicorn src.api.main:app --port 8000
+
+# Terminal 2 — Frontend Next.js
+cd frontend && npm run dev
+
+# Ollama tourne en service de fond après installation (port 11434)
+```
+
+Puis ouvrir `http://localhost:3000`.
 
 ---
 
 ## Phase 1 — Préparation des données ✅
 
-Avant de construire les agents, il faut la matière première : un catalogue
-produit réel et des données de contexte magasin (stock, dates de
-péremption, historique de ventes). Cette phase est purement de
-l'ingénierie de données — aucun LLM n'intervient ici.
+Voir le détail complet des scripts (`fetch_catalog.py`, `clean_catalog.py`,
+`synthetic_sales.py`, `synthetic_inventory.py`) : extraction du catalogue
+Open Food Facts (114 produits propres), génération de l'historique de
+ventes (3420 lignes) et du stock/DLC synthétiques (15% de produits
+volontairement proches de la péremption, pour donner de vrais cas de test
+à l'agent anti-gaspillage).
 
-### Vue d'ensemble du pipeline
+## Phase 2 — Agent service client (RAG) ✅
 
-```
-1. fetch_catalog.py       → extraction catalogue brut (Open Food Facts API)
-2. clean_catalog.py        → nettoyage + validation (Pydantic)
-3. synthetic_sales.py       → génération de l'historique de ventes
-4. synthetic_inventory.py    → génération du stock et des DLC
-```
+Pipeline complet : `build_documents.py` (catalogue → documents LangChain)
+→ `chunking.py` (découpage avec filet de sécurité, `RecursiveCharacterTextSplitter`)
+→ `indexing.py` (embeddings locaux + stockage ChromaDB) → `retrieval.py`
+(recherche par similarité + MMR) → `customer_service_agent.py` (génération
+de réponse avec Ollama, citation systématique des sources).
 
-Chaque script produit un fichier qui sert d'entrée au suivant. Aucun script
-ne dépend d'une clé API OpenAI — la Phase 1 fonctionne intégralement sans
-coût d'API LLM.
+**Limites connues (documentées honnêtement)** : le modèle d'embedding
+local, plus léger qu'un modèle propriétaire comme celui d'OpenAI, montre
+des résultats moins précis sur des requêtes très spécifiques (allergènes
+précis). Testé et comparé entre `all-MiniLM-L6-v2` (anglais) et
+`paraphrase-multilingual-MiniLM-L12-v2` (multilingue) — ce dernier
+améliore nettement les résultats sur le catalogue multilingue (français/
+arabe/anglais/allemand), sans éliminer complètement la limite. Point à
+approfondir en Phase 7 (évaluation).
 
-### 1. `fetch_catalog.py` — extraction du catalogue produit
+## Phase 3 — API FastAPI ✅
 
-Interroge l'API publique [Open Food Facts](https://world.openfoodfacts.org)
-(licence ouverte ODbL) pour récupérer des produits réels par catégorie
-(`Dairies`, `Beverages`, `Snacks`).
+Expose l'agent service client via une API REST :
 
-**Décisions techniques :**
-- API v2 structurée (`/api/v2/search`), pas l'ancien endpoint legacy
-- Champs limités via `fields=` pour ne récupérer que l'utile (nom, marque,
-  catégorie, ingrédients, allergènes) plutôt que l'objet produit complet
-- Gestion des erreurs 503 (rate-limit) avec retry et backoff exponentiel
-- Déduplication par code-barres (un produit peut apparaître dans plusieurs
-  catégories)
+- `POST /chat` — reçoit `{"question": "..."}`, retourne `{"answer": "...", "sources": [...]}`
+- `GET /health` — vérification de disponibilité du service
 
-**Résultat :** `data/raw/catalog_raw.json` — 117 produits bruts récupérés,
-incluant de vrais produits tunisiens identifiables par leur préfixe de
-code-barres (`611`), par exemple des marques comme Jaouda ou Sidi Ali.
+Documentation interactive auto-générée disponible sur `http://localhost:8000/docs`.
+CORS configuré pour n'autoriser que le frontend (`localhost:3000`).
 
-```bash
-python -m src.data_layer.fetch_catalog
-```
+## Frontend Next.js (en cours)
 
-### 2. `clean_catalog.py` — nettoyage et validation
-
-Les données brutes d'une base communautaire ont des défauts réels observés
-concrètement sur ce catalogue : produits sans nom, texte d'ingrédients
-corrompu (artefacts OCR), champs manquants.
-
-**Règles de nettoyage appliquées :**
-- Rejet des produits sans nom (`product_name` vide)
-- Détection de texte corrompu par ratio lettres/caractères (seuil 60%)
-- Valeurs par défaut explicites (`"non renseigné"`) plutôt que des champs vides
-- Validation finale de chaque produit avec un modèle **Pydantic**
-  (`CleanProduct`), qui garantit que chaque produit sauvegardé a la bonne
-  forme avant d'aller plus loin dans le pipeline
-
-**Résultat :** `data/raw/catalog_clean.json` — 114 produits propres et
-validés (3 rejetés sur 117, ~2.5%).
-
-```bash
-python -m src.data_layer.clean_catalog
-```
-
-### 3. `synthetic_sales.py` — historique de ventes synthétique
-
-Open Food Facts ne fournit aucune donnée de vente. On génère un historique
-réaliste sur 30 jours par produit, avec :
-- Une vente moyenne de base différente par catégorie
-- Un effet weekend (+30% samedi/dimanche)
-- Du bruit aléatoire (±30%) pour éviter des courbes artificiellement lisses
-
-**Transparence** : ces données sont 100% synthétiques et documentées comme
-telles — aucune vente réelle de supermarché n'est utilisée.
-
-**Résultat :** `data/synthetic/sales_history.json` — 3420 lignes
-(114 produits × 30 jours).
-
-```bash
-python -m src.data_layer.synthetic_sales
-```
-
-### 4. `synthetic_inventory.py` — stock et dates de péremption
-
-Calcule, pour chaque produit, un stock cohérent avec sa vitesse de vente
-réelle (issue de `sales_history.json`), et lui assigne une date de
-péremption (DLC).
-
-**Décision de conception clé** : 15% des produits reçoivent volontairement
-une DLC très proche (1 à 3 jours), les 85% restants une DLC normale
-(15 à 60 jours). Sans ce mécanisme, aucun produit ne serait jamais "à
-risque" et l'agent anti-gaspillage (Phase 3) n'aurait rien à traiter en
-démo — ce sous-ensemble constitue les cas de test volontaires du système.
-
-**Résultat :** `data/synthetic/inventory.json` — 114 produits, avec stock,
-vitesse de vente moyenne, DLC et jours restants avant péremption.
-
-```bash
-python -m src.data_layer.synthetic_inventory
-```
-
-### Comment les 3 fichiers de données se relient
-
-```
-catalog_clean.json      →  qui est ce produit ? (nom, marque, ingrédients)
-sales_history.json       →  combien il s'est vendu chaque jour (30 lignes/produit)
-inventory.json            →  combien il en reste, et quand il expire (1 ligne/produit)
-```
-
-Les trois fichiers sont reliés par le champ `code` / `product_code`. Cette
-séparation reflète des rythmes de mise à jour différents dans un vrai
-système : le catalogue change rarement, les ventes quotidiennement, le
-stock en permanence.
-
-### Sources de données — résumé
-
-| Donnée | Source | Statut |
-|---|---|---|
-| Catalogue produits | Open Food Facts API v2 | Réelle |
-| Historique de ventes | Générateur synthétique | Synthétique, documentée |
-| Stock & dates de péremption | Générateur synthétique | Synthétique, documentée |
-
-Aucune donnée interne réelle de supermarché n'est utilisée (propriétaire et
-non accessible publiquement). Le scraping de sites de distributeurs
-tunisiens (ex. mg.tn) a été explicitement écarté après vérification de
-leurs conditions d'utilisation, qui interdisent l'exploitation non
-autorisée de leur contenu.
+Interface de chat simple (TypeScript, App Router, Tailwind CSS) qui
+consomme l'API `/chat` et affiche la réponse avec les produits sources
+cités, sous forme de tags.
 
 ---
 
-## Roadmap
+## Roadmap mise à jour
 
 - [x] Phase 0 — Cadrage, architecture, scaffolding
-- [x] Phase 1 — Couche de données (catalogue + synthétique)
-- [ ] Phase 2 — Agent service client (RAG)
-- [ ] Phase 3 — Agent anti-gaspillage
-- [ ] Phase 4 — Orchestration (LangGraph)
-- [ ] Phase 5 — Évaluation et traçabilité
-- [ ] Phase 6 — Interface de démo
-- [ ] Phase 7 — Documentation finale
+- [x] Phase 1 — Couche de données
+- [x] Phase 2 — Agent service client (RAG)
+- [x] Phase 3 — API FastAPI
+- [ ] Phase 4 — Agent anti-gaspillage
+- [ ] Phase 5 — Orchestration multi-agents (LangGraph)
+- [ ] Phase 6 — Frontend Next.js (finalisation)
+- [ ] Phase 7 — Évaluation et traçabilité
+- [ ] Phase 8 — Documentation finale et préparation entretien
 
 ## Structure du projet
 
@@ -185,12 +156,27 @@ retail-agentic-copilot/
 │   ├── raw/                      # catalog_raw.json, catalog_clean.json
 │   └── synthetic/                 # sales_history.json, inventory.json
 ├── src/
-│   ├── data_layer/                 # scripts de la Phase 1 (ce document)
+│   ├── data_layer/                 # scripts de la Phase 1
 │   ├── rag/                         # chunking, embeddings, retrieval (Phase 2)
-│   ├── agents/                       # agents service client & anti-gaspillage
-│   ├── tools/                         # outils exposés aux agents
-│   ├── orchestration/                  # superviseur LangGraph
-│   └── utils/                           # logger centralisé
+│   ├── agents/                       # customer_service_agent.py
+│   ├── api/                           # FastAPI : main.py, routes.py, schemas.py
+│   ├── tools/                          # outils exposés aux agents (à venir)
+│   ├── orchestration/                   # superviseur LangGraph (à venir)
+│   └── utils/                            # logger centralisé
+├── frontend/                          # Next.js (TypeScript, App Router)
+├── chroma_db/                          # index vectoriel (généré, gitignored)
 ├── tests/
 └── config.py
 ```
+
+## Sources de données
+
+| Donnée | Source | Statut |
+|---|---|---|
+| Catalogue produits | Open Food Facts API v2 | Réelle |
+| Historique de ventes | Générateur synthétique | Synthétique, documentée |
+| Stock & dates de péremption | Générateur synthétique | Synthétique, documentée |
+
+Aucune donnée interne réelle de supermarché n'est utilisée. Le scraping de
+sites de distributeurs tunisiens (ex. mg.tn) a été explicitement écarté
+après vérification de leurs conditions d'utilisation.
