@@ -37,7 +37,7 @@ def chat(request: ChatRequest) -> ChatResponse:
         raise HTTPException(status_code=500, detail="Erreur interne lors du traitement.")
 
 
-@router.get("/health")
-def health() -> dict:
+@router.get("/test")
+def test() -> dict:
     """Endpoint de vérification — confirme que l'API est vivante."""
-    return {"status": "ok"}
+    return {"status": "it'  s done"}
