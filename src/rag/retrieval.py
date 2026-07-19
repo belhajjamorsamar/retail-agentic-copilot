@@ -1,36 +1,79 @@
 """
 Recherche dans l'index vectoriel (retrieval).
 
-Réutilise l'index déjà construit par indexing.py — ce fichier ne
-construit rien, il propose juste une fonction de recherche propre,
-avec les réglages définis dans config.py (RETRIEVAL_TOP_K, USE_MMR).
+Combine recherche sémantique (embeddings + MMR) et recherche par mot-clé
+exact dans le catalogue. La recherche sémantique seule peut rater des
+termes précis (allergènes, ingrédients spécifiques) — observé concrètement
+sur des questions comme "produits avec des cacahuètes". La recherche par
+mot-clé compense cette limite en cherchant une correspondance textuelle
+directe, en complément.
 """
+
+import json
 
 from langchain_core.documents import Document
 
-from src.rag.indexing import get_vector_store  
+from src.rag.indexing import get_vector_store
 from src.utils.logger import get_logger
 from config import RETRIEVAL_TOP_K, USE_MMR
 
 logger = get_logger(__name__)
 
+CATALOG_PATH = "data/raw/catalog_clean.json"
+
+
+def keyword_search(query: str, max_results: int = 3) -> list[dict]:
+    """Recherche par mot-clé exact dans le catalogue."""
+    with open(CATALOG_PATH, encoding="utf-8") as f:
+        catalog = json.load(f)
+
+    stopwords = {"les", "des", "qui", "que", "a", "de", "le", "la", "un", "une", "et", "donner", "avec"}
+    keywords = [w.lower() for w in query.split() if len(w) > 3 and w.lower() not in stopwords]
+
+    matches = []
+    for product in catalog:
+        searchable_text = (
+            product.get("ingredients_text", "") + " " +
+            product.get("product_name", "") + " " +
+            product.get("allergens", "")
+        ).lower()
+
+        if any(kw in searchable_text for kw in keywords):
+            matches.append(product)
+
+    return matches[:max_results]
+
 
 def search(query: str, k: int = RETRIEVAL_TOP_K) -> list[Document]:
-    """Cherche les k chunks les plus pertinents pour une question donnée."""
+    """Combine recherche sémantique et recherche par mot-clé."""
 
     vector_store = get_vector_store()
-    # ↑ se connecte à l'index déjà existant sur disque (chroma_db/),
-    #   ne recalcule AUCUN embedding — juste une connexion en lecture
 
     if USE_MMR:
-        results = vector_store.max_marginal_relevance_search(query, k=k)
-        # ↑ pertinence + diversité (voir explication au-dessus)
+        semantic_results = vector_store.max_marginal_relevance_search(query, k=k)
     else:
-        results = vector_store.similarity_search(query, k=k)
-        # ↑ pertinence pure, peut renvoyer des résultats redondants
+        semantic_results = vector_store.similarity_search(query, k=k)
 
-    logger.info("Recherche '%s' — %d résultats (MMR=%s)", query, len(results), USE_MMR)
-    return results
+    keyword_matches = keyword_search(query)
+    keyword_docs = [
+        Document(
+            page_content=(
+                f"Produit : {p['product_name']}\nMarque : {p['brand']}\n"
+                f"Ingrédients : {p['ingredients_text']}\nAllergènes : {p['allergens']}"
+            ),
+            metadata={"code": p["code"], "product_name": p["product_name"], "brand": p["brand"]},
+        )
+        for p in keyword_matches
+    ]
+
+    seen_codes = {d.metadata.get("code") for d in semantic_results}
+    combined = semantic_results + [d for d in keyword_docs if d.metadata.get("code") not in seen_codes]
+
+    logger.info(
+        "Recherche '%s' — %d résultats sémantiques + %d résultats mot-clé ajoutés",
+        query, len(semantic_results), len(combined) - len(semantic_results),
+    )
+    return combined
 
 
 def format_results_for_display(results: list[Document]) -> str:

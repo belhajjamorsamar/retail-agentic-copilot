@@ -4,7 +4,7 @@ Routes de l'API — définit les endpoints exposés au frontend.
 
 from fastapi import APIRouter, HTTPException
 
-from src.agents.customer_service_agent import answer_question
+from src.orchestration.supervisor import run_supervisor
 from src.rag.retrieval import search
 from src.api.schemas import ChatRequest, ChatResponse
 from src.utils.logger import get_logger
@@ -16,19 +16,20 @@ router = APIRouter()
 
 @router.post("/chat", response_model=ChatResponse)
 def chat(request: ChatRequest) -> ChatResponse:
-    """Reçoit une question, retourne la réponse de l'agent service client + ses sources."""
+    """Reçoit une question, retourne la réponse du superviseur (RAG et/ou stock) + ses sources."""
 
     if not request.question.strip():
         raise HTTPException(status_code=400, detail="La question ne peut pas être vide.")
 
     try:
-        answer_text = answer_question(request.question)
+        answer_text = run_supervisor(request.question)
+        # ↑ changement clé : on passe par le superviseur, plus par le RAG seul
 
         chunks = search(request.question)
         sources = list({c.metadata.get("product_name", "?") for c in chunks})
-        # ↑ set (accolades {}) pour dédupliquer automatiquement les noms
-        #   de produits si plusieurs chunks viennent du même produit,
-        #   puis converti en liste pour que Pydantic puisse le sérialiser
+        # ↑ note : ces sources ne couvrent que le volet "produit" — le volet
+        #   "stock" n'a pas de "source" au même sens, c'est un calcul,
+        #   pas une recherche documentaire (limite à documenter aussi)
 
         return ChatResponse(answer=answer_text, sources=sources)
 
@@ -37,7 +38,7 @@ def chat(request: ChatRequest) -> ChatResponse:
         raise HTTPException(status_code=500, detail="Erreur interne lors du traitement.")
 
 
-@router.get("/test")
-def test() -> dict:
+@router.get("/health")
+def health() -> dict:
     """Endpoint de vérification — confirme que l'API est vivante."""
-    return {"status": "it'  s done"}
+    return {"status": "ok"}

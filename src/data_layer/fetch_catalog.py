@@ -15,12 +15,15 @@ HEADERS = {
 
 FIELDS = "code,product_name,brands,categories_tags_en,quantity,image_url,ingredients_text,allergens"# on ne demande QUE ces champs à l'API — pas tout le produit (qui a 50+ champs inutiles pour nous)
 
-CATEGORIES = ["Dairies", "Beverages", "Snacks"]
-# les catégories de produits qu'on veut récupérer — on commence petit exprès pour tester vite
+CATEGORIES = [
+    "Dairies", "Beverages", "Snacks",
+    "Cereals-and-potatoes", "Canned-foods", "Breakfasts",
+    "Condiments", "Frozen-foods", "Meats", "Fruits", "Vegetables",
+]# les catégories de produits qu'on veut récupérer —
 
-PAGE_SIZE = 40        # combien de produits on demande par catégorie en un seul appel API
+PAGE_SIZE = 100       # combien de produits on demande par catégorie en un seul appel API
 MAX_RETRIES = 3        # nombre max de tentatives si l'API ne répond pas correctement
-SECONDS_BETWEEN_CALLS = 7  # pause entre deux catégories, pour respecter la limite de requêtes/minute
+SECONDS_BETWEEN_CALLS = 9  # pause entre deux catégories, pour respecter la limite de requêtes/minute
 def fetch_category(category: str, page_size: int = PAGE_SIZE) -> list[dict]:
     """Récupère une page de produits pour une catégorie donnée, avec retry."""
 
