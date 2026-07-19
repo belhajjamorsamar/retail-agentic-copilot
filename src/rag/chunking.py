@@ -11,7 +11,7 @@ notre catalogue. C'est un filet de sécurité, pas un découpage forcé.
 
 from collections import Counter
 
-from langchain.text_splitter import RecursiveCharacterTextSplitter
+from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_core.documents import Document
 
 from src.rag.build_documents import build_documents
