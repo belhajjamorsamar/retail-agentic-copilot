@@ -1,8 +1,14 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Baloo_2, Nunito } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({
+const baloo = Baloo_2({
+  subsets: ["latin"],
+  weight: ["500", "600", "700"],
+  variable: "--font-display",
+});
+
+const nunito = Nunito({
   subsets: ["latin"],
   variable: "--font-sans",
 });
@@ -17,7 +23,7 @@ export default function RootLayout({
 }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="fr" suppressHydrationWarning>
-      <body className={`${inter.variable} font-sans antialiased`}>
+      <body className={`${baloo.variable} ${nunito.variable} font-sans antialiased`}>
         {children}
       </body>
     </html>

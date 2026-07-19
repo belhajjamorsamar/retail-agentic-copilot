@@ -20,14 +20,6 @@ interface Conversation {
   createdAt: number;
 }
 
-const LOADING_STEPS = [
-  "Analyse de la question",
-  "Recherche dans le catalogue",
-  "Vérification du stock",
-  "Rédaction de la réponse",
-  "Finalisation",
-];
-
 const STORAGE_KEY = "retail-copilot-conversations";
 
 function createConversation(): Conversation {
@@ -45,14 +37,11 @@ export default function Home() {
   const [question, setQuestion] = useState("");
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
-  const [stepIndex, setStepIndex] = useState(0);
   const [dark, setDark] = useState(false);
   const [mounted, setMounted] = useState(false);
   const [sidebarOpen, setSidebarOpen] = useState(true);
-  const intervalRef = useRef<NodeJS.Timeout | null>(null);
   const bottomRef = useRef<HTMLDivElement | null>(null);
 
-  // Initialisation : thème + conversations sauvegardées
   useEffect(() => {
     const savedTheme = localStorage.getItem("theme");
     const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
@@ -62,19 +51,14 @@ export default function Home() {
 
     const saved = localStorage.getItem(STORAGE_KEY);
     let convos: Conversation[] = saved ? JSON.parse(saved) : [];
-    if (convos.length === 0) {
-      convos = [createConversation()];
-    }
+    if (convos.length === 0) convos = [createConversation()];
     setConversations(convos);
     setActiveId(convos[0].id);
     setMounted(true);
   }, []);
 
-  // Sauvegarde automatique à chaque changement
   useEffect(() => {
-    if (mounted) {
-      localStorage.setItem(STORAGE_KEY, JSON.stringify(conversations));
-    }
+    if (mounted) localStorage.setItem(STORAGE_KEY, JSON.stringify(conversations));
   }, [conversations, mounted]);
 
   function toggleTheme() {
@@ -104,20 +88,6 @@ export default function Home() {
     });
   }
 
-  useEffect(() => {
-    if (loading) {
-      setStepIndex(0);
-      intervalRef.current = setInterval(() => {
-        setStepIndex((prev) => Math.min(prev + 1, LOADING_STEPS.length - 1));
-      }, 12000);
-    } else if (intervalRef.current) {
-      clearInterval(intervalRef.current);
-    }
-    return () => {
-      if (intervalRef.current) clearInterval(intervalRef.current);
-    };
-  }, [loading]);
-
   const activeConversation = conversations.find((c) => c.id === activeId);
 
   useEffect(() => {
@@ -129,16 +99,13 @@ export default function Home() {
     const trimmed = question.trim();
     if (!trimmed || loading || !activeId) return;
 
-    const userMsg: Message = { role: "user", content: trimmed };
-
     setConversations((prev) =>
       prev.map((c) =>
         c.id === activeId
           ? {
               ...c,
-              messages: [...c.messages, userMsg],
+              messages: [...c.messages, { role: "user", content: trimmed }],
               title: c.messages.length === 0 ? trimmed.slice(0, 40) : c.title,
-              // ↑ le titre de la conversation devient la première question posée
             }
           : c
       )
@@ -155,22 +122,15 @@ export default function Home() {
       });
       if (!res.ok) throw new Error(`Erreur ${res.status}`);
       const data: ChatResponse = await res.json();
-
       setConversations((prev) =>
         prev.map((c) =>
           c.id === activeId
-            ? {
-                ...c,
-                messages: [
-                  ...c.messages,
-                  { role: "assistant", content: data.answer, sources: data.sources },
-                ],
-              }
+            ? { ...c, messages: [...c.messages, { role: "assistant", content: data.answer, sources: data.sources }] }
             : c
         )
       );
     } catch {
-      setError("Impossible de contacter l'assistant. Vérifiez que l'API tourne.");
+      setError("Oups, je n'arrive pas à joindre l'assistant. L'API tourne-t-elle ?");
     } finally {
       setLoading(false);
     }
@@ -179,20 +139,22 @@ export default function Home() {
   if (!mounted || !activeConversation) return null;
 
   return (
-    <main className="h-screen flex bg-slate-50 dark:bg-slate-950 transition-colors">
+    <main className="h-screen flex bg-[#FFFBF3] dark:bg-[#1C1712] transition-colors">
 
       {/* Barre latérale */}
       <aside
-        className={`${
-          sidebarOpen ? "w-64" : "w-0"
-        } shrink-0 border-r border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 flex flex-col transition-all overflow-hidden`}
+        className={`${sidebarOpen ? "w-64" : "w-0"} shrink-0 border-r border-orange-100 dark:border-[#3A3025] bg-white dark:bg-[#221B14] flex flex-col transition-all overflow-hidden`}
       >
         <div className="p-3">
           <button
             onClick={handleNewChat}
-            className="w-full flex items-center gap-2 bg-teal-700 hover:bg-teal-800 transition-colors text-white text-sm font-medium px-3 py-2.5 rounded-lg"
+            className="group w-full flex items-center gap-2 bg-[#FF7A33] hover:bg-[#FF6A1A] transition-all hover:scale-[1.02] active:scale-95 text-white text-sm font-semibold px-3 py-2.5 rounded-2xl shadow-sm"
+            style={{ fontFamily: "var(--font-display)" }}
           >
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+            <svg
+              width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5"
+              className="transition-transform duration-300 group-hover:rotate-90"
+            >
               <path d="M12 5v14M5 12h14" />
             </svg>
             Nouveau chat
@@ -204,16 +166,16 @@ export default function Home() {
             <div
               key={conv.id}
               onClick={() => setActiveId(conv.id)}
-              className={`group flex items-center justify-between gap-2 px-3 py-2.5 rounded-lg cursor-pointer text-sm transition-colors ${
+              className={`group flex items-center justify-between gap-2 px-3 py-2.5 rounded-2xl cursor-pointer text-sm transition-colors ${
                 conv.id === activeId
-                  ? "bg-slate-100 dark:bg-slate-800 text-slate-900 dark:text-slate-100"
-                  : "text-slate-600 dark:text-slate-400 hover:bg-slate-50 dark:hover:bg-slate-800/50"
+                  ? "bg-orange-50 dark:bg-[#332A1E] text-[#2B2118] dark:text-orange-100"
+                  : "text-[#6B5F4F] dark:text-[#B8A98F] hover:bg-orange-50/60 dark:hover:bg-[#2A2219]"
               }`}
             >
               <span className="truncate">{conv.title}</span>
               <button
                 onClick={(e) => handleDeleteChat(conv.id, e)}
-                className="opacity-0 group-hover:opacity-100 text-slate-400 hover:text-red-500 shrink-0 transition-opacity"
+                className="opacity-0 group-hover:opacity-100 text-[#B8A98F] hover:text-[#FF7A33] shrink-0 transition-opacity"
                 aria-label="Supprimer"
               >
                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
@@ -229,27 +191,30 @@ export default function Home() {
       <div className="flex-1 flex flex-col min-w-0">
 
         {/* En-tête */}
-        <div className="flex items-center justify-between px-5 py-4 border-b border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900">
+        <div className="flex items-center justify-between px-5 py-4 border-b border-orange-100 dark:border-[#3A3025] bg-white dark:bg-[#221B14]">
           <div className="flex items-center gap-3">
             <button
               onClick={() => setSidebarOpen((s) => !s)}
-              className="w-9 h-9 rounded-lg flex items-center justify-center text-slate-500 dark:text-slate-400 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors shrink-0"
+              className="w-9 h-9 rounded-full flex items-center justify-center text-[#8A7B63] dark:text-[#B8A98F] hover:bg-orange-50 dark:hover:bg-[#332A1E] transition-colors shrink-0"
               aria-label="Afficher/masquer l'historique"
             >
               <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                <rect x="3" y="3" width="18" height="18" rx="2" />
+                <rect x="3" y="3" width="18" height="18" rx="4" />
                 <path d="M9 3v18" />
               </svg>
             </button>
-            <div className="w-9 h-9 rounded-lg bg-teal-700 flex items-center justify-center text-white font-semibold text-sm shrink-0">
-              RA
+            <div className="w-10 h-10 rounded-full bg-gradient-to-br from-[#FF7A33] to-[#FFC93C] flex items-center justify-center text-white text-lg shrink-0 shadow-sm">
+              🛒
             </div>
             <div>
-              <h1 className="text-sm font-semibold text-slate-900 dark:text-slate-100">
-                Assistant retail-agentic-copilot
+              <h1
+                className="text-base font-semibold text-[#2B2118] dark:text-orange-50"
+                style={{ fontFamily: "var(--font-display)" }}
+              >
+                Ton assistant marché
               </h1>
-              <p className="text-xs text-slate-500 dark:text-slate-400">
-                Produits · stock · anti-gaspillage
+              <p className="text-xs text-[#8A7B63] dark:text-[#B8A98F]">
+                Produits · stock · bons plans anti-gaspi
               </p>
             </div>
           </div>
@@ -257,7 +222,7 @@ export default function Home() {
           <button
             onClick={toggleTheme}
             aria-label="Changer de thème"
-            className="w-9 h-9 rounded-lg flex items-center justify-center text-slate-500 dark:text-slate-400 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors"
+            className="w-9 h-9 rounded-full flex items-center justify-center text-[#8A7B63] dark:text-[#B8A98F] hover:bg-orange-50 dark:hover:bg-[#332A1E] transition-colors"
           >
             {dark ? (
               <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
@@ -276,40 +241,44 @@ export default function Home() {
         <div className="flex-1 overflow-y-auto px-5 py-5 space-y-4">
           {activeConversation.messages.length === 0 && !loading && (
             <div className="text-center mt-16">
-              <p className="text-slate-400 dark:text-slate-500 text-sm">
-                Aucune conversation pour l&apos;instant
+              <div className="text-4xl mb-3">🥬</div>
+              <p
+                className="text-[#2B2118] dark:text-orange-50 text-base font-semibold"
+                style={{ fontFamily: "var(--font-display)" }}
+              >
+                Salut ! Qu&apos;est-ce qu&apos;on cherche aujourd&apos;hui ?
               </p>
-              <p className="text-slate-400 dark:text-slate-500 text-xs mt-1">
+              <p className="text-[#8A7B63] dark:text-[#B8A98F] text-sm mt-1">
                 Essayez : « Vous avez des yaourts en promo ? »
               </p>
             </div>
           )}
 
           {activeConversation.messages.map((msg, i) => (
-            <div key={i} className={`flex gap-2.5 ${msg.role === "user" ? "flex-row-reverse" : ""}`}>
+            <div key={i} className={`flex gap-2.5 animate-message ${msg.role === "user" ? "flex-row-reverse" : ""}`}>
               <div
-                className={`w-7 h-7 rounded-full flex items-center justify-center text-xs font-medium shrink-0 ${
+                className={`w-8 h-8 rounded-full flex items-center justify-center text-sm shrink-0 shadow-sm ${
                   msg.role === "user"
-                    ? "bg-slate-800 dark:bg-slate-200 text-white dark:text-slate-900"
-                    : "bg-teal-700 text-white"
+                    ? "bg-[#2B2118] dark:bg-orange-100"
+                    : "bg-gradient-to-br from-[#3FA66B] to-[#4CAF6D]"
                 }`}
               >
-                {msg.role === "user" ? "U" : "IA"}
+                {msg.role === "user" ? "🙂" : "🛒"}
               </div>
               <div
-                className={`max-w-[78%] rounded-2xl px-4 py-2.5 text-sm leading-relaxed ${
+                className={`max-w-[78%] rounded-3xl px-4 py-2.5 text-sm leading-relaxed shadow-sm ${
                   msg.role === "user"
-                    ? "bg-slate-800 dark:bg-slate-200 text-white dark:text-slate-900 rounded-tr-sm"
-                    : "bg-slate-100 dark:bg-slate-800 text-slate-800 dark:text-slate-100 rounded-tl-sm"
+                    ? "bg-[#FF7A33] text-white rounded-tr-md"
+                    : "bg-white dark:bg-[#2A2219] text-[#2B2118] dark:text-orange-50 rounded-tl-md border border-orange-100 dark:border-[#3A3025]"
                 }`}
               >
                 <p className="whitespace-pre-line">{msg.content}</p>
                 {msg.sources && msg.sources.length > 0 && (
-                  <div className="flex flex-wrap gap-1.5 mt-2.5 pt-2.5 border-t border-slate-200 dark:border-slate-700">
+                  <div className="flex flex-wrap gap-1.5 mt-2.5 pt-2.5 border-t border-orange-100 dark:border-[#3A3025]">
                     {msg.sources.map((source, j) => (
                       <span
                         key={j}
-                        className="text-[11px] px-2 py-0.5 rounded-full bg-white dark:bg-slate-900 text-teal-700 dark:text-teal-400 border border-teal-200 dark:border-teal-900"
+                        className="text-[11px] px-2.5 py-0.5 rounded-full bg-[#F1F9F0] dark:bg-[#22301F] text-[#3FA66B] dark:text-[#7FD498] border border-[#CFEBD3] dark:border-[#3A4A32] font-medium"
                       >
                         {source}
                       </span>
@@ -321,40 +290,38 @@ export default function Home() {
           ))}
 
           {loading && (
-            <div className="flex gap-2.5">
-              <div className="w-7 h-7 rounded-full bg-teal-700 flex items-center justify-center text-xs font-medium text-white shrink-0">
-                IA
+            <div className="flex gap-2.5 animate-message">
+              <div className="w-8 h-8 rounded-full bg-gradient-to-br from-[#3FA66B] to-[#4CAF6D] flex items-center justify-center text-sm shrink-0 shadow-sm">
+                🛒
               </div>
-              <div className="bg-slate-100 dark:bg-slate-800 rounded-2xl rounded-tl-sm px-4 py-3 flex items-center gap-3">
-                <div className="w-3.5 h-3.5 border-2 border-teal-700 border-t-transparent rounded-full animate-spin shrink-0" />
-                <div>
-                  <p className="text-slate-700 dark:text-slate-200 text-sm">{LOADING_STEPS[stepIndex]}</p>
-                  <p className="text-slate-400 dark:text-slate-500 text-xs mt-0.5">
-                    Modèle local — jusqu&apos;à 3 min
-                  </p>
-                </div>
+              <div className="bg-white dark:bg-[#2A2219] border border-orange-100 dark:border-[#3A3025] rounded-3xl rounded-tl-md px-5 py-3.5 flex items-center gap-1.5 shadow-sm">
+                <span className="dot w-2 h-2 rounded-full bg-[#FF7A33]" />
+                <span className="dot w-2 h-2 rounded-full bg-[#3FA66B]" />
+                <span className="dot w-2 h-2 rounded-full bg-[#FFC93C]" />
               </div>
             </div>
           )}
 
-          {error && <p className="text-red-600 dark:text-red-400 text-sm">{error}</p>}
+          {error && (
+            <p className="text-[#E5484D] text-sm text-center">{error}</p>
+          )}
           <div ref={bottomRef} />
         </div>
 
         {/* Saisie */}
-        <form onSubmit={handleSubmit} className="border-t border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 p-3 flex gap-2">
+        <form onSubmit={handleSubmit} className="border-t border-orange-100 dark:border-[#3A3025] bg-white dark:bg-[#221B14] p-3 flex gap-2">
           <input
             type="text"
             value={question}
             onChange={(e) => setQuestion(e.target.value)}
             placeholder="Écrivez votre question..."
             disabled={loading}
-            className="flex-1 border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-800 rounded-full px-4 py-2.5 text-sm text-slate-900 dark:text-slate-100 placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-teal-600 disabled:opacity-60"
+            className="flex-1 border border-orange-100 dark:border-[#3A3025] bg-[#FFFBF3] dark:bg-[#2A2219] rounded-full px-4 py-2.5 text-sm text-[#2B2118] dark:text-orange-50 placeholder:text-[#B8A98F] focus:outline-none focus:ring-2 focus:ring-[#FF7A33] disabled:opacity-60"
           />
           <button
             type="submit"
             disabled={loading}
-            className="bg-teal-700 hover:bg-teal-800 transition-colors text-white w-10 h-10 rounded-full flex items-center justify-center disabled:opacity-50 shrink-0"
+            className="bg-[#FF7A33] hover:bg-[#FF6A1A] hover:scale-105 active:scale-95 transition-all text-white w-10 h-10 rounded-full flex items-center justify-center disabled:opacity-50 disabled:hover:scale-100 shrink-0 shadow-sm"
             aria-label="Envoyer"
           >
             <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
