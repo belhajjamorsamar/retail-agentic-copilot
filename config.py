@@ -1,4 +1,5 @@
 from dotenv import load_dotenv
+import os
 
 load_dotenv()
 
@@ -6,7 +7,15 @@ load_dotenv()
 OPEN_FOOD_FACTS_API_URL = "https://world.openfoodfacts.org/api/v2/search"
 
 # --- Phase 2 : RAG (agent service client) ---
-LLM_MODEL = "llama3.2"
+# --- Choix du fournisseur LLM ---
+# "ollama" = 100% local et gratuit (ce qui marchait avant, gardé intact)
+# "groq"    = cloud, gratuit aussi, mais beaucoup plus rapide (LPU dédié)
+LLM_PROVIDER = "groq"
+LLM_MODEL = "llama3.2"  # utilisé quand LLM_PROVIDER = "ollama"
+
+
+GROQ_MODEL = "llama-3.3-70b-versatile"
+GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 EMBEDDING_MODEL = "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
 CHUNK_SIZE = 800
 CHUNK_OVERLAP = 120

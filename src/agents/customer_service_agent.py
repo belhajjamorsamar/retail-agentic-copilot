@@ -9,6 +9,8 @@ systématique de la source (nom du produit, marque).
 from langchain_ollama import ChatOllama
 from langchain_core.documents import Document
 from langchain_core.prompts import ChatPromptTemplate
+from src.utils.llm import get_llm
+
 
 from src.rag.retrieval import search
 from src.utils.logger import get_logger
@@ -53,7 +55,8 @@ def answer_question(question: str) -> str:
 
     context = format_context(chunks)
 
-    llm = ChatOllama(model=LLM_MODEL, temperature=0.2)
+    #llm = ChatOllama(model=LLM_MODEL, temperature=0.2)
+    llm = get_llm(temperature=0.2, num_predict=350)
     # ↑ temperature basse = réponses plus factuelles, moins "créatives"
     #   important pour un service client qui ne doit pas inventer
 

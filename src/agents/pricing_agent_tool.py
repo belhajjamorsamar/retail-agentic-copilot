@@ -15,6 +15,8 @@ simple et donc plus robuste pour ce modèle.
 
 from langchain_ollama import ChatOllama
 from langchain_core.tools import tool
+from src.utils.llm import get_llm
+
 
 from src.agents.pricing_agent import get_products_needing_attention
 from src.utils.logger import get_logger
@@ -63,7 +65,9 @@ def is_stock_related(user_message: str, llm: ChatOllama) -> bool:
 def run_pricing_agent(user_message: str) -> str:
     """Classification explicite d'abord, puis appel conditionnel de l'outil."""
 
-    llm = ChatOllama(model=LLM_MODEL, temperature=0.0)
+    #llm = ChatOllama(model=LLM_MODEL, temperature=0.0)
+    llm = get_llm(temperature=0.0, num_predict=30)
+
 
     if is_stock_related(user_message, llm):
         logger.info("Question classifiée comme liée au stock — appel de l'outil")

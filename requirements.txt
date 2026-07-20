@@ -13,3 +13,4 @@ streamlit
 pytest
 fastapi
 uvicorn
+langchain-groq
