@@ -13,14 +13,13 @@ capitale de la France ?"). Une classification fermée est une tâche plus
 simple et donc plus robuste pour ce modèle.
 """
 
-from langchain_ollama import ChatOllama
 from langchain_core.tools import tool
 from src.utils.llm import get_llm
+from langchain_core.language_models.chat_models import BaseChatModel
 
 
 from src.agents.pricing_agent import get_products_needing_attention
 from src.utils.logger import get_logger
-from config import LLM_MODEL
 
 logger = get_logger(__name__)
 
@@ -37,17 +36,35 @@ def check_products_at_risk() -> str:
     if not decisions:
         return "Aucun produit ne nécessite d'attention actuellement."
 
+    # ↓ NOUVEAU : on trie par urgence (le moins de jours restants d'abord)
+    #   et on ne montre en détail que les plus urgents — le reste est
+    #   résumé par un simple total chiffré, pour ne pas dépasser la
+    #   capacité de réponse du LLM (problème observé avec 156 produits à risque)
+    decisions_sorted = sorted(decisions, key=lambda d: d["days_until_expiry"])
+    MAX_DETAILED = 15
+    top = decisions_sorted[:MAX_DETAILED]
+    remaining = len(decisions_sorted) - len(top)
+
     lines = []
-    for d in decisions:
+    for d in top:
         status = "VALIDATION HUMAINE REQUISE" if d["requires_human_review"] else "réduction automatique"
         lines.append(
             f"- {d['product_name']} (J-{d['days_until_expiry']}) : "
             f"-{d['discount_percent']}% [{status}]"
         )
+
+    total_auto = sum(1 for d in decisions if not d["requires_human_review"])
+    total_review = sum(1 for d in decisions if d["requires_human_review"])
+    lines.append(
+        f"\n(Total : {len(decisions)} produits à risque — {total_auto} en "
+        f"réduction automatique, {total_review} en attente de validation "
+        f"humaine. Les {MAX_DETAILED} produits les plus urgents sont "
+        f"listés ci-dessus{f', {remaining} autres produits également concernés' if remaining > 0 else ''}.)"
+    )
+
     return "\n".join(lines)
 
-
-def is_stock_related(user_message: str, llm: ChatOllama) -> bool:
+def is_stock_related(user_message: str, llm: BaseChatModel) -> bool:
     """Demande au LLM une classification simple oui/non, plus fiable que
     le tool calling implicite pour un petit modèle comme llama3.2."""
 
@@ -66,7 +83,7 @@ def run_pricing_agent(user_message: str) -> str:
     """Classification explicite d'abord, puis appel conditionnel de l'outil."""
 
     #llm = ChatOllama(model=LLM_MODEL, temperature=0.0)
-    llm = get_llm(temperature=0.0, num_predict=30)
+    llm = get_llm(temperature=0.0, num_predict=300)
 
 
     if is_stock_related(user_message, llm):

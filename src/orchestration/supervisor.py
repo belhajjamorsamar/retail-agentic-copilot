@@ -6,7 +6,6 @@ qu'un simple enchaînement de if/else en Python.
 
 from typing import TypedDict, Optional
 
-from langchain_ollama import ChatOllama
 from langgraph.graph import StateGraph, END
 from src.utils.llm import get_llm
 
@@ -14,7 +13,7 @@ from src.utils.llm import get_llm
 from src.agents.customer_service_agent import answer_question
 from src.agents.pricing_agent_tool import check_products_at_risk
 from src.utils.logger import get_logger
-from config import LLM_MODEL, MAX_AGENT_ITERATIONS
+from config import  MAX_AGENT_ITERATIONS
 
 logger = get_logger(__name__)
 
@@ -65,7 +64,7 @@ def stock_node(state: AgentState) -> dict:
     """Nœud 2b : appelle l'agent anti-gaspillage."""
     logger.info("Nœud stock activé")
     stock_info = check_products_at_risk.invoke({})
-    llm = get_llm(temperature=0.0, num_predict=30)
+    llm = get_llm(temperature=0.0, num_predict=250)
     summary = llm.invoke(f"Résume en français cette liste de produits à risque :\n{stock_info}")
     return {"stock_response": summary.content}
 
@@ -80,7 +79,7 @@ def combine_node(state: AgentState) -> dict:
     if len(parts) == 1:
         return {"final_response": parts[0]}
 
-    llm = get_llm(temperature=0.0, num_predict=30)
+    llm = get_llm(temperature=0.0, num_predict=350)
     combined = llm.invoke(
         "Combine ces deux réponses en une seule réponse cohérente et "
         "naturelle, en français :\n\n" + "\n\n---\n\n".join(parts)
