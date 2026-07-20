@@ -1,800 +1,6253 @@
 [
   {
     "product_code": "6111246721261",
-    "stock_quantity": 85,
-    "avg_daily_sales": 8.5,
-    "expiry_date": "2026-09-10",
-    "days_until_expiry": 58
+    "stock_quantity": 84,
+    "avg_daily_sales": 8.4,
+    "expiry_date": "2026-08-17",
+    "days_until_expiry": 28
   },
   {
     "product_code": "6111242100992",
     "stock_quantity": 85,
     "avg_daily_sales": 8.5,
-    "expiry_date": "2026-08-15",
-    "days_until_expiry": 32
+    "expiry_date": "2026-08-24",
+    "days_until_expiry": 35
   },
   {
     "product_code": "6111266962187",
-    "stock_quantity": 90,
-    "avg_daily_sales": 9.0,
-    "expiry_date": "2026-09-02",
-    "days_until_expiry": 50
+    "stock_quantity": 85,
+    "avg_daily_sales": 8.5,
+    "expiry_date": "2026-08-08",
+    "days_until_expiry": 19
   },
   {
     "product_code": "6111242106949",
-    "stock_quantity": 89,
-    "avg_daily_sales": 8.9,
-    "expiry_date": "2026-08-25",
-    "days_until_expiry": 42
-  },
-  {
-    "product_code": "6111242101180",
-    "stock_quantity": 88,
-    "avg_daily_sales": 8.8,
-    "expiry_date": "2026-09-02",
-    "days_until_expiry": 50
-  },
-  {
-    "product_code": "8721800082417",
-    "stock_quantity": 91,
-    "avg_daily_sales": 9.1,
-    "expiry_date": "2026-08-06",
-    "days_until_expiry": 23
-  },
-  {
-    "product_code": "3480341001091",
-    "stock_quantity": 84,
-    "avg_daily_sales": 8.4,
-    "expiry_date": "2026-07-15",
-    "days_until_expiry": 1
-  },
-  {
-    "product_code": "3273220135716",
-    "stock_quantity": 83,
-    "avg_daily_sales": 8.3,
-    "expiry_date": "2026-08-15",
-    "days_until_expiry": 32
-  },
-  {
-    "product_code": "3252920038701",
-    "stock_quantity": 87,
-    "avg_daily_sales": 8.7,
-    "expiry_date": "2026-07-15",
-    "days_until_expiry": 1
-  },
-  {
-    "product_code": "3341504004659",
-    "stock_quantity": 86,
-    "avg_daily_sales": 8.6,
-    "expiry_date": "2026-08-04",
-    "days_until_expiry": 21
-  },
-  {
-    "product_code": "3700613100025",
-    "stock_quantity": 85,
-    "avg_daily_sales": 8.5,
-    "expiry_date": "2026-07-15",
-    "days_until_expiry": 1
-  },
-  {
-    "product_code": "3350033092266",
-    "stock_quantity": 92,
-    "avg_daily_sales": 9.2,
-    "expiry_date": "2026-09-10",
-    "days_until_expiry": 58
-  },
-  {
-    "product_code": "8002330033101",
-    "stock_quantity": 86,
-    "avg_daily_sales": 8.6,
-    "expiry_date": "2026-08-23",
-    "days_until_expiry": 40
-  },
-  {
-    "product_code": "3564709041728",
-    "stock_quantity": 87,
-    "avg_daily_sales": 8.7,
-    "expiry_date": "2026-08-07",
-    "days_until_expiry": 24
-  },
-  {
-    "product_code": "8695077044020",
-    "stock_quantity": 86,
-    "avg_daily_sales": 8.6,
-    "expiry_date": "2026-07-16",
+    "stock_quantity": 81,
+    "avg_daily_sales": 8.1,
+    "expiry_date": "2026-07-22",
     "days_until_expiry": 2
   },
   {
-    "product_code": "3256222645223",
-    "stock_quantity": 87,
-    "avg_daily_sales": 8.7,
-    "expiry_date": "2026-09-12",
-    "days_until_expiry": 60
-  },
-  {
-    "product_code": "3073781116090",
-    "stock_quantity": 88,
-    "avg_daily_sales": 8.8,
-    "expiry_date": "2026-07-30",
-    "days_until_expiry": 16
-  },
-  {
-    "product_code": "8001075180057",
-    "stock_quantity": 83,
-    "avg_daily_sales": 8.3,
-    "expiry_date": "2026-08-25",
-    "days_until_expiry": 42
-  },
-  {
-    "product_code": "3760121216632",
-    "stock_quantity": 89,
-    "avg_daily_sales": 8.9,
-    "expiry_date": "2026-08-10",
-    "days_until_expiry": 27
-  },
-  {
-    "product_code": "4311501764831",
-    "stock_quantity": 86,
-    "avg_daily_sales": 8.6,
-    "expiry_date": "2026-08-08",
-    "days_until_expiry": 25
-  },
-  {
-    "product_code": "7610725000310",
-    "stock_quantity": 88,
-    "avg_daily_sales": 8.8,
-    "expiry_date": "2026-08-10",
-    "days_until_expiry": 27
-  },
-  {
-    "product_code": "4000915103328",
-    "stock_quantity": 92,
-    "avg_daily_sales": 9.2,
-    "expiry_date": "2026-08-30",
-    "days_until_expiry": 47
-  },
-  {
-    "product_code": "4337185169984",
-    "stock_quantity": 87,
-    "avg_daily_sales": 8.7,
-    "expiry_date": "2026-09-05",
-    "days_until_expiry": 53
-  },
-  {
-    "product_code": "5060011704590",
+    "product_code": "6111242101180",
     "stock_quantity": 84,
     "avg_daily_sales": 8.4,
-    "expiry_date": "2026-09-03",
-    "days_until_expiry": 51
-  },
-  {
-    "product_code": "4056489021797",
-    "stock_quantity": 85,
-    "avg_daily_sales": 8.5,
-    "expiry_date": "2026-09-05",
-    "days_until_expiry": 53
-  },
-  {
-    "product_code": "7612100914731",
-    "stock_quantity": 89,
-    "avg_daily_sales": 8.9,
-    "expiry_date": "2026-08-08",
-    "days_until_expiry": 25
+    "expiry_date": "2026-08-11",
+    "days_until_expiry": 22
   },
   {
     "product_code": "6111246721278",
-    "stock_quantity": 86,
-    "avg_daily_sales": 8.6,
-    "expiry_date": "2026-08-13",
-    "days_until_expiry": 30
+    "stock_quantity": 88,
+    "avg_daily_sales": 8.8,
+    "expiry_date": "2026-09-17",
+    "days_until_expiry": 59
   },
   {
     "product_code": "3329770077003",
-    "stock_quantity": 87,
-    "avg_daily_sales": 8.7,
-    "expiry_date": "2026-08-26",
-    "days_until_expiry": 43
+    "stock_quantity": 94,
+    "avg_daily_sales": 9.4,
+    "expiry_date": "2026-09-16",
+    "days_until_expiry": 58
   },
   {
     "product_code": "6111242100206",
-    "stock_quantity": 89,
-    "avg_daily_sales": 8.9,
-    "expiry_date": "2026-07-31",
-    "days_until_expiry": 17
+    "stock_quantity": 88,
+    "avg_daily_sales": 8.8,
+    "expiry_date": "2026-07-21",
+    "days_until_expiry": 1
   },
   {
     "product_code": "6111203006653",
-    "stock_quantity": 93,
-    "avg_daily_sales": 9.3,
-    "expiry_date": "2026-08-23",
-    "days_until_expiry": 40
+    "stock_quantity": 85,
+    "avg_daily_sales": 8.5,
+    "expiry_date": "2026-09-12",
+    "days_until_expiry": 54
   },
   {
     "product_code": "6111259092495",
     "stock_quantity": 85,
     "avg_daily_sales": 8.5,
-    "expiry_date": "2026-07-15",
-    "days_until_expiry": 1
+    "expiry_date": "2026-07-22",
+    "days_until_expiry": 2
   },
   {
     "product_code": "6111242100817",
-    "stock_quantity": 82,
-    "avg_daily_sales": 8.2,
-    "expiry_date": "2026-09-04",
+    "stock_quantity": 87,
+    "avg_daily_sales": 8.7,
+    "expiry_date": "2026-09-10",
     "days_until_expiry": 52
   },
   {
     "product_code": "6111246722107",
-    "stock_quantity": 87,
-    "avg_daily_sales": 8.7,
-    "expiry_date": "2026-08-02",
-    "days_until_expiry": 19
+    "stock_quantity": 90,
+    "avg_daily_sales": 9.0,
+    "expiry_date": "2026-08-16",
+    "days_until_expiry": 27
   },
   {
     "product_code": "6111242100305",
-    "stock_quantity": 86,
-    "avg_daily_sales": 8.6,
-    "expiry_date": "2026-09-02",
+    "stock_quantity": 84,
+    "avg_daily_sales": 8.4,
+    "expiry_date": "2026-09-08",
     "days_until_expiry": 50
   },
   {
     "product_code": "6111032001003",
-    "stock_quantity": 84,
-    "avg_daily_sales": 8.4,
-    "expiry_date": "2026-07-15",
+    "stock_quantity": 88,
+    "avg_daily_sales": 8.8,
+    "expiry_date": "2026-07-21",
     "days_until_expiry": 1
   },
   {
     "product_code": "6111206000733",
-    "stock_quantity": 89,
-    "avg_daily_sales": 8.9,
-    "expiry_date": "2026-08-27",
-    "days_until_expiry": 44
+    "stock_quantity": 86,
+    "avg_daily_sales": 8.6,
+    "expiry_date": "2026-08-07",
+    "days_until_expiry": 18
   },
   {
     "product_code": "3480341000674",
-    "stock_quantity": 84,
-    "avg_daily_sales": 8.4,
-    "expiry_date": "2026-07-31",
-    "days_until_expiry": 17
+    "stock_quantity": 86,
+    "avg_daily_sales": 8.6,
+    "expiry_date": "2026-08-05",
+    "days_until_expiry": 16
+  },
+  {
+    "product_code": "6111099003897",
+    "stock_quantity": 85,
+    "avg_daily_sales": 8.5,
+    "expiry_date": "2026-07-22",
+    "days_until_expiry": 2
   },
   {
     "product_code": "6111266963207",
+    "stock_quantity": 87,
+    "avg_daily_sales": 8.7,
+    "expiry_date": "2026-09-01",
+    "days_until_expiry": 43
+  },
+  {
+    "product_code": "6111032006619",
+    "stock_quantity": 87,
+    "avg_daily_sales": 8.7,
+    "expiry_date": "2026-08-10",
+    "days_until_expiry": 21
+  },
+  {
+    "product_code": "3412290070101",
+    "stock_quantity": 88,
+    "avg_daily_sales": 8.8,
+    "expiry_date": "2026-07-22",
+    "days_until_expiry": 2
+  },
+  {
+    "product_code": "6111032008583",
+    "stock_quantity": 89,
+    "avg_daily_sales": 8.9,
+    "expiry_date": "2026-09-12",
+    "days_until_expiry": 54
+  },
+  {
+    "product_code": "8420756010320",
+    "stock_quantity": 87,
+    "avg_daily_sales": 8.7,
+    "expiry_date": "2026-09-13",
+    "days_until_expiry": 55
+  },
+  {
+    "product_code": "6111246721940",
+    "stock_quantity": 86,
+    "avg_daily_sales": 8.6,
+    "expiry_date": "2026-07-22",
+    "days_until_expiry": 2
+  },
+  {
+    "product_code": "6111032000600",
+    "stock_quantity": 87,
+    "avg_daily_sales": 8.7,
+    "expiry_date": "2026-09-03",
+    "days_until_expiry": 45
+  },
+  {
+    "product_code": "6111259092525",
+    "stock_quantity": 87,
+    "avg_daily_sales": 8.7,
+    "expiry_date": "2026-08-13",
+    "days_until_expiry": 24
+  },
+  {
+    "product_code": "3480341000636",
+    "stock_quantity": 86,
+    "avg_daily_sales": 8.6,
+    "expiry_date": "2026-08-16",
+    "days_until_expiry": 27
+  },
+  {
+    "product_code": "6111259093096",
+    "stock_quantity": 86,
+    "avg_daily_sales": 8.6,
+    "expiry_date": "2026-09-01",
+    "days_until_expiry": 43
+  },
+  {
+    "product_code": "6111037000599",
+    "stock_quantity": 88,
+    "avg_daily_sales": 8.8,
+    "expiry_date": "2026-08-14",
+    "days_until_expiry": 25
+  },
+  {
+    "product_code": "6111246722039",
+    "stock_quantity": 92,
+    "avg_daily_sales": 9.2,
+    "expiry_date": "2026-08-05",
+    "days_until_expiry": 16
+  },
+  {
+    "product_code": "6111246721964",
+    "stock_quantity": 87,
+    "avg_daily_sales": 8.7,
+    "expiry_date": "2026-09-02",
+    "days_until_expiry": 44
+  },
+  {
+    "product_code": "6111242101050",
+    "stock_quantity": 88,
+    "avg_daily_sales": 8.8,
+    "expiry_date": "2026-08-31",
+    "days_until_expiry": 42
+  },
+  {
+    "product_code": "6111032001010",
+    "stock_quantity": 84,
+    "avg_daily_sales": 8.4,
+    "expiry_date": "2026-08-30",
+    "days_until_expiry": 41
+  },
+  {
+    "product_code": "3272770098090",
+    "stock_quantity": 85,
+    "avg_daily_sales": 8.5,
+    "expiry_date": "2026-09-15",
+    "days_until_expiry": 57
+  },
+  {
+    "product_code": "6111242105331",
+    "stock_quantity": 84,
+    "avg_daily_sales": 8.4,
+    "expiry_date": "2026-08-16",
+    "days_until_expiry": 27
+  },
+  {
+    "product_code": "6111242103702",
     "stock_quantity": 80,
     "avg_daily_sales": 8.0,
-    "expiry_date": "2026-07-17",
+    "expiry_date": "2026-09-09",
+    "days_until_expiry": 51
+  },
+  {
+    "product_code": "8424893600352",
+    "stock_quantity": 87,
+    "avg_daily_sales": 8.7,
+    "expiry_date": "2026-09-13",
+    "days_until_expiry": 55
+  },
+  {
+    "product_code": "6111242100930",
+    "stock_quantity": 87,
+    "avg_daily_sales": 8.7,
+    "expiry_date": "2026-09-03",
+    "days_until_expiry": 45
+  },
+  {
+    "product_code": "3451790988677",
+    "stock_quantity": 83,
+    "avg_daily_sales": 8.3,
+    "expiry_date": "2026-08-19",
+    "days_until_expiry": 30
+  },
+  {
+    "product_code": "6111266960336",
+    "stock_quantity": 92,
+    "avg_daily_sales": 9.2,
+    "expiry_date": "2026-09-14",
+    "days_until_expiry": 56
+  },
+  {
+    "product_code": "5411188103387",
+    "stock_quantity": 86,
+    "avg_daily_sales": 8.6,
+    "expiry_date": "2026-08-26",
+    "days_until_expiry": 37
+  },
+  {
+    "product_code": "6111242102002",
+    "stock_quantity": 90,
+    "avg_daily_sales": 9.0,
+    "expiry_date": "2026-08-30",
+    "days_until_expiry": 41
+  },
+  {
+    "product_code": "6111032008453",
+    "stock_quantity": 85,
+    "avg_daily_sales": 8.5,
+    "expiry_date": "2026-08-29",
+    "days_until_expiry": 40
+  },
+  {
+    "product_code": "3412290070071",
+    "stock_quantity": 89,
+    "avg_daily_sales": 8.9,
+    "expiry_date": "2026-07-22",
+    "days_until_expiry": 2
+  },
+  {
+    "product_code": "6111242102781",
+    "stock_quantity": 87,
+    "avg_daily_sales": 8.7,
+    "expiry_date": "2026-09-01",
+    "days_until_expiry": 43
+  },
+  {
+    "product_code": "3272770097642",
+    "stock_quantity": 87,
+    "avg_daily_sales": 8.7,
+    "expiry_date": "2026-08-12",
+    "days_until_expiry": 23
+  },
+  {
+    "product_code": "6111099005495",
+    "stock_quantity": 92,
+    "avg_daily_sales": 9.2,
+    "expiry_date": "2026-09-16",
+    "days_until_expiry": 58
+  },
+  {
+    "product_code": "6111250470742",
+    "stock_quantity": 89,
+    "avg_daily_sales": 8.9,
+    "expiry_date": "2026-08-14",
+    "days_until_expiry": 25
+  },
+  {
+    "product_code": "6111266962446",
+    "stock_quantity": 83,
+    "avg_daily_sales": 8.3,
+    "expiry_date": "2026-08-10",
+    "days_until_expiry": 21
+  },
+  {
+    "product_code": "6111126003821",
+    "stock_quantity": 89,
+    "avg_daily_sales": 8.9,
+    "expiry_date": "2026-09-04",
+    "days_until_expiry": 46
+  },
+  {
+    "product_code": "6111032002925",
+    "stock_quantity": 89,
+    "avg_daily_sales": 8.9,
+    "expiry_date": "2026-09-11",
+    "days_until_expiry": 53
+  },
+  {
+    "product_code": "6111242103528",
+    "stock_quantity": 83,
+    "avg_daily_sales": 8.3,
+    "expiry_date": "2026-07-21",
+    "days_until_expiry": 1
+  },
+  {
+    "product_code": "6111242102767",
+    "stock_quantity": 91,
+    "avg_daily_sales": 9.1,
+    "expiry_date": "2026-09-17",
+    "days_until_expiry": 59
+  },
+  {
+    "product_code": "6111032000631",
+    "stock_quantity": 88,
+    "avg_daily_sales": 8.8,
+    "expiry_date": "2026-08-09",
+    "days_until_expiry": 20
+  },
+  {
+    "product_code": "6111266962651",
+    "stock_quantity": 88,
+    "avg_daily_sales": 8.8,
+    "expiry_date": "2026-09-07",
+    "days_until_expiry": 49
+  },
+  {
+    "product_code": "6111250012416",
+    "stock_quantity": 87,
+    "avg_daily_sales": 8.7,
+    "expiry_date": "2026-07-22",
+    "days_until_expiry": 2
+  },
+  {
+    "product_code": "6111032002208",
+    "stock_quantity": 86,
+    "avg_daily_sales": 8.6,
+    "expiry_date": "2026-07-22",
+    "days_until_expiry": 2
+  },
+  {
+    "product_code": "6111246721735",
+    "stock_quantity": 88,
+    "avg_daily_sales": 8.8,
+    "expiry_date": "2026-08-26",
+    "days_until_expiry": 37
+  },
+  {
+    "product_code": "6111242102187",
+    "stock_quantity": 87,
+    "avg_daily_sales": 8.7,
+    "expiry_date": "2026-07-23",
     "days_until_expiry": 3
+  },
+  {
+    "product_code": "6111260232095",
+    "stock_quantity": 88,
+    "avg_daily_sales": 8.8,
+    "expiry_date": "2026-09-17",
+    "days_until_expiry": 59
+  },
+  {
+    "product_code": "3248340054063",
+    "stock_quantity": 88,
+    "avg_daily_sales": 8.8,
+    "expiry_date": "2026-09-15",
+    "days_until_expiry": 57
+  },
+  {
+    "product_code": "6111099005396",
+    "stock_quantity": 85,
+    "avg_daily_sales": 8.5,
+    "expiry_date": "2026-08-30",
+    "days_until_expiry": 41
+  },
+  {
+    "product_code": "3329770073265",
+    "stock_quantity": 80,
+    "avg_daily_sales": 8.0,
+    "expiry_date": "2026-07-23",
+    "days_until_expiry": 3
+  },
+  {
+    "product_code": "6111242105638",
+    "stock_quantity": 84,
+    "avg_daily_sales": 8.4,
+    "expiry_date": "2026-09-05",
+    "days_until_expiry": 47
+  },
+  {
+    "product_code": "6111028000980",
+    "stock_quantity": 84,
+    "avg_daily_sales": 8.4,
+    "expiry_date": "2026-08-08",
+    "days_until_expiry": 19
+  },
+  {
+    "product_code": "3329770051072",
+    "stock_quantity": 85,
+    "avg_daily_sales": 8.5,
+    "expiry_date": "2026-09-03",
+    "days_until_expiry": 45
+  },
+  {
+    "product_code": "6111242104556",
+    "stock_quantity": 92,
+    "avg_daily_sales": 9.2,
+    "expiry_date": "2026-09-01",
+    "days_until_expiry": 43
+  },
+  {
+    "product_code": "6111028001024",
+    "stock_quantity": 88,
+    "avg_daily_sales": 8.8,
+    "expiry_date": "2026-09-12",
+    "days_until_expiry": 54
+  },
+  {
+    "product_code": "3278693504076",
+    "stock_quantity": 86,
+    "avg_daily_sales": 8.6,
+    "expiry_date": "2026-07-23",
+    "days_until_expiry": 3
+  },
+  {
+    "product_code": "8436547770137",
+    "stock_quantity": 87,
+    "avg_daily_sales": 8.7,
+    "expiry_date": "2026-07-23",
+    "days_until_expiry": 3
+  },
+  {
+    "product_code": "6111242102019",
+    "stock_quantity": 83,
+    "avg_daily_sales": 8.3,
+    "expiry_date": "2026-08-06",
+    "days_until_expiry": 17
+  },
+  {
+    "product_code": "6132500711040",
+    "stock_quantity": 89,
+    "avg_daily_sales": 8.9,
+    "expiry_date": "2026-07-23",
+    "days_until_expiry": 3
+  },
+  {
+    "product_code": "3661344288690",
+    "stock_quantity": 89,
+    "avg_daily_sales": 8.9,
+    "expiry_date": "2026-08-11",
+    "days_until_expiry": 22
+  },
+  {
+    "product_code": "6111126001988",
+    "stock_quantity": 89,
+    "avg_daily_sales": 8.9,
+    "expiry_date": "2026-09-18",
+    "days_until_expiry": 60
+  },
+  {
+    "product_code": "6111260230619",
+    "stock_quantity": 89,
+    "avg_daily_sales": 8.9,
+    "expiry_date": "2026-07-22",
+    "days_until_expiry": 2
+  },
+  {
+    "product_code": "6111028001222",
+    "stock_quantity": 84,
+    "avg_daily_sales": 8.4,
+    "expiry_date": "2026-08-10",
+    "days_until_expiry": 21
+  },
+  {
+    "product_code": "3073781131925",
+    "stock_quantity": 92,
+    "avg_daily_sales": 9.2,
+    "expiry_date": "2026-09-10",
+    "days_until_expiry": 52
+  },
+  {
+    "product_code": "3412290070385",
+    "stock_quantity": 86,
+    "avg_daily_sales": 8.6,
+    "expiry_date": "2026-09-02",
+    "days_until_expiry": 44
+  },
+  {
+    "product_code": "7622210103314",
+    "stock_quantity": 89,
+    "avg_daily_sales": 8.9,
+    "expiry_date": "2026-08-13",
+    "days_until_expiry": 24
+  },
+  {
+    "product_code": "6111203007520",
+    "stock_quantity": 82,
+    "avg_daily_sales": 8.2,
+    "expiry_date": "2026-08-07",
+    "days_until_expiry": 18
+  },
+  {
+    "product_code": "3033491451652",
+    "stock_quantity": 84,
+    "avg_daily_sales": 8.4,
+    "expiry_date": "2026-09-06",
+    "days_until_expiry": 48
+  },
+  {
+    "product_code": "6111206000696",
+    "stock_quantity": 91,
+    "avg_daily_sales": 9.1,
+    "expiry_date": "2026-09-10",
+    "days_until_expiry": 52
+  },
+  {
+    "product_code": "3073781131888",
+    "stock_quantity": 85,
+    "avg_daily_sales": 8.5,
+    "expiry_date": "2026-08-09",
+    "days_until_expiry": 20
+  },
+  {
+    "product_code": "6111246721957",
+    "stock_quantity": 86,
+    "avg_daily_sales": 8.6,
+    "expiry_date": "2026-08-13",
+    "days_until_expiry": 24
+  },
+  {
+    "product_code": "3272770095334",
+    "stock_quantity": 90,
+    "avg_daily_sales": 9.0,
+    "expiry_date": "2026-08-13",
+    "days_until_expiry": 24
+  },
+  {
+    "product_code": "6111126005894",
+    "stock_quantity": 82,
+    "avg_daily_sales": 8.2,
+    "expiry_date": "2026-07-21",
+    "days_until_expiry": 1
+  },
+  {
+    "product_code": "6111242101203",
+    "stock_quantity": 87,
+    "avg_daily_sales": 8.7,
+    "expiry_date": "2026-09-10",
+    "days_until_expiry": 52
+  },
+  {
+    "product_code": "3272770094412",
+    "stock_quantity": 84,
+    "avg_daily_sales": 8.4,
+    "expiry_date": "2026-08-28",
+    "days_until_expiry": 39
+  },
+  {
+    "product_code": "3161711001971",
+    "stock_quantity": 86,
+    "avg_daily_sales": 8.6,
+    "expiry_date": "2026-09-02",
+    "days_until_expiry": 44
+  },
+  {
+    "product_code": "6111028001246",
+    "stock_quantity": 86,
+    "avg_daily_sales": 8.6,
+    "expiry_date": "2026-07-21",
+    "days_until_expiry": 1
+  },
+  {
+    "product_code": "3523230028431",
+    "stock_quantity": 84,
+    "avg_daily_sales": 8.4,
+    "expiry_date": "2026-07-21",
+    "days_until_expiry": 1
+  },
+  {
+    "product_code": "3273220541012",
+    "stock_quantity": 90,
+    "avg_daily_sales": 9.0,
+    "expiry_date": "2026-08-14",
+    "days_until_expiry": 25
+  },
+  {
+    "product_code": "3412290071801",
+    "stock_quantity": 94,
+    "avg_daily_sales": 9.4,
+    "expiry_date": "2026-09-11",
+    "days_until_expiry": 53
+  },
+  {
+    "product_code": "3272770096942",
+    "stock_quantity": 87,
+    "avg_daily_sales": 8.7,
+    "expiry_date": "2026-07-21",
+    "days_until_expiry": 1
+  },
+  {
+    "product_code": "20047559",
+    "stock_quantity": 91,
+    "avg_daily_sales": 9.1,
+    "expiry_date": "2026-08-25",
+    "days_until_expiry": 36
+  },
+  {
+    "product_code": "3155251205500",
+    "stock_quantity": 86,
+    "avg_daily_sales": 8.6,
+    "expiry_date": "2026-07-21",
+    "days_until_expiry": 1
   },
   {
     "product_code": "6111035000430",
     "stock_quantity": 127,
     "avg_daily_sales": 12.7,
-    "expiry_date": "2026-07-15",
-    "days_until_expiry": 1
+    "expiry_date": "2026-08-30",
+    "days_until_expiry": 41
   },
   {
     "product_code": "6111035000058",
-    "stock_quantity": 132,
-    "avg_daily_sales": 13.2,
-    "expiry_date": "2026-07-29",
-    "days_until_expiry": 15
+    "stock_quantity": 139,
+    "avg_daily_sales": 13.9,
+    "expiry_date": "2026-09-12",
+    "days_until_expiry": 54
   },
   {
     "product_code": "6111035002175",
-    "stock_quantity": 135,
-    "avg_daily_sales": 13.5,
-    "expiry_date": "2026-08-16",
-    "days_until_expiry": 33
-  },
-  {
-    "product_code": "3274080005003",
     "stock_quantity": 127,
     "avg_daily_sales": 12.7,
-    "expiry_date": "2026-08-09",
-    "days_until_expiry": 26
-  },
-  {
-    "product_code": "3254691586054",
-    "stock_quantity": 131,
-    "avg_daily_sales": 13.1,
-    "expiry_date": "2026-07-16",
-    "days_until_expiry": 2
-  },
-  {
-    "product_code": "6130003000029",
-    "stock_quantity": 132,
-    "avg_daily_sales": 13.2,
-    "expiry_date": "2026-08-01",
-    "days_until_expiry": 18
-  },
-  {
-    "product_code": "8850389118856",
-    "stock_quantity": 136,
-    "avg_daily_sales": 13.6,
-    "expiry_date": "2026-08-01",
-    "days_until_expiry": 18
-  },
-  {
-    "product_code": "3700088912116",
-    "stock_quantity": 137,
-    "avg_daily_sales": 13.7,
-    "expiry_date": "2026-08-13",
+    "expiry_date": "2026-08-19",
     "days_until_expiry": 30
   },
   {
-    "product_code": "3272460125013",
-    "stock_quantity": 130,
-    "avg_daily_sales": 13.0,
-    "expiry_date": "2026-09-08",
-    "days_until_expiry": 56
-  },
-  {
-    "product_code": "3770011861026",
-    "stock_quantity": 140,
-    "avg_daily_sales": 14.0,
-    "expiry_date": "2026-08-07",
-    "days_until_expiry": 24
-  },
-  {
-    "product_code": "5449000059727",
-    "stock_quantity": 131,
-    "avg_daily_sales": 13.1,
-    "expiry_date": "2026-08-16",
-    "days_until_expiry": 33
-  },
-  {
-    "product_code": "4044703014304",
-    "stock_quantity": 136,
-    "avg_daily_sales": 13.6,
-    "expiry_date": "2026-08-01",
-    "days_until_expiry": 18
-  },
-  {
-    "product_code": "8410590720028",
+    "product_code": "3274080005003",
     "stock_quantity": 132,
     "avg_daily_sales": 13.2,
-    "expiry_date": "2026-09-05",
-    "days_until_expiry": 53
-  },
-  {
-    "product_code": "7312040017072",
-    "stock_quantity": 126,
-    "avg_daily_sales": 12.6,
-    "expiry_date": "2026-09-12",
-    "days_until_expiry": 60
-  },
-  {
-    "product_code": "5900446019275",
-    "stock_quantity": 128,
-    "avg_daily_sales": 12.8,
-    "expiry_date": "2026-07-15",
+    "expiry_date": "2026-07-21",
     "days_until_expiry": 1
   },
   {
-    "product_code": "3467870210910",
-    "stock_quantity": 136,
-    "avg_daily_sales": 13.6,
-    "expiry_date": "2026-08-15",
-    "days_until_expiry": 32
-  },
-  {
-    "product_code": "0044100190780",
-    "stock_quantity": 133,
-    "avg_daily_sales": 13.3,
-    "expiry_date": "2026-08-20",
-    "days_until_expiry": 37
-  },
-  {
-    "product_code": "0052548686512",
-    "stock_quantity": 127,
-    "avg_daily_sales": 12.7,
-    "expiry_date": "2026-08-14",
-    "days_until_expiry": 31
-  },
-  {
-    "product_code": "3092718626587",
-    "stock_quantity": 125,
-    "avg_daily_sales": 12.5,
-    "expiry_date": "2026-08-07",
-    "days_until_expiry": 24
-  },
-  {
-    "product_code": "3265266075101",
-    "stock_quantity": 135,
-    "avg_daily_sales": 13.5,
-    "expiry_date": "2026-07-30",
-    "days_until_expiry": 16
-  },
-  {
-    "product_code": "3700256700538",
-    "stock_quantity": 135,
-    "avg_daily_sales": 13.5,
-    "expiry_date": "2026-08-21",
-    "days_until_expiry": 38
-  },
-  {
-    "product_code": "4038745603718",
-    "stock_quantity": 126,
-    "avg_daily_sales": 12.6,
-    "expiry_date": "2026-07-16",
-    "days_until_expiry": 2
-  },
-  {
-    "product_code": "3119780268771",
-    "stock_quantity": 128,
-    "avg_daily_sales": 12.8,
-    "expiry_date": "2026-08-18",
-    "days_until_expiry": 35
-  },
-  {
-    "product_code": "4018715004738",
-    "stock_quantity": 131,
-    "avg_daily_sales": 13.1,
-    "expiry_date": "2026-08-17",
-    "days_until_expiry": 34
-  },
-  {
-    "product_code": "8410591004783",
-    "stock_quantity": 138,
-    "avg_daily_sales": 13.8,
-    "expiry_date": "2026-08-14",
-    "days_until_expiry": 31
-  },
-  {
-    "product_code": "4607056587507",
-    "stock_quantity": 135,
-    "avg_daily_sales": 13.5,
-    "expiry_date": "2026-08-25",
-    "days_until_expiry": 42
-  },
-  {
-    "product_code": "4066447517316",
-    "stock_quantity": 134,
-    "avg_daily_sales": 13.4,
-    "expiry_date": "2026-08-21",
-    "days_until_expiry": 38
-  },
-  {
     "product_code": "6111128000071",
-    "stock_quantity": 126,
-    "avg_daily_sales": 12.6,
-    "expiry_date": "2026-08-26",
-    "days_until_expiry": 43
+    "stock_quantity": 130,
+    "avg_daily_sales": 13.0,
+    "expiry_date": "2026-09-06",
+    "days_until_expiry": 48
   },
   {
     "product_code": "6111252421568",
-    "stock_quantity": 129,
-    "avg_daily_sales": 12.9,
-    "expiry_date": "2026-07-29",
-    "days_until_expiry": 15
+    "stock_quantity": 130,
+    "avg_daily_sales": 13.0,
+    "expiry_date": "2026-08-25",
+    "days_until_expiry": 36
   },
   {
     "product_code": "6111035000027",
-    "stock_quantity": 123,
-    "avg_daily_sales": 12.3,
-    "expiry_date": "2026-07-16",
+    "stock_quantity": 122,
+    "avg_daily_sales": 12.2,
+    "expiry_date": "2026-08-20",
+    "days_until_expiry": 31
+  },
+  {
+    "product_code": "6111035502828",
+    "stock_quantity": 138,
+    "avg_daily_sales": 13.8,
+    "expiry_date": "2026-07-22",
     "days_until_expiry": 2
   },
   {
     "product_code": "5449000054227",
-    "stock_quantity": 131,
-    "avg_daily_sales": 13.1,
-    "expiry_date": "2026-08-17",
-    "days_until_expiry": 34
-  },
-  {
-    "product_code": "6111035502828",
-    "stock_quantity": 126,
-    "avg_daily_sales": 12.6,
-    "expiry_date": "2026-09-02",
-    "days_until_expiry": 50
+    "stock_quantity": 132,
+    "avg_daily_sales": 13.2,
+    "expiry_date": "2026-09-10",
+    "days_until_expiry": 52
   },
   {
     "product_code": "6111252421582",
-    "stock_quantity": 128,
-    "avg_daily_sales": 12.8,
-    "expiry_date": "2026-07-17",
-    "days_until_expiry": 3
+    "stock_quantity": 134,
+    "avg_daily_sales": 13.4,
+    "expiry_date": "2026-08-07",
+    "days_until_expiry": 18
   },
   {
     "product_code": "6111035003035",
-    "stock_quantity": 127,
-    "avg_daily_sales": 12.7,
-    "expiry_date": "2026-08-11",
-    "days_until_expiry": 28
+    "stock_quantity": 123,
+    "avg_daily_sales": 12.3,
+    "expiry_date": "2026-08-27",
+    "days_until_expiry": 38
   },
   {
     "product_code": "5449000147417",
-    "stock_quantity": 130,
-    "avg_daily_sales": 13.0,
-    "expiry_date": "2026-07-16",
-    "days_until_expiry": 2
+    "stock_quantity": 127,
+    "avg_daily_sales": 12.7,
+    "expiry_date": "2026-08-21",
+    "days_until_expiry": 32
   },
   {
     "product_code": "5411188112709",
-    "stock_quantity": 138,
-    "avg_daily_sales": 13.8,
-    "expiry_date": "2026-09-09",
-    "days_until_expiry": 57
+    "stock_quantity": 130,
+    "avg_daily_sales": 13.0,
+    "expiry_date": "2026-07-22",
+    "days_until_expiry": 2
   },
   {
     "product_code": "3168930163480",
-    "stock_quantity": 125,
-    "avg_daily_sales": 12.5,
-    "expiry_date": "2026-08-11",
-    "days_until_expiry": 28
+    "stock_quantity": 135,
+    "avg_daily_sales": 13.5,
+    "expiry_date": "2026-08-23",
+    "days_until_expiry": 34
   },
   {
     "product_code": "42104964",
-    "stock_quantity": 132,
-    "avg_daily_sales": 13.2,
-    "expiry_date": "2026-08-09",
-    "days_until_expiry": 26
+    "stock_quantity": 123,
+    "avg_daily_sales": 12.3,
+    "expiry_date": "2026-09-06",
+    "days_until_expiry": 48
   },
   {
     "product_code": "6111035001659",
     "stock_quantity": 129,
     "avg_daily_sales": 12.9,
-    "expiry_date": "2026-07-31",
-    "days_until_expiry": 17
-  },
-  {
-    "product_code": "7622210449283",
-    "stock_quantity": 65,
-    "avg_daily_sales": 6.5,
-    "expiry_date": "2026-09-10",
-    "days_until_expiry": 58
-  },
-  {
-    "product_code": "3701239902543",
-    "stock_quantity": 65,
-    "avg_daily_sales": 6.5,
-    "expiry_date": "2026-08-15",
-    "days_until_expiry": 32
-  },
-  {
-    "product_code": "8904004402261",
-    "stock_quantity": 69,
-    "avg_daily_sales": 6.9,
-    "expiry_date": "2026-08-16",
-    "days_until_expiry": 33
-  },
-  {
-    "product_code": "8002590075316",
-    "stock_quantity": 64,
-    "avg_daily_sales": 6.4,
-    "expiry_date": "2026-08-19",
-    "days_until_expiry": 36
-  },
-  {
-    "product_code": "8410376054057",
-    "stock_quantity": 68,
-    "avg_daily_sales": 6.8,
-    "expiry_date": "2026-09-04",
-    "days_until_expiry": 52
-  },
-  {
-    "product_code": "4335619125414",
-    "stock_quantity": 69,
-    "avg_daily_sales": 6.9,
-    "expiry_date": "2026-07-15",
-    "days_until_expiry": 1
-  },
-  {
-    "product_code": "3184340004816",
-    "stock_quantity": 69,
-    "avg_daily_sales": 6.9,
-    "expiry_date": "2026-08-15",
-    "days_until_expiry": 32
-  },
-  {
-    "product_code": "3560070718900",
-    "stock_quantity": 61,
-    "avg_daily_sales": 6.1,
-    "expiry_date": "2026-08-31",
+    "expiry_date": "2026-09-06",
     "days_until_expiry": 48
   },
   {
-    "product_code": "4066447203431",
-    "stock_quantity": 68,
-    "avg_daily_sales": 6.8,
-    "expiry_date": "2026-09-10",
-    "days_until_expiry": 58
-  },
-  {
-    "product_code": "0850035593042",
-    "stock_quantity": 66,
-    "avg_daily_sales": 6.6,
-    "expiry_date": "2026-08-11",
-    "days_until_expiry": 28
-  },
-  {
-    "product_code": "0850011737026",
-    "stock_quantity": 69,
-    "avg_daily_sales": 6.9,
-    "expiry_date": "2026-08-24",
-    "days_until_expiry": 41
-  },
-  {
-    "product_code": "4000607151101",
-    "stock_quantity": 65,
-    "avg_daily_sales": 6.5,
-    "expiry_date": "2026-08-25",
-    "days_until_expiry": 42
-  },
-  {
-    "product_code": "8008698054086",
-    "stock_quantity": 61,
-    "avg_daily_sales": 6.1,
-    "expiry_date": "2026-08-11",
-    "days_until_expiry": 28
-  },
-  {
-    "product_code": "0011110860620",
-    "stock_quantity": 66,
-    "avg_daily_sales": 6.6,
-    "expiry_date": "2026-08-04",
-    "days_until_expiry": 21
-  },
-  {
-    "product_code": "3173310011749",
-    "stock_quantity": 65,
-    "avg_daily_sales": 6.5,
-    "expiry_date": "2026-09-09",
-    "days_until_expiry": 57
-  },
-  {
-    "product_code": "0195893141234",
-    "stock_quantity": 67,
-    "avg_daily_sales": 6.7,
-    "expiry_date": "2026-09-08",
-    "days_until_expiry": 56
-  },
-  {
-    "product_code": "8681506020574",
-    "stock_quantity": 67,
-    "avg_daily_sales": 6.7,
-    "expiry_date": "2026-08-08",
-    "days_until_expiry": 25
-  },
-  {
-    "product_code": "3760069220043",
-    "stock_quantity": 67,
-    "avg_daily_sales": 6.7,
-    "expiry_date": "2026-07-15",
-    "days_until_expiry": 1
-  },
-  {
-    "product_code": "50312719",
-    "stock_quantity": 68,
-    "avg_daily_sales": 6.8,
-    "expiry_date": "2026-08-10",
-    "days_until_expiry": 27
-  },
-  {
-    "product_code": "8718976009751",
-    "stock_quantity": 66,
-    "avg_daily_sales": 6.6,
-    "expiry_date": "2026-07-17",
+    "product_code": "5449000061515",
+    "stock_quantity": 133,
+    "avg_daily_sales": 13.3,
+    "expiry_date": "2026-07-23",
     "days_until_expiry": 3
   },
   {
-    "product_code": "0060383020767",
-    "stock_quantity": 65,
-    "avg_daily_sales": 6.5,
-    "expiry_date": "2026-08-30",
+    "product_code": "6111128000163",
+    "stock_quantity": 128,
+    "avg_daily_sales": 12.8,
+    "expiry_date": "2026-09-05",
     "days_until_expiry": 47
   },
   {
-    "product_code": "0077544826007",
-    "stock_quantity": 63,
-    "avg_daily_sales": 6.3,
-    "expiry_date": "2026-08-08",
-    "days_until_expiry": 25
+    "product_code": "5449000214799",
+    "stock_quantity": 127,
+    "avg_daily_sales": 12.7,
+    "expiry_date": "2026-09-05",
+    "days_until_expiry": 47
   },
   {
-    "product_code": "3364699366364",
-    "stock_quantity": 62,
-    "avg_daily_sales": 6.2,
-    "expiry_date": "2026-08-26",
-    "days_until_expiry": 43
-  },
-  {
-    "product_code": "3564700407370",
-    "stock_quantity": 64,
-    "avg_daily_sales": 6.4,
-    "expiry_date": "2026-08-23",
-    "days_until_expiry": 40
-  },
-  {
-    "product_code": "8410085420297",
-    "stock_quantity": 61,
-    "avg_daily_sales": 6.1,
+    "product_code": "6111128000088",
+    "stock_quantity": 135,
+    "avg_daily_sales": 13.5,
     "expiry_date": "2026-08-25",
-    "days_until_expiry": 42
+    "days_until_expiry": 36
   },
   {
-    "product_code": "8015854123333",
-    "stock_quantity": 64,
-    "avg_daily_sales": 6.4,
-    "expiry_date": "2026-08-23",
-    "days_until_expiry": 40
-  },
-  {
-    "product_code": "3266191013794",
-    "stock_quantity": 66,
-    "avg_daily_sales": 6.6,
-    "expiry_date": "2026-08-09",
+    "product_code": "5449000214911",
+    "stock_quantity": 133,
+    "avg_daily_sales": 13.3,
+    "expiry_date": "2026-08-15",
     "days_until_expiry": 26
   },
   {
-    "product_code": "8410282202016",
-    "stock_quantity": 66,
-    "avg_daily_sales": 6.6,
-    "expiry_date": "2026-09-12",
-    "days_until_expiry": 60
+    "product_code": "6111035001635",
+    "stock_quantity": 132,
+    "avg_daily_sales": 13.2,
+    "expiry_date": "2026-07-21",
+    "days_until_expiry": 1
   },
   {
-    "product_code": "4037400344638",
-    "stock_quantity": 67,
-    "avg_daily_sales": 6.7,
-    "expiry_date": "2026-08-14",
+    "product_code": "3268840001008",
+    "stock_quantity": 124,
+    "avg_daily_sales": 12.4,
+    "expiry_date": "2026-08-23",
+    "days_until_expiry": 34
+  },
+  {
+    "product_code": "6111035001673",
+    "stock_quantity": 127,
+    "avg_daily_sales": 12.7,
+    "expiry_date": "2026-08-20",
     "days_until_expiry": 31
   },
   {
-    "product_code": "3050003191004",
-    "stock_quantity": 66,
-    "avg_daily_sales": 6.6,
-    "expiry_date": "2026-08-26",
+    "product_code": "6111018903161",
+    "stock_quantity": 132,
+    "avg_daily_sales": 13.2,
+    "expiry_date": "2026-08-17",
+    "days_until_expiry": 28
+  },
+  {
+    "product_code": "3229820787015",
+    "stock_quantity": 131,
+    "avg_daily_sales": 13.1,
+    "expiry_date": "2026-08-18",
+    "days_until_expiry": 29
+  },
+  {
+    "product_code": "5411188124689",
+    "stock_quantity": 135,
+    "avg_daily_sales": 13.5,
+    "expiry_date": "2026-08-04",
+    "days_until_expiry": 15
+  },
+  {
+    "product_code": "5449000000996",
+    "stock_quantity": 138,
+    "avg_daily_sales": 13.8,
+    "expiry_date": "2026-08-24",
+    "days_until_expiry": 35
+  },
+  {
+    "product_code": "6111251420166",
+    "stock_quantity": 133,
+    "avg_daily_sales": 13.3,
+    "expiry_date": "2026-07-23",
+    "days_until_expiry": 3
+  },
+  {
+    "product_code": "3229820792132",
+    "stock_quantity": 129,
+    "avg_daily_sales": 12.9,
+    "expiry_date": "2026-09-07",
+    "days_until_expiry": 49
+  },
+  {
+    "product_code": "5411188110835",
+    "stock_quantity": 133,
+    "avg_daily_sales": 13.3,
+    "expiry_date": "2026-08-16",
+    "days_until_expiry": 27
+  },
+  {
+    "product_code": "3033710073467",
+    "stock_quantity": 134,
+    "avg_daily_sales": 13.4,
+    "expiry_date": "2026-08-09",
+    "days_until_expiry": 20
+  },
+  {
+    "product_code": "6111035003004",
+    "stock_quantity": 128,
+    "avg_daily_sales": 12.8,
+    "expiry_date": "2026-09-13",
+    "days_until_expiry": 55
+  },
+  {
+    "product_code": "5449000000439",
+    "stock_quantity": 133,
+    "avg_daily_sales": 13.3,
+    "expiry_date": "2026-08-28",
+    "days_until_expiry": 39
+  },
+  {
+    "product_code": "8002270014901",
+    "stock_quantity": 128,
+    "avg_daily_sales": 12.8,
+    "expiry_date": "2026-07-21",
+    "days_until_expiry": 1
+  },
+  {
+    "product_code": "6111252421575",
+    "stock_quantity": 132,
+    "avg_daily_sales": 13.2,
+    "expiry_date": "2026-09-01",
     "days_until_expiry": 43
   },
   {
-    "product_code": "7622210484543",
-    "stock_quantity": 67,
-    "avg_daily_sales": 6.7,
-    "expiry_date": "2026-08-27",
-    "days_until_expiry": 44
+    "product_code": "3068320123264",
+    "stock_quantity": 134,
+    "avg_daily_sales": 13.4,
+    "expiry_date": "2026-08-08",
+    "days_until_expiry": 19
   },
   {
-    "product_code": "24055123",
-    "stock_quantity": 64,
-    "avg_daily_sales": 6.4,
+    "product_code": "5449000036872",
+    "stock_quantity": 130,
+    "avg_daily_sales": 13.0,
+    "expiry_date": "2026-08-15",
+    "days_until_expiry": 26
+  },
+  {
+    "product_code": "16256866",
+    "stock_quantity": 132,
+    "avg_daily_sales": 13.2,
+    "expiry_date": "2026-07-23",
+    "days_until_expiry": 3
+  },
+  {
+    "product_code": "3057640257773",
+    "stock_quantity": 133,
+    "avg_daily_sales": 13.3,
+    "expiry_date": "2026-08-11",
+    "days_until_expiry": 22
+  },
+  {
+    "product_code": "5411188115366",
+    "stock_quantity": 135,
+    "avg_daily_sales": 13.5,
+    "expiry_date": "2026-09-17",
+    "days_until_expiry": 59
+  },
+  {
+    "product_code": "6923818812082",
+    "stock_quantity": 136,
+    "avg_daily_sales": 13.6,
+    "expiry_date": "2026-09-03",
+    "days_until_expiry": 45
+  },
+  {
+    "product_code": "7613035676497",
+    "stock_quantity": 136,
+    "avg_daily_sales": 13.6,
+    "expiry_date": "2026-08-16",
+    "days_until_expiry": 27
+  },
+  {
+    "product_code": "3067140013120",
+    "stock_quantity": 127,
+    "avg_daily_sales": 12.7,
+    "expiry_date": "2026-09-15",
+    "days_until_expiry": 57
+  },
+  {
+    "product_code": "8445290133403",
+    "stock_quantity": 134,
+    "avg_daily_sales": 13.4,
+    "expiry_date": "2026-08-05",
+    "days_until_expiry": 16
+  },
+  {
+    "product_code": "6111248360130",
+    "stock_quantity": 135,
+    "avg_daily_sales": 13.5,
+    "expiry_date": "2026-09-13",
+    "days_until_expiry": 55
+  },
+  {
+    "product_code": "4056489346357",
+    "stock_quantity": 136,
+    "avg_daily_sales": 13.6,
+    "expiry_date": "2026-08-16",
+    "days_until_expiry": 27
+  },
+  {
+    "product_code": "5449000206770",
+    "stock_quantity": 133,
+    "avg_daily_sales": 13.3,
+    "expiry_date": "2026-08-29",
+    "days_until_expiry": 40
+  },
+  {
+    "product_code": "5449000133328",
+    "stock_quantity": 134,
+    "avg_daily_sales": 13.4,
+    "expiry_date": "2026-09-16",
+    "days_until_expiry": 58
+  },
+  {
+    "product_code": "6111271800054",
+    "stock_quantity": 132,
+    "avg_daily_sales": 13.2,
+    "expiry_date": "2026-08-29",
+    "days_until_expiry": 40
+  },
+  {
+    "product_code": "6111035502941",
+    "stock_quantity": 134,
+    "avg_daily_sales": 13.4,
+    "expiry_date": "2026-09-12",
+    "days_until_expiry": 54
+  },
+  {
+    "product_code": "6111035003509",
+    "stock_quantity": 135,
+    "avg_daily_sales": 13.5,
     "expiry_date": "2026-08-04",
+    "days_until_expiry": 15
+  },
+  {
+    "product_code": "5449000131805",
+    "stock_quantity": 129,
+    "avg_daily_sales": 12.9,
+    "expiry_date": "2026-08-28",
+    "days_until_expiry": 39
+  },
+  {
+    "product_code": "3229820787008",
+    "stock_quantity": 132,
+    "avg_daily_sales": 13.2,
+    "expiry_date": "2026-08-17",
+    "days_until_expiry": 28
+  },
+  {
+    "product_code": "3664346306027",
+    "stock_quantity": 131,
+    "avg_daily_sales": 13.1,
+    "expiry_date": "2026-08-25",
+    "days_until_expiry": 36
+  },
+  {
+    "product_code": "3257971309114",
+    "stock_quantity": 129,
+    "avg_daily_sales": 12.9,
+    "expiry_date": "2026-08-09",
+    "days_until_expiry": 20
+  },
+  {
+    "product_code": "5411188116592",
+    "stock_quantity": 135,
+    "avg_daily_sales": 13.5,
+    "expiry_date": "2026-08-04",
+    "days_until_expiry": 15
+  },
+  {
+    "product_code": "3168930159896",
+    "stock_quantity": 135,
+    "avg_daily_sales": 13.5,
+    "expiry_date": "2026-08-14",
+    "days_until_expiry": 25
+  },
+  {
+    "product_code": "54491472",
+    "stock_quantity": 127,
+    "avg_daily_sales": 12.7,
+    "expiry_date": "2026-09-06",
+    "days_until_expiry": 48
+  },
+  {
+    "product_code": "8886303210238",
+    "stock_quantity": 122,
+    "avg_daily_sales": 12.2,
+    "expiry_date": "2026-08-31",
+    "days_until_expiry": 42
+  },
+  {
+    "product_code": "5449000131836",
+    "stock_quantity": 130,
+    "avg_daily_sales": 13.0,
+    "expiry_date": "2026-09-04",
+    "days_until_expiry": 46
+  },
+  {
+    "product_code": "6111266962910",
+    "stock_quantity": 130,
+    "avg_daily_sales": 13.0,
+    "expiry_date": "2026-07-23",
+    "days_until_expiry": 3
+  },
+  {
+    "product_code": "6111242104198",
+    "stock_quantity": 128,
+    "avg_daily_sales": 12.8,
+    "expiry_date": "2026-08-05",
+    "days_until_expiry": 16
+  },
+  {
+    "product_code": "7613032655495",
+    "stock_quantity": 131,
+    "avg_daily_sales": 13.1,
+    "expiry_date": "2026-08-20",
+    "days_until_expiry": 31
+  },
+  {
+    "product_code": "3068320120256",
+    "stock_quantity": 127,
+    "avg_daily_sales": 12.7,
+    "expiry_date": "2026-09-15",
+    "days_until_expiry": 57
+  },
+  {
+    "product_code": "6111017007013",
+    "stock_quantity": 133,
+    "avg_daily_sales": 13.3,
+    "expiry_date": "2026-08-04",
+    "days_until_expiry": 15
+  },
+  {
+    "product_code": "6111175000741",
+    "stock_quantity": 133,
+    "avg_daily_sales": 13.3,
+    "expiry_date": "2026-07-23",
+    "days_until_expiry": 3
+  },
+  {
+    "product_code": "3124480186560",
+    "stock_quantity": 123,
+    "avg_daily_sales": 12.3,
+    "expiry_date": "2026-09-05",
+    "days_until_expiry": 47
+  },
+  {
+    "product_code": "4056489028109",
+    "stock_quantity": 126,
+    "avg_daily_sales": 12.6,
+    "expiry_date": "2026-07-23",
+    "days_until_expiry": 3
+  },
+  {
+    "product_code": "6111035001024",
+    "stock_quantity": 132,
+    "avg_daily_sales": 13.2,
+    "expiry_date": "2026-08-04",
+    "days_until_expiry": 15
+  },
+  {
+    "product_code": "3229820801087",
+    "stock_quantity": 129,
+    "avg_daily_sales": 12.9,
+    "expiry_date": "2026-09-11",
+    "days_until_expiry": 53
+  },
+  {
+    "product_code": "42105220",
+    "stock_quantity": 130,
+    "avg_daily_sales": 13.0,
+    "expiry_date": "2026-09-10",
+    "days_until_expiry": 52
+  },
+  {
+    "product_code": "6111242107366",
+    "stock_quantity": 132,
+    "avg_daily_sales": 13.2,
+    "expiry_date": "2026-09-12",
+    "days_until_expiry": 54
+  },
+  {
+    "product_code": "3187570015447",
+    "stock_quantity": 131,
+    "avg_daily_sales": 13.1,
+    "expiry_date": "2026-08-10",
     "days_until_expiry": 21
   },
   {
-    "product_code": "0813104022539",
-    "stock_quantity": 60,
-    "avg_daily_sales": 6.0,
-    "expiry_date": "2026-07-16",
-    "days_until_expiry": 2
+    "product_code": "90382383",
+    "stock_quantity": 137,
+    "avg_daily_sales": 13.7,
+    "expiry_date": "2026-07-21",
+    "days_until_expiry": 1
   },
   {
-    "product_code": "0852605008581",
-    "stock_quantity": 63,
-    "avg_daily_sales": 6.3,
-    "expiry_date": "2026-09-12",
-    "days_until_expiry": 60
-  },
-  {
-    "product_code": "3046920029759",
-    "stock_quantity": 64,
-    "avg_daily_sales": 6.4,
-    "expiry_date": "2026-09-02",
+    "product_code": "5449000000286",
+    "stock_quantity": 127,
+    "avg_daily_sales": 12.7,
+    "expiry_date": "2026-09-08",
     "days_until_expiry": 50
   },
   {
+    "product_code": "5411188115472",
+    "stock_quantity": 134,
+    "avg_daily_sales": 13.4,
+    "expiry_date": "2026-07-21",
+    "days_until_expiry": 1
+  },
+  {
+    "product_code": "3664346315371",
+    "stock_quantity": 134,
+    "avg_daily_sales": 13.4,
+    "expiry_date": "2026-09-08",
+    "days_until_expiry": 50
+  },
+  {
+    "product_code": "90338243",
+    "stock_quantity": 131,
+    "avg_daily_sales": 13.1,
+    "expiry_date": "2026-08-25",
+    "days_until_expiry": 36
+  },
+  {
+    "product_code": "5449000135544",
+    "stock_quantity": 134,
+    "avg_daily_sales": 13.4,
+    "expiry_date": "2026-08-15",
+    "days_until_expiry": 26
+  },
+  {
+    "product_code": "3229820783338",
+    "stock_quantity": 134,
+    "avg_daily_sales": 13.4,
+    "expiry_date": "2026-08-18",
+    "days_until_expiry": 29
+  },
+  {
+    "product_code": "5411188110842",
+    "stock_quantity": 122,
+    "avg_daily_sales": 12.2,
+    "expiry_date": "2026-08-30",
+    "days_until_expiry": 41
+  },
+  {
+    "product_code": "3034470003107",
+    "stock_quantity": 133,
+    "avg_daily_sales": 13.3,
+    "expiry_date": "2026-08-12",
+    "days_until_expiry": 23
+  },
+  {
+    "product_code": "5000112611861",
+    "stock_quantity": 128,
+    "avg_daily_sales": 12.8,
+    "expiry_date": "2026-08-28",
+    "days_until_expiry": 39
+  },
+  {
+    "product_code": "6111252422008",
+    "stock_quantity": 127,
+    "avg_daily_sales": 12.7,
+    "expiry_date": "2026-09-14",
+    "days_until_expiry": 56
+  },
+  {
+    "product_code": "5449000267412",
+    "stock_quantity": 129,
+    "avg_daily_sales": 12.9,
+    "expiry_date": "2026-08-22",
+    "days_until_expiry": 33
+  },
+  {
+    "product_code": "4056489997511",
+    "stock_quantity": 133,
+    "avg_daily_sales": 13.3,
+    "expiry_date": "2026-08-23",
+    "days_until_expiry": 34
+  },
+  {
+    "product_code": "6111273590021",
+    "stock_quantity": 122,
+    "avg_daily_sales": 12.2,
+    "expiry_date": "2026-09-05",
+    "days_until_expiry": 47
+  },
+  {
+    "product_code": "6111251420272",
+    "stock_quantity": 136,
+    "avg_daily_sales": 13.6,
+    "expiry_date": "2026-07-23",
+    "days_until_expiry": 3
+  },
+  {
+    "product_code": "7622210449283",
+    "stock_quantity": 63,
+    "avg_daily_sales": 6.3,
+    "expiry_date": "2026-08-08",
+    "days_until_expiry": 19
+  },
+  {
+    "product_code": "3046920029759",
+    "stock_quantity": 62,
+    "avg_daily_sales": 6.2,
+    "expiry_date": "2026-08-25",
+    "days_until_expiry": 36
+  },
+  {
     "product_code": "06175700",
-    "stock_quantity": 67,
-    "avg_daily_sales": 6.7,
+    "stock_quantity": 65,
+    "avg_daily_sales": 6.5,
     "expiry_date": "2026-08-13",
-    "days_until_expiry": 30
+    "days_until_expiry": 24
   },
   {
     "product_code": "3175680011480",
+    "stock_quantity": 66,
+    "avg_daily_sales": 6.6,
+    "expiry_date": "2026-08-12",
+    "days_until_expiry": 23
+  },
+  {
+    "product_code": "3046920022651",
+    "stock_quantity": 66,
+    "avg_daily_sales": 6.6,
+    "expiry_date": "2026-07-23",
+    "days_until_expiry": 3
+  },
+  {
+    "product_code": "3046920022606",
+    "stock_quantity": 64,
+    "avg_daily_sales": 6.4,
+    "expiry_date": "2026-09-17",
+    "days_until_expiry": 59
+  },
+  {
+    "product_code": "6111031005064",
+    "stock_quantity": 67,
+    "avg_daily_sales": 6.7,
+    "expiry_date": "2026-08-06",
+    "days_until_expiry": 17
+  },
+  {
+    "product_code": "3229820100234",
     "stock_quantity": 65,
     "avg_daily_sales": 6.5,
-    "expiry_date": "2026-08-28",
+    "expiry_date": "2026-09-14",
+    "days_until_expiry": 56
+  },
+  {
+    "product_code": "3284230006408",
+    "stock_quantity": 67,
+    "avg_daily_sales": 6.7,
+    "expiry_date": "2026-09-03",
     "days_until_expiry": 45
+  },
+  {
+    "product_code": "7300400481595",
+    "stock_quantity": 64,
+    "avg_daily_sales": 6.4,
+    "expiry_date": "2026-08-24",
+    "days_until_expiry": 35
+  },
+  {
+    "product_code": "7300400481588",
+    "stock_quantity": 61,
+    "avg_daily_sales": 6.1,
+    "expiry_date": "2026-08-05",
+    "days_until_expiry": 16
+  },
+  {
+    "product_code": "3175681851849",
+    "stock_quantity": 66,
+    "avg_daily_sales": 6.6,
+    "expiry_date": "2026-08-15",
+    "days_until_expiry": 26
+  },
+  {
+    "product_code": "3251490332080",
+    "stock_quantity": 64,
+    "avg_daily_sales": 6.4,
+    "expiry_date": "2026-08-08",
+    "days_until_expiry": 19
+  },
+  {
+    "product_code": "8410376009392",
+    "stock_quantity": 68,
+    "avg_daily_sales": 6.8,
+    "expiry_date": "2026-09-10",
+    "days_until_expiry": 52
+  },
+  {
+    "product_code": "3175681851856",
+    "stock_quantity": 62,
+    "avg_daily_sales": 6.2,
+    "expiry_date": "2026-09-12",
+    "days_until_expiry": 54
+  },
+  {
+    "product_code": "3362600011044",
+    "stock_quantity": 67,
+    "avg_daily_sales": 6.7,
+    "expiry_date": "2026-07-22",
+    "days_until_expiry": 2
+  },
+  {
+    "product_code": "5410041001204",
+    "stock_quantity": 68,
+    "avg_daily_sales": 6.8,
+    "expiry_date": "2026-09-18",
+    "days_until_expiry": 60
+  },
+  {
+    "product_code": "20995553",
+    "stock_quantity": 69,
+    "avg_daily_sales": 6.9,
+    "expiry_date": "2026-07-22",
+    "days_until_expiry": 2
+  },
+  {
+    "product_code": "3229820794525",
+    "stock_quantity": 64,
+    "avg_daily_sales": 6.4,
+    "expiry_date": "2026-07-22",
+    "days_until_expiry": 2
+  },
+  {
+    "product_code": "3256540000698",
+    "stock_quantity": 61,
+    "avg_daily_sales": 6.1,
+    "expiry_date": "2026-08-12",
+    "days_until_expiry": 23
+  },
+  {
+    "product_code": "3587220002252",
+    "stock_quantity": 64,
+    "avg_daily_sales": 6.4,
+    "expiry_date": "2026-08-14",
+    "days_until_expiry": 25
+  },
+  {
+    "product_code": "80176800",
+    "stock_quantity": 65,
+    "avg_daily_sales": 6.5,
+    "expiry_date": "2026-07-21",
+    "days_until_expiry": 1
+  },
+  {
+    "product_code": "8000500310427",
+    "stock_quantity": 66,
+    "avg_daily_sales": 6.6,
+    "expiry_date": "2026-08-05",
+    "days_until_expiry": 16
+  },
+  {
+    "product_code": "3284230011884",
+    "stock_quantity": 68,
+    "avg_daily_sales": 6.8,
+    "expiry_date": "2026-07-23",
+    "days_until_expiry": 3
+  },
+  {
+    "product_code": "3175681066632",
+    "stock_quantity": 62,
+    "avg_daily_sales": 6.2,
+    "expiry_date": "2026-08-22",
+    "days_until_expiry": 33
+  },
+  {
+    "product_code": "6111031005439",
+    "stock_quantity": 66,
+    "avg_daily_sales": 6.6,
+    "expiry_date": "2026-07-23",
+    "days_until_expiry": 3
+  },
+  {
+    "product_code": "3041090063206",
+    "stock_quantity": 66,
+    "avg_daily_sales": 6.6,
+    "expiry_date": "2026-08-10",
+    "days_until_expiry": 21
+  },
+  {
+    "product_code": "3175681851863",
+    "stock_quantity": 68,
+    "avg_daily_sales": 6.8,
+    "expiry_date": "2026-08-14",
+    "days_until_expiry": 25
+  },
+  {
+    "product_code": "7300400481571",
+    "stock_quantity": 65,
+    "avg_daily_sales": 6.5,
+    "expiry_date": "2026-07-21",
+    "days_until_expiry": 1
+  },
+  {
+    "product_code": "3362600011228",
+    "stock_quantity": 64,
+    "avg_daily_sales": 6.4,
+    "expiry_date": "2026-08-06",
+    "days_until_expiry": 17
+  },
+  {
+    "product_code": "3175680011534",
+    "stock_quantity": 65,
+    "avg_daily_sales": 6.5,
+    "expiry_date": "2026-09-17",
+    "days_until_expiry": 59
+  },
+  {
+    "product_code": "06153153",
+    "stock_quantity": 65,
+    "avg_daily_sales": 6.5,
+    "expiry_date": "2026-08-11",
+    "days_until_expiry": 22
+  },
+  {
+    "product_code": "8410076610737",
+    "stock_quantity": 66,
+    "avg_daily_sales": 6.6,
+    "expiry_date": "2026-07-21",
+    "days_until_expiry": 1
+  },
+  {
+    "product_code": "8425197712024",
+    "stock_quantity": 66,
+    "avg_daily_sales": 6.6,
+    "expiry_date": "2026-09-07",
+    "days_until_expiry": 49
+  },
+  {
+    "product_code": "3229820021027",
+    "stock_quantity": 64,
+    "avg_daily_sales": 6.4,
+    "expiry_date": "2026-08-09",
+    "days_until_expiry": 20
+  },
+  {
+    "product_code": "3175681105423",
+    "stock_quantity": 64,
+    "avg_daily_sales": 6.4,
+    "expiry_date": "2026-07-23",
+    "days_until_expiry": 3
+  },
+  {
+    "product_code": "3228857001231",
+    "stock_quantity": 65,
+    "avg_daily_sales": 6.5,
+    "expiry_date": "2026-09-13",
+    "days_until_expiry": 55
+  },
+  {
+    "product_code": "3046920028363",
+    "stock_quantity": 62,
+    "avg_daily_sales": 6.2,
+    "expiry_date": "2026-08-25",
+    "days_until_expiry": 36
+  },
+  {
+    "product_code": "20022464",
+    "stock_quantity": 65,
+    "avg_daily_sales": 6.5,
+    "expiry_date": "2026-08-27",
+    "days_until_expiry": 38
+  },
+  {
+    "product_code": "7613035040823",
+    "stock_quantity": 62,
+    "avg_daily_sales": 6.2,
+    "expiry_date": "2026-09-04",
+    "days_until_expiry": 46
+  },
+  {
+    "product_code": "3046920010047",
+    "stock_quantity": 63,
+    "avg_daily_sales": 6.3,
+    "expiry_date": "2026-08-21",
+    "days_until_expiry": 32
+  },
+  {
+    "product_code": "3228857001378",
+    "stock_quantity": 62,
+    "avg_daily_sales": 6.2,
+    "expiry_date": "2026-08-27",
+    "days_until_expiry": 38
+  },
+  {
+    "product_code": "3251490307002",
+    "stock_quantity": 66,
+    "avg_daily_sales": 6.6,
+    "expiry_date": "2026-09-05",
+    "days_until_expiry": 47
+  },
+  {
+    "product_code": "5000168198491",
+    "stock_quantity": 64,
+    "avg_daily_sales": 6.4,
+    "expiry_date": "2026-08-13",
+    "days_until_expiry": 24
+  },
+  {
+    "product_code": "3336971805021",
+    "stock_quantity": 70,
+    "avg_daily_sales": 7.0,
+    "expiry_date": "2026-09-13",
+    "days_until_expiry": 55
+  },
+  {
+    "product_code": "7622210601988",
+    "stock_quantity": 64,
+    "avg_daily_sales": 6.4,
+    "expiry_date": "2026-08-27",
+    "days_until_expiry": 38
+  },
+  {
+    "product_code": "8410076601131",
+    "stock_quantity": 68,
+    "avg_daily_sales": 6.8,
+    "expiry_date": "2026-09-03",
+    "days_until_expiry": 45
+  },
+  {
+    "product_code": "6111259343108",
+    "stock_quantity": 65,
+    "avg_daily_sales": 6.5,
+    "expiry_date": "2026-09-11",
+    "days_until_expiry": 53
+  },
+  {
+    "product_code": "3046920028004",
+    "stock_quantity": 64,
+    "avg_daily_sales": 6.4,
+    "expiry_date": "2026-09-06",
+    "days_until_expiry": 48
+  },
+  {
+    "product_code": "3251490320001",
+    "stock_quantity": 65,
+    "avg_daily_sales": 6.5,
+    "expiry_date": "2026-08-22",
+    "days_until_expiry": 33
+  },
+  {
+    "product_code": "3041090063114",
+    "stock_quantity": 66,
+    "avg_daily_sales": 6.6,
+    "expiry_date": "2026-07-22",
+    "days_until_expiry": 2
+  },
+  {
+    "product_code": "7622201133337",
+    "stock_quantity": 67,
+    "avg_daily_sales": 6.7,
+    "expiry_date": "2026-07-21",
+    "days_until_expiry": 1
+  },
+  {
+    "product_code": "3229820181950",
+    "stock_quantity": 67,
+    "avg_daily_sales": 6.7,
+    "expiry_date": "2026-08-20",
+    "days_until_expiry": 31
+  },
+  {
+    "product_code": "5060042641000",
+    "stock_quantity": 63,
+    "avg_daily_sales": 6.3,
+    "expiry_date": "2026-08-10",
+    "days_until_expiry": 21
+  },
+  {
+    "product_code": "3362600011006",
+    "stock_quantity": 65,
+    "avg_daily_sales": 6.5,
+    "expiry_date": "2026-08-16",
+    "days_until_expiry": 27
+  },
+  {
+    "product_code": "3760020508012",
+    "stock_quantity": 66,
+    "avg_daily_sales": 6.6,
+    "expiry_date": "2026-08-14",
+    "days_until_expiry": 25
+  },
+  {
+    "product_code": "20095291",
+    "stock_quantity": 65,
+    "avg_daily_sales": 6.5,
+    "expiry_date": "2026-09-06",
+    "days_until_expiry": 48
+  },
+  {
+    "product_code": "3175681209282",
+    "stock_quantity": 65,
+    "avg_daily_sales": 6.5,
+    "expiry_date": "2026-09-08",
+    "days_until_expiry": 50
+  },
+  {
+    "product_code": "3061990143365",
+    "stock_quantity": 63,
+    "avg_daily_sales": 6.3,
+    "expiry_date": "2026-08-25",
+    "days_until_expiry": 36
+  },
+  {
+    "product_code": "3228857001316",
+    "stock_quantity": 67,
+    "avg_daily_sales": 6.7,
+    "expiry_date": "2026-07-21",
+    "days_until_expiry": 1
+  },
+  {
+    "product_code": "6111259341197",
+    "stock_quantity": 66,
+    "avg_daily_sales": 6.6,
+    "expiry_date": "2026-09-16",
+    "days_until_expiry": 58
+  },
+  {
+    "product_code": "3175681257542",
+    "stock_quantity": 63,
+    "avg_daily_sales": 6.3,
+    "expiry_date": "2026-09-08",
+    "days_until_expiry": 50
+  },
+  {
+    "product_code": "3251491787810",
+    "stock_quantity": 66,
+    "avg_daily_sales": 6.6,
+    "expiry_date": "2026-08-26",
+    "days_until_expiry": 37
+  },
+  {
+    "product_code": "3045140105502",
+    "stock_quantity": 68,
+    "avg_daily_sales": 6.8,
+    "expiry_date": "2026-07-22",
+    "days_until_expiry": 2
+  },
+  {
+    "product_code": "3178530410105",
+    "stock_quantity": 66,
+    "avg_daily_sales": 6.6,
+    "expiry_date": "2026-09-14",
+    "days_until_expiry": 56
+  },
+  {
+    "product_code": "3760049796384",
+    "stock_quantity": 63,
+    "avg_daily_sales": 6.3,
+    "expiry_date": "2026-08-15",
+    "days_until_expiry": 26
+  },
+  {
+    "product_code": "3046920028721",
+    "stock_quantity": 68,
+    "avg_daily_sales": 6.8,
+    "expiry_date": "2026-08-25",
+    "days_until_expiry": 36
+  },
+  {
+    "product_code": "3175681257535",
+    "stock_quantity": 67,
+    "avg_daily_sales": 6.7,
+    "expiry_date": "2026-08-22",
+    "days_until_expiry": 33
+  },
+  {
+    "product_code": "40896243",
+    "stock_quantity": 63,
+    "avg_daily_sales": 6.3,
+    "expiry_date": "2026-08-10",
+    "days_until_expiry": 21
+  },
+  {
+    "product_code": "8410076601148",
+    "stock_quantity": 66,
+    "avg_daily_sales": 6.6,
+    "expiry_date": "2026-09-08",
+    "days_until_expiry": 50
+  },
+  {
+    "product_code": "5053990156009",
+    "stock_quantity": 60,
+    "avg_daily_sales": 6.0,
+    "expiry_date": "2026-08-16",
+    "days_until_expiry": 27
+  },
+  {
+    "product_code": "7622210476296",
+    "stock_quantity": 65,
+    "avg_daily_sales": 6.5,
+    "expiry_date": "2026-08-21",
+    "days_until_expiry": 32
+  },
+  {
+    "product_code": "3700214611548",
+    "stock_quantity": 66,
+    "avg_daily_sales": 6.6,
+    "expiry_date": "2026-08-09",
+    "days_until_expiry": 20
+  },
+  {
+    "product_code": "80052760",
+    "stock_quantity": 66,
+    "avg_daily_sales": 6.6,
+    "expiry_date": "2026-07-21",
+    "days_until_expiry": 1
+  },
+  {
+    "product_code": "7622210995087",
+    "stock_quantity": 63,
+    "avg_daily_sales": 6.3,
+    "expiry_date": "2026-09-11",
+    "days_until_expiry": 53
+  },
+  {
+    "product_code": "3175681037854",
+    "stock_quantity": 66,
+    "avg_daily_sales": 6.6,
+    "expiry_date": "2026-09-14",
+    "days_until_expiry": 56
+  },
+  {
+    "product_code": "3046920027885",
+    "stock_quantity": 65,
+    "avg_daily_sales": 6.5,
+    "expiry_date": "2026-09-04",
+    "days_until_expiry": 46
+  },
+  {
+    "product_code": "3760049798890",
+    "stock_quantity": 66,
+    "avg_daily_sales": 6.6,
+    "expiry_date": "2026-07-21",
+    "days_until_expiry": 1
+  },
+  {
+    "product_code": "3175680011442",
+    "stock_quantity": 66,
+    "avg_daily_sales": 6.6,
+    "expiry_date": "2026-08-15",
+    "days_until_expiry": 26
+  },
+  {
+    "product_code": "3760091722508",
+    "stock_quantity": 64,
+    "avg_daily_sales": 6.4,
+    "expiry_date": "2026-08-07",
+    "days_until_expiry": 18
+  },
+  {
+    "product_code": "3229820794532",
+    "stock_quantity": 62,
+    "avg_daily_sales": 6.2,
+    "expiry_date": "2026-09-10",
+    "days_until_expiry": 52
+  },
+  {
+    "product_code": "3175681257566",
+    "stock_quantity": 70,
+    "avg_daily_sales": 7.0,
+    "expiry_date": "2026-09-06",
+    "days_until_expiry": 48
+  },
+  {
+    "product_code": "7622210713780",
+    "stock_quantity": 70,
+    "avg_daily_sales": 7.0,
+    "expiry_date": "2026-07-21",
+    "days_until_expiry": 1
+  },
+  {
+    "product_code": "3336971805038",
+    "stock_quantity": 66,
+    "avg_daily_sales": 6.6,
+    "expiry_date": "2026-08-07",
+    "days_until_expiry": 18
+  },
+  {
+    "product_code": "20713713",
+    "stock_quantity": 65,
+    "avg_daily_sales": 6.5,
+    "expiry_date": "2026-08-11",
+    "days_until_expiry": 22
+  },
+  {
+    "product_code": "3380380047749",
+    "stock_quantity": 65,
+    "avg_daily_sales": 6.5,
+    "expiry_date": "2026-08-15",
+    "days_until_expiry": 26
+  },
+  {
+    "product_code": "7622210713889",
+    "stock_quantity": 67,
+    "avg_daily_sales": 6.7,
+    "expiry_date": "2026-07-22",
+    "days_until_expiry": 2
+  },
+  {
+    "product_code": "7622201809638",
+    "stock_quantity": 62,
+    "avg_daily_sales": 6.2,
+    "expiry_date": "2026-09-02",
+    "days_until_expiry": 44
+  },
+  {
+    "product_code": "8410076801180",
+    "stock_quantity": 68,
+    "avg_daily_sales": 6.8,
+    "expiry_date": "2026-07-21",
+    "days_until_expiry": 1
+  },
+  {
+    "product_code": "7622400006753",
+    "stock_quantity": 63,
+    "avg_daily_sales": 6.3,
+    "expiry_date": "2026-07-22",
+    "days_until_expiry": 2
+  },
+  {
+    "product_code": "3229820004334",
+    "stock_quantity": 65,
+    "avg_daily_sales": 6.5,
+    "expiry_date": "2026-09-02",
+    "days_until_expiry": 44
+  },
+  {
+    "product_code": "3178530402728",
+    "stock_quantity": 65,
+    "avg_daily_sales": 6.5,
+    "expiry_date": "2026-08-24",
+    "days_until_expiry": 35
+  },
+  {
+    "product_code": "3251491787803",
+    "stock_quantity": 65,
+    "avg_daily_sales": 6.5,
+    "expiry_date": "2026-09-17",
+    "days_until_expiry": 59
+  },
+  {
+    "product_code": "5053990155354",
+    "stock_quantity": 63,
+    "avg_daily_sales": 6.3,
+    "expiry_date": "2026-07-21",
+    "days_until_expiry": 1
+  },
+  {
+    "product_code": "6111259342828",
+    "stock_quantity": 65,
+    "avg_daily_sales": 6.5,
+    "expiry_date": "2026-08-17",
+    "days_until_expiry": 28
+  },
+  {
+    "product_code": "6111259343344",
+    "stock_quantity": 62,
+    "avg_daily_sales": 6.2,
+    "expiry_date": "2026-08-14",
+    "days_until_expiry": 25
+  },
+  {
+    "product_code": "3046920021043",
+    "stock_quantity": 66,
+    "avg_daily_sales": 6.6,
+    "expiry_date": "2026-09-13",
+    "days_until_expiry": 55
+  },
+  {
+    "product_code": "6111259347861",
+    "stock_quantity": 66,
+    "avg_daily_sales": 6.6,
+    "expiry_date": "2026-08-07",
+    "days_until_expiry": 18
+  },
+  {
+    "product_code": "3760049790214",
+    "stock_quantity": 56,
+    "avg_daily_sales": 5.6,
+    "expiry_date": "2026-09-13",
+    "days_until_expiry": 55
+  },
+  {
+    "product_code": "3760049798609",
+    "stock_quantity": 54,
+    "avg_daily_sales": 5.4,
+    "expiry_date": "2026-09-03",
+    "days_until_expiry": 45
+  },
+  {
+    "product_code": "3168930010265",
+    "stock_quantity": 56,
+    "avg_daily_sales": 5.6,
+    "expiry_date": "2026-09-11",
+    "days_until_expiry": 53
+  },
+  {
+    "product_code": "3228857002344",
+    "stock_quantity": 54,
+    "avg_daily_sales": 5.4,
+    "expiry_date": "2026-09-17",
+    "days_until_expiry": 59
+  },
+  {
+    "product_code": "7311070032611",
+    "stock_quantity": 56,
+    "avg_daily_sales": 5.6,
+    "expiry_date": "2026-09-04",
+    "days_until_expiry": 46
+  },
+  {
+    "product_code": "3029330022428",
+    "stock_quantity": 56,
+    "avg_daily_sales": 5.6,
+    "expiry_date": "2026-08-05",
+    "days_until_expiry": 16
+  },
+  {
+    "product_code": "3760049794298",
+    "stock_quantity": 53,
+    "avg_daily_sales": 5.3,
+    "expiry_date": "2026-07-22",
+    "days_until_expiry": 2
+  },
+  {
+    "product_code": "3229820160672",
+    "stock_quantity": 54,
+    "avg_daily_sales": 5.4,
+    "expiry_date": "2026-07-23",
+    "days_until_expiry": 3
+  },
+  {
+    "product_code": "3760049791006",
+    "stock_quantity": 53,
+    "avg_daily_sales": 5.3,
+    "expiry_date": "2026-07-21",
+    "days_until_expiry": 1
+  },
+  {
+    "product_code": "3229820019307",
+    "stock_quantity": 53,
+    "avg_daily_sales": 5.3,
+    "expiry_date": "2026-08-22",
+    "days_until_expiry": 33
+  },
+  {
+    "product_code": "3229820129488",
+    "stock_quantity": 55,
+    "avg_daily_sales": 5.5,
+    "expiry_date": "2026-09-12",
+    "days_until_expiry": 54
+  },
+  {
+    "product_code": "3387390123210",
+    "stock_quantity": 56,
+    "avg_daily_sales": 5.6,
+    "expiry_date": "2026-09-15",
+    "days_until_expiry": 57
+  },
+  {
+    "product_code": "5010477348678",
+    "stock_quantity": 53,
+    "avg_daily_sales": 5.3,
+    "expiry_date": "2026-09-10",
+    "days_until_expiry": 52
+  },
+  {
+    "product_code": "3229820782560",
+    "stock_quantity": 55,
+    "avg_daily_sales": 5.5,
+    "expiry_date": "2026-08-14",
+    "days_until_expiry": 25
+  },
+  {
+    "product_code": "7613036669146",
+    "stock_quantity": 55,
+    "avg_daily_sales": 5.5,
+    "expiry_date": "2026-07-21",
+    "days_until_expiry": 1
+  },
+  {
+    "product_code": "3228857000166",
+    "stock_quantity": 54,
+    "avg_daily_sales": 5.4,
+    "expiry_date": "2026-09-11",
+    "days_until_expiry": 53
+  },
+  {
+    "product_code": "5010029000023",
+    "stock_quantity": 55,
+    "avg_daily_sales": 5.5,
+    "expiry_date": "2026-07-21",
+    "days_until_expiry": 1
+  },
+  {
+    "product_code": "4056489007180",
+    "stock_quantity": 54,
+    "avg_daily_sales": 5.4,
+    "expiry_date": "2026-08-24",
+    "days_until_expiry": 35
+  },
+  {
+    "product_code": "5010477348357",
+    "stock_quantity": 55,
+    "avg_daily_sales": 5.5,
+    "expiry_date": "2026-08-24",
+    "days_until_expiry": 35
+  },
+  {
+    "product_code": "3228857002245",
+    "stock_quantity": 55,
+    "avg_daily_sales": 5.5,
+    "expiry_date": "2026-09-16",
+    "days_until_expiry": 58
+  },
+  {
+    "product_code": "3159470000120",
+    "stock_quantity": 54,
+    "avg_daily_sales": 5.4,
+    "expiry_date": "2026-08-19",
+    "days_until_expiry": 30
+  },
+  {
+    "product_code": "3229820769165",
+    "stock_quantity": 56,
+    "avg_daily_sales": 5.6,
+    "expiry_date": "2026-09-10",
+    "days_until_expiry": 52
+  },
+  {
+    "product_code": "3168930010906",
+    "stock_quantity": 54,
+    "avg_daily_sales": 5.4,
+    "expiry_date": "2026-08-08",
+    "days_until_expiry": 19
+  },
+  {
+    "product_code": "3760049790252",
+    "stock_quantity": 54,
+    "avg_daily_sales": 5.4,
+    "expiry_date": "2026-08-21",
+    "days_until_expiry": 32
+  },
+  {
+    "product_code": "3228857001194",
+    "stock_quantity": 58,
+    "avg_daily_sales": 5.8,
+    "expiry_date": "2026-08-23",
+    "days_until_expiry": 34
+  },
+  {
+    "product_code": "3760049798869",
+    "stock_quantity": 53,
+    "avg_daily_sales": 5.3,
+    "expiry_date": "2026-08-07",
+    "days_until_expiry": 18
+  },
+  {
+    "product_code": "3168930009078",
+    "stock_quantity": 52,
+    "avg_daily_sales": 5.2,
+    "expiry_date": "2026-07-22",
+    "days_until_expiry": 2
+  },
+  {
+    "product_code": "3228857000852",
+    "stock_quantity": 56,
+    "avg_daily_sales": 5.6,
+    "expiry_date": "2026-08-18",
+    "days_until_expiry": 29
+  },
+  {
+    "product_code": "3228857002184",
+    "stock_quantity": 51,
+    "avg_daily_sales": 5.1,
+    "expiry_date": "2026-08-05",
+    "days_until_expiry": 16
+  },
+  {
+    "product_code": "20003166",
+    "stock_quantity": 53,
+    "avg_daily_sales": 5.3,
+    "expiry_date": "2026-08-27",
+    "days_until_expiry": 38
+  },
+  {
+    "product_code": "3760049798029",
+    "stock_quantity": 54,
+    "avg_daily_sales": 5.4,
+    "expiry_date": "2026-08-15",
+    "days_until_expiry": 26
+  },
+  {
+    "product_code": "3228857002221",
+    "stock_quantity": 56,
+    "avg_daily_sales": 5.6,
+    "expiry_date": "2026-08-26",
+    "days_until_expiry": 37
+  },
+  {
+    "product_code": "3760049795479",
+    "stock_quantity": 56,
+    "avg_daily_sales": 5.6,
+    "expiry_date": "2026-08-10",
+    "days_until_expiry": 21
+  },
+  {
+    "product_code": "3240931548111",
+    "stock_quantity": 56,
+    "avg_daily_sales": 5.6,
+    "expiry_date": "2026-09-12",
+    "days_until_expiry": 54
+  },
+  {
+    "product_code": "7311070032598",
+    "stock_quantity": 58,
+    "avg_daily_sales": 5.8,
+    "expiry_date": "2026-08-31",
+    "days_until_expiry": 42
+  },
+  {
+    "product_code": "3228857002351",
+    "stock_quantity": 56,
+    "avg_daily_sales": 5.6,
+    "expiry_date": "2026-07-22",
+    "days_until_expiry": 2
+  },
+  {
+    "product_code": "3229820019192",
+    "stock_quantity": 51,
+    "avg_daily_sales": 5.1,
+    "expiry_date": "2026-08-17",
+    "days_until_expiry": 28
+  },
+  {
+    "product_code": "3760049798845",
+    "stock_quantity": 54,
+    "avg_daily_sales": 5.4,
+    "expiry_date": "2026-07-21",
+    "days_until_expiry": 1
+  },
+  {
+    "product_code": "3017760542890",
+    "stock_quantity": 58,
+    "avg_daily_sales": 5.8,
+    "expiry_date": "2026-07-21",
+    "days_until_expiry": 1
+  },
+  {
+    "product_code": "5010477348630",
+    "stock_quantity": 56,
+    "avg_daily_sales": 5.6,
+    "expiry_date": "2026-08-17",
+    "days_until_expiry": 28
+  },
+  {
+    "product_code": "3182180001477",
+    "stock_quantity": 53,
+    "avg_daily_sales": 5.3,
+    "expiry_date": "2026-07-21",
+    "days_until_expiry": 1
+  },
+  {
+    "product_code": "3168930009795",
+    "stock_quantity": 51,
+    "avg_daily_sales": 5.1,
+    "expiry_date": "2026-09-15",
+    "days_until_expiry": 57
+  },
+  {
+    "product_code": "3392460480827",
+    "stock_quantity": 53,
+    "avg_daily_sales": 5.3,
+    "expiry_date": "2026-08-25",
+    "days_until_expiry": 36
+  },
+  {
+    "product_code": "7613035449626",
+    "stock_quantity": 53,
+    "avg_daily_sales": 5.3,
+    "expiry_date": "2026-08-15",
+    "days_until_expiry": 26
+  },
+  {
+    "product_code": "4056489039518",
+    "stock_quantity": 52,
+    "avg_daily_sales": 5.2,
+    "expiry_date": "2026-08-19",
+    "days_until_expiry": 30
+  },
+  {
+    "product_code": "8410076470812",
+    "stock_quantity": 53,
+    "avg_daily_sales": 5.3,
+    "expiry_date": "2026-09-01",
+    "days_until_expiry": 43
+  },
+  {
+    "product_code": "5010477348395",
+    "stock_quantity": 51,
+    "avg_daily_sales": 5.1,
+    "expiry_date": "2026-09-11",
+    "days_until_expiry": 53
+  },
+  {
+    "product_code": "3182180001996",
+    "stock_quantity": 53,
+    "avg_daily_sales": 5.3,
+    "expiry_date": "2026-08-24",
+    "days_until_expiry": 35
+  },
+  {
+    "product_code": "5025125000006",
+    "stock_quantity": 52,
+    "avg_daily_sales": 5.2,
+    "expiry_date": "2026-08-28",
+    "days_until_expiry": 39
+  },
+  {
+    "product_code": "4056489235798",
+    "stock_quantity": 54,
+    "avg_daily_sales": 5.4,
+    "expiry_date": "2026-09-16",
+    "days_until_expiry": 58
+  },
+  {
+    "product_code": "3229820794648",
+    "stock_quantity": 56,
+    "avg_daily_sales": 5.6,
+    "expiry_date": "2026-08-05",
+    "days_until_expiry": 16
+  },
+  {
+    "product_code": "7311070032604",
+    "stock_quantity": 56,
+    "avg_daily_sales": 5.6,
+    "expiry_date": "2026-09-04",
+    "days_until_expiry": 46
+  },
+  {
+    "product_code": "8712100338694",
+    "stock_quantity": 56,
+    "avg_daily_sales": 5.6,
+    "expiry_date": "2026-08-04",
+    "days_until_expiry": 15
+  },
+  {
+    "product_code": "3228857000883",
+    "stock_quantity": 53,
+    "avg_daily_sales": 5.3,
+    "expiry_date": "2026-08-19",
+    "days_until_expiry": 30
+  },
+  {
+    "product_code": "5010477348517",
+    "stock_quantity": 53,
+    "avg_daily_sales": 5.3,
+    "expiry_date": "2026-09-01",
+    "days_until_expiry": 43
+  },
+  {
+    "product_code": "3168930002987",
+    "stock_quantity": 56,
+    "avg_daily_sales": 5.6,
+    "expiry_date": "2026-08-26",
+    "days_until_expiry": 37
+  },
+  {
+    "product_code": "3760049794373",
+    "stock_quantity": 56,
+    "avg_daily_sales": 5.6,
+    "expiry_date": "2026-09-12",
+    "days_until_expiry": 54
+  },
+  {
+    "product_code": "20171841",
+    "stock_quantity": 51,
+    "avg_daily_sales": 5.1,
+    "expiry_date": "2026-08-28",
+    "days_until_expiry": 39
+  },
+  {
+    "product_code": "3182180002115",
+    "stock_quantity": 54,
+    "avg_daily_sales": 5.4,
+    "expiry_date": "2026-08-26",
+    "days_until_expiry": 37
+  },
+  {
+    "product_code": "8410076472953",
+    "stock_quantity": 56,
+    "avg_daily_sales": 5.6,
+    "expiry_date": "2026-08-22",
+    "days_until_expiry": 33
+  },
+  {
+    "product_code": "3240931548135",
+    "stock_quantity": 54,
+    "avg_daily_sales": 5.4,
+    "expiry_date": "2026-08-25",
+    "days_until_expiry": 36
+  },
+  {
+    "product_code": "3760049799408",
+    "stock_quantity": 55,
+    "avg_daily_sales": 5.5,
+    "expiry_date": "2026-08-17",
+    "days_until_expiry": 28
+  },
+  {
+    "product_code": "3229820798110",
+    "stock_quantity": 55,
+    "avg_daily_sales": 5.5,
+    "expiry_date": "2026-09-02",
+    "days_until_expiry": 44
+  },
+  {
+    "product_code": "3229820797861",
+    "stock_quantity": 56,
+    "avg_daily_sales": 5.6,
+    "expiry_date": "2026-09-10",
+    "days_until_expiry": 52
+  },
+  {
+    "product_code": "4008713713411",
+    "stock_quantity": 52,
+    "avg_daily_sales": 5.2,
+    "expiry_date": "2026-09-11",
+    "days_until_expiry": 53
+  },
+  {
+    "product_code": "7311070362664",
+    "stock_quantity": 54,
+    "avg_daily_sales": 5.4,
+    "expiry_date": "2026-09-05",
+    "days_until_expiry": 47
+  },
+  {
+    "product_code": "5059319023762",
+    "stock_quantity": 53,
+    "avg_daily_sales": 5.3,
+    "expiry_date": "2026-08-21",
+    "days_until_expiry": 32
+  },
+  {
+    "product_code": "5010029229110",
+    "stock_quantity": 52,
+    "avg_daily_sales": 5.2,
+    "expiry_date": "2026-07-22",
+    "days_until_expiry": 2
+  },
+  {
+    "product_code": "8076800195057",
+    "stock_quantity": 53,
+    "avg_daily_sales": 5.3,
+    "expiry_date": "2026-07-23",
+    "days_until_expiry": 3
+  },
+  {
+    "product_code": "3017760363990",
+    "stock_quantity": 56,
+    "avg_daily_sales": 5.6,
+    "expiry_date": "2026-08-17",
+    "days_until_expiry": 28
+  },
+  {
+    "product_code": "5025125000037",
+    "stock_quantity": 55,
+    "avg_daily_sales": 5.5,
+    "expiry_date": "2026-07-21",
+    "days_until_expiry": 1
+  },
+  {
+    "product_code": "3421557501722",
+    "stock_quantity": 56,
+    "avg_daily_sales": 5.6,
+    "expiry_date": "2026-07-23",
+    "days_until_expiry": 3
+  },
+  {
+    "product_code": "3421557501975",
+    "stock_quantity": 53,
+    "avg_daily_sales": 5.3,
+    "expiry_date": "2026-08-16",
+    "days_until_expiry": 27
+  },
+  {
+    "product_code": "3229820786605",
+    "stock_quantity": 52,
+    "avg_daily_sales": 5.2,
+    "expiry_date": "2026-08-22",
+    "days_until_expiry": 33
+  },
+  {
+    "product_code": "3240931548128",
+    "stock_quantity": 56,
+    "avg_daily_sales": 5.6,
+    "expiry_date": "2026-08-10",
+    "days_until_expiry": 21
+  },
+  {
+    "product_code": "3168930003632",
+    "stock_quantity": 56,
+    "avg_daily_sales": 5.6,
+    "expiry_date": "2026-08-25",
+    "days_until_expiry": 36
+  },
+  {
+    "product_code": "3029330022411",
+    "stock_quantity": 58,
+    "avg_daily_sales": 5.8,
+    "expiry_date": "2026-08-05",
+    "days_until_expiry": 16
+  },
+  {
+    "product_code": "3229820116716",
+    "stock_quantity": 56,
+    "avg_daily_sales": 5.6,
+    "expiry_date": "2026-09-18",
+    "days_until_expiry": 60
+  },
+  {
+    "product_code": "3019081238643",
+    "stock_quantity": 56,
+    "avg_daily_sales": 5.6,
+    "expiry_date": "2026-08-21",
+    "days_until_expiry": 32
+  },
+  {
+    "product_code": "3083681095296",
+    "stock_quantity": 56,
+    "avg_daily_sales": 5.6,
+    "expiry_date": "2026-09-02",
+    "days_until_expiry": 44
+  },
+  {
+    "product_code": "3083680973939",
+    "stock_quantity": 55,
+    "avg_daily_sales": 5.5,
+    "expiry_date": "2026-08-04",
+    "days_until_expiry": 15
+  },
+  {
+    "product_code": "5000157024671",
+    "stock_quantity": 59,
+    "avg_daily_sales": 5.9,
+    "expiry_date": "2026-08-10",
+    "days_until_expiry": 21
+  },
+  {
+    "product_code": "6111162000181",
+    "stock_quantity": 55,
+    "avg_daily_sales": 5.5,
+    "expiry_date": "2026-08-26",
+    "days_until_expiry": 37
+  },
+  {
+    "product_code": "8410111211202",
+    "stock_quantity": 51,
+    "avg_daily_sales": 5.1,
+    "expiry_date": "2026-08-30",
+    "days_until_expiry": 41
+  },
+  {
+    "product_code": "3083680613576",
+    "stock_quantity": 53,
+    "avg_daily_sales": 5.3,
+    "expiry_date": "2026-08-26",
+    "days_until_expiry": 37
+  },
+  {
+    "product_code": "3083681093926",
+    "stock_quantity": 55,
+    "avg_daily_sales": 5.5,
+    "expiry_date": "2026-09-09",
+    "days_until_expiry": 51
+  },
+  {
+    "product_code": "6111162001201",
+    "stock_quantity": 56,
+    "avg_daily_sales": 5.6,
+    "expiry_date": "2026-08-16",
+    "days_until_expiry": 27
+  },
+  {
+    "product_code": "6111021090049",
+    "stock_quantity": 53,
+    "avg_daily_sales": 5.3,
+    "expiry_date": "2026-08-31",
+    "days_until_expiry": 42
+  },
+  {
+    "product_code": "3083680901024",
+    "stock_quantity": 54,
+    "avg_daily_sales": 5.4,
+    "expiry_date": "2026-08-08",
+    "days_until_expiry": 19
+  },
+  {
+    "product_code": "3263670162219",
+    "stock_quantity": 56,
+    "avg_daily_sales": 5.6,
+    "expiry_date": "2026-08-19",
+    "days_until_expiry": 30
+  },
+  {
+    "product_code": "8410111000707",
+    "stock_quantity": 51,
+    "avg_daily_sales": 5.1,
+    "expiry_date": "2026-08-14",
+    "days_until_expiry": 25
+  },
+  {
+    "product_code": "3165950211726",
+    "stock_quantity": 54,
+    "avg_daily_sales": 5.4,
+    "expiry_date": "2026-07-23",
+    "days_until_expiry": 3
+  },
+  {
+    "product_code": "20004132",
+    "stock_quantity": 54,
+    "avg_daily_sales": 5.4,
+    "expiry_date": "2026-07-22",
+    "days_until_expiry": 2
+  },
+  {
+    "product_code": "3083681094459",
+    "stock_quantity": 54,
+    "avg_daily_sales": 5.4,
+    "expiry_date": "2026-08-06",
+    "days_until_expiry": 17
+  },
+  {
+    "product_code": "3021690201116",
+    "stock_quantity": 55,
+    "avg_daily_sales": 5.5,
+    "expiry_date": "2026-08-31",
+    "days_until_expiry": 42
+  },
+  {
+    "product_code": "3019081241582",
+    "stock_quantity": 51,
+    "avg_daily_sales": 5.1,
+    "expiry_date": "2026-07-23",
+    "days_until_expiry": 3
+  },
+  {
+    "product_code": "3019081241216",
+    "stock_quantity": 56,
+    "avg_daily_sales": 5.6,
+    "expiry_date": "2026-07-23",
+    "days_until_expiry": 3
+  },
+  {
+    "product_code": "6111021090100",
+    "stock_quantity": 56,
+    "avg_daily_sales": 5.6,
+    "expiry_date": "2026-09-04",
+    "days_until_expiry": 46
+  },
+  {
+    "product_code": "3307130803004",
+    "stock_quantity": 56,
+    "avg_daily_sales": 5.6,
+    "expiry_date": "2026-07-22",
+    "days_until_expiry": 2
+  },
+  {
+    "product_code": "3019081241193",
+    "stock_quantity": 57,
+    "avg_daily_sales": 5.7,
+    "expiry_date": "2026-09-12",
+    "days_until_expiry": 54
+  },
+  {
+    "product_code": "6111260550595",
+    "stock_quantity": 54,
+    "avg_daily_sales": 5.4,
+    "expiry_date": "2026-08-13",
+    "days_until_expiry": 24
+  },
+  {
+    "product_code": "3165958350014",
+    "stock_quantity": 55,
+    "avg_daily_sales": 5.5,
+    "expiry_date": "2026-09-18",
+    "days_until_expiry": 60
+  },
+  {
+    "product_code": "3083681001808",
+    "stock_quantity": 53,
+    "avg_daily_sales": 5.3,
+    "expiry_date": "2026-08-29",
+    "days_until_expiry": 40
+  },
+  {
+    "product_code": "6111162001102",
+    "stock_quantity": 55,
+    "avg_daily_sales": 5.5,
+    "expiry_date": "2026-08-21",
+    "days_until_expiry": 32
+  },
+  {
+    "product_code": "3263670115819",
+    "stock_quantity": 55,
+    "avg_daily_sales": 5.5,
+    "expiry_date": "2026-08-17",
+    "days_until_expiry": 28
+  },
+  {
+    "product_code": "3019089043584",
+    "stock_quantity": 54,
+    "avg_daily_sales": 5.4,
+    "expiry_date": "2026-08-24",
+    "days_until_expiry": 35
+  },
+  {
+    "product_code": "3165950216011",
+    "stock_quantity": 56,
+    "avg_daily_sales": 5.6,
+    "expiry_date": "2026-08-24",
+    "days_until_expiry": 35
+  },
+  {
+    "product_code": "3083681094923",
+    "stock_quantity": 55,
+    "avg_daily_sales": 5.5,
+    "expiry_date": "2026-08-31",
+    "days_until_expiry": 42
+  },
+  {
+    "product_code": "3019081241230",
+    "stock_quantity": 56,
+    "avg_daily_sales": 5.6,
+    "expiry_date": "2026-08-26",
+    "days_until_expiry": 37
+  },
+  {
+    "product_code": "4056489254683",
+    "stock_quantity": 52,
+    "avg_daily_sales": 5.2,
+    "expiry_date": "2026-08-28",
+    "days_until_expiry": 39
+  },
+  {
+    "product_code": "3165957058010",
+    "stock_quantity": 54,
+    "avg_daily_sales": 5.4,
+    "expiry_date": "2026-08-11",
+    "days_until_expiry": 22
+  },
+  {
+    "product_code": "80042563",
+    "stock_quantity": 54,
+    "avg_daily_sales": 5.4,
+    "expiry_date": "2026-08-04",
+    "days_until_expiry": 15
+  },
+  {
+    "product_code": "3263670128215",
+    "stock_quantity": 54,
+    "avg_daily_sales": 5.4,
+    "expiry_date": "2026-09-16",
+    "days_until_expiry": 58
+  },
+  {
+    "product_code": "3083680652094",
+    "stock_quantity": 56,
+    "avg_daily_sales": 5.6,
+    "expiry_date": "2026-08-09",
+    "days_until_expiry": 20
+  },
+  {
+    "product_code": "8712566246496",
+    "stock_quantity": 55,
+    "avg_daily_sales": 5.5,
+    "expiry_date": "2026-08-19",
+    "days_until_expiry": 30
+  },
+  {
+    "product_code": "3083681029994",
+    "stock_quantity": 52,
+    "avg_daily_sales": 5.2,
+    "expiry_date": "2026-08-16",
+    "days_until_expiry": 27
+  },
+  {
+    "product_code": "3019081238698",
+    "stock_quantity": 55,
+    "avg_daily_sales": 5.5,
+    "expiry_date": "2026-08-30",
+    "days_until_expiry": 41
+  },
+  {
+    "product_code": "3083681085860",
+    "stock_quantity": 53,
+    "avg_daily_sales": 5.3,
+    "expiry_date": "2026-09-18",
+    "days_until_expiry": 60
+  },
+  {
+    "product_code": "6111021022002",
+    "stock_quantity": 53,
+    "avg_daily_sales": 5.3,
+    "expiry_date": "2026-08-18",
+    "days_until_expiry": 29
+  },
+  {
+    "product_code": "3165950049015",
+    "stock_quantity": 53,
+    "avg_daily_sales": 5.3,
+    "expiry_date": "2026-08-18",
+    "days_until_expiry": 29
+  },
+  {
+    "product_code": "3083681057843",
+    "stock_quantity": 56,
+    "avg_daily_sales": 5.6,
+    "expiry_date": "2026-08-30",
+    "days_until_expiry": 41
+  },
+  {
+    "product_code": "3083680085335",
+    "stock_quantity": 53,
+    "avg_daily_sales": 5.3,
+    "expiry_date": "2026-09-03",
+    "days_until_expiry": 45
+  },
+  {
+    "product_code": "3263670126518",
+    "stock_quantity": 55,
+    "avg_daily_sales": 5.5,
+    "expiry_date": "2026-07-23",
+    "days_until_expiry": 3
+  },
+  {
+    "product_code": "8480000180186",
+    "stock_quantity": 55,
+    "avg_daily_sales": 5.5,
+    "expiry_date": "2026-08-15",
+    "days_until_expiry": 26
+  },
+  {
+    "product_code": "3083680918497",
+    "stock_quantity": 54,
+    "avg_daily_sales": 5.4,
+    "expiry_date": "2026-08-04",
+    "days_until_expiry": 15
+  },
+  {
+    "product_code": "3017800509937",
+    "stock_quantity": 54,
+    "avg_daily_sales": 5.4,
+    "expiry_date": "2026-08-12",
+    "days_until_expiry": 23
+  },
+  {
+    "product_code": "20198107",
+    "stock_quantity": 55,
+    "avg_daily_sales": 5.5,
+    "expiry_date": "2026-09-08",
+    "days_until_expiry": 50
+  },
+  {
+    "product_code": "3263670126419",
+    "stock_quantity": 56,
+    "avg_daily_sales": 5.6,
+    "expiry_date": "2026-08-16",
+    "days_until_expiry": 27
+  },
+  {
+    "product_code": "3038352880305",
+    "stock_quantity": 53,
+    "avg_daily_sales": 5.3,
+    "expiry_date": "2026-08-18",
+    "days_until_expiry": 29
+  },
+  {
+    "product_code": "20468583",
+    "stock_quantity": 54,
+    "avg_daily_sales": 5.4,
+    "expiry_date": "2026-09-17",
+    "days_until_expiry": 59
+  },
+  {
+    "product_code": "40122274",
+    "stock_quantity": 55,
+    "avg_daily_sales": 5.5,
+    "expiry_date": "2026-08-12",
+    "days_until_expiry": 23
+  },
+  {
+    "product_code": "3478822005249",
+    "stock_quantity": 57,
+    "avg_daily_sales": 5.7,
+    "expiry_date": "2026-08-04",
+    "days_until_expiry": 15
+  },
+  {
+    "product_code": "0769503575261",
+    "stock_quantity": 57,
+    "avg_daily_sales": 5.7,
+    "expiry_date": "2026-08-12",
+    "days_until_expiry": 23
+  },
+  {
+    "product_code": "3019081238704",
+    "stock_quantity": 56,
+    "avg_daily_sales": 5.6,
+    "expiry_date": "2026-09-15",
+    "days_until_expiry": 57
+  },
+  {
+    "product_code": "3478820023757",
+    "stock_quantity": 51,
+    "avg_daily_sales": 5.1,
+    "expiry_date": "2026-08-21",
+    "days_until_expiry": 32
+  },
+  {
+    "product_code": "8480000180025",
+    "stock_quantity": 56,
+    "avg_daily_sales": 5.6,
+    "expiry_date": "2026-08-05",
+    "days_until_expiry": 16
+  },
+  {
+    "product_code": "3341430551449",
+    "stock_quantity": 54,
+    "avg_daily_sales": 5.4,
+    "expiry_date": "2026-09-15",
+    "days_until_expiry": 57
+  },
+  {
+    "product_code": "20153229",
+    "stock_quantity": 53,
+    "avg_daily_sales": 5.3,
+    "expiry_date": "2026-09-18",
+    "days_until_expiry": 60
+  },
+  {
+    "product_code": "3478820023726",
+    "stock_quantity": 54,
+    "avg_daily_sales": 5.4,
+    "expiry_date": "2026-09-02",
+    "days_until_expiry": 44
+  },
+  {
+    "product_code": "3038352880206",
+    "stock_quantity": 54,
+    "avg_daily_sales": 5.4,
+    "expiry_date": "2026-08-28",
+    "days_until_expiry": 39
+  },
+  {
+    "product_code": "3165957822017",
+    "stock_quantity": 54,
+    "avg_daily_sales": 5.4,
+    "expiry_date": "2026-08-22",
+    "days_until_expiry": 33
+  },
+  {
+    "product_code": "3478820003193",
+    "stock_quantity": 55,
+    "avg_daily_sales": 5.5,
+    "expiry_date": "2026-09-10",
+    "days_until_expiry": 52
+  },
+  {
+    "product_code": "3083681095319",
+    "stock_quantity": 54,
+    "avg_daily_sales": 5.4,
+    "expiry_date": "2026-08-25",
+    "days_until_expiry": 36
+  },
+  {
+    "product_code": "3245413808196",
+    "stock_quantity": 52,
+    "avg_daily_sales": 5.2,
+    "expiry_date": "2026-09-13",
+    "days_until_expiry": 55
+  },
+  {
+    "product_code": "8005110170300",
+    "stock_quantity": 54,
+    "avg_daily_sales": 5.4,
+    "expiry_date": "2026-07-22",
+    "days_until_expiry": 2
+  },
+  {
+    "product_code": "20522605",
+    "stock_quantity": 55,
+    "avg_daily_sales": 5.5,
+    "expiry_date": "2026-08-04",
+    "days_until_expiry": 15
+  },
+  {
+    "product_code": "3083681027860",
+    "stock_quantity": 55,
+    "avg_daily_sales": 5.5,
+    "expiry_date": "2026-08-25",
+    "days_until_expiry": 36
+  },
+  {
+    "product_code": "3263670113815",
+    "stock_quantity": 53,
+    "avg_daily_sales": 5.3,
+    "expiry_date": "2026-08-12",
+    "days_until_expiry": 23
+  },
+  {
+    "product_code": "0769503575445",
+    "stock_quantity": 55,
+    "avg_daily_sales": 5.5,
+    "expiry_date": "2026-09-04",
+    "days_until_expiry": 46
+  },
+  {
+    "product_code": "3083680025881",
+    "stock_quantity": 56,
+    "avg_daily_sales": 5.6,
+    "expiry_date": "2026-08-24",
+    "days_until_expiry": 35
+  },
+  {
+    "product_code": "20443375",
+    "stock_quantity": 56,
+    "avg_daily_sales": 5.6,
+    "expiry_date": "2026-08-23",
+    "days_until_expiry": 34
+  },
+  {
+    "product_code": "3083681085891",
+    "stock_quantity": 55,
+    "avg_daily_sales": 5.5,
+    "expiry_date": "2026-08-11",
+    "days_until_expiry": 22
+  },
+  {
+    "product_code": "3019081239626",
+    "stock_quantity": 57,
+    "avg_daily_sales": 5.7,
+    "expiry_date": "2026-08-07",
+    "days_until_expiry": 18
+  },
+  {
+    "product_code": "3261055930439",
+    "stock_quantity": 53,
+    "avg_daily_sales": 5.3,
+    "expiry_date": "2026-08-27",
+    "days_until_expiry": 38
+  },
+  {
+    "product_code": "3019081238728",
+    "stock_quantity": 55,
+    "avg_daily_sales": 5.5,
+    "expiry_date": "2026-09-11",
+    "days_until_expiry": 53
+  },
+  {
+    "product_code": "3019081239640",
+    "stock_quantity": 52,
+    "avg_daily_sales": 5.2,
+    "expiry_date": "2026-08-06",
+    "days_until_expiry": 17
+  },
+  {
+    "product_code": "3341430490380",
+    "stock_quantity": 56,
+    "avg_daily_sales": 5.6,
+    "expiry_date": "2026-08-13",
+    "days_until_expiry": 24
+  },
+  {
+    "product_code": "3175681281936",
+    "stock_quantity": 56,
+    "avg_daily_sales": 5.6,
+    "expiry_date": "2026-08-22",
+    "days_until_expiry": 33
+  },
+  {
+    "product_code": "3017800078846",
+    "stock_quantity": 57,
+    "avg_daily_sales": 5.7,
+    "expiry_date": "2026-07-22",
+    "days_until_expiry": 2
+  },
+  {
+    "product_code": "6111162000464",
+    "stock_quantity": 53,
+    "avg_daily_sales": 5.3,
+    "expiry_date": "2026-08-11",
+    "days_until_expiry": 22
+  },
+  {
+    "product_code": "8712566246526",
+    "stock_quantity": 54,
+    "avg_daily_sales": 5.4,
+    "expiry_date": "2026-09-16",
+    "days_until_expiry": 58
+  },
+  {
+    "product_code": "3564707081023",
+    "stock_quantity": 55,
+    "avg_daily_sales": 5.5,
+    "expiry_date": "2026-09-02",
+    "days_until_expiry": 44
+  },
+  {
+    "product_code": "20290221",
+    "stock_quantity": 51,
+    "avg_daily_sales": 5.1,
+    "expiry_date": "2026-09-04",
+    "days_until_expiry": 46
+  },
+  {
+    "product_code": "20703622",
+    "stock_quantity": 57,
+    "avg_daily_sales": 5.7,
+    "expiry_date": "2026-09-18",
+    "days_until_expiry": 60
+  },
+  {
+    "product_code": "3019081239862",
+    "stock_quantity": 56,
+    "avg_daily_sales": 5.6,
+    "expiry_date": "2026-08-26",
+    "days_until_expiry": 37
+  },
+  {
+    "product_code": "3261055930422",
+    "stock_quantity": 55,
+    "avg_daily_sales": 5.5,
+    "expiry_date": "2026-07-23",
+    "days_until_expiry": 3
+  },
+  {
+    "product_code": "3478820031479",
+    "stock_quantity": 57,
+    "avg_daily_sales": 5.7,
+    "expiry_date": "2026-08-11",
+    "days_until_expiry": 22
+  },
+  {
+    "product_code": "3564700747322",
+    "stock_quantity": 54,
+    "avg_daily_sales": 5.4,
+    "expiry_date": "2026-08-27",
+    "days_until_expiry": 38
+  },
+  {
+    "product_code": "3083681085990",
+    "stock_quantity": 55,
+    "avg_daily_sales": 5.5,
+    "expiry_date": "2026-09-14",
+    "days_until_expiry": 56
+  },
+  {
+    "product_code": "3083680482042",
+    "stock_quantity": 55,
+    "avg_daily_sales": 5.5,
+    "expiry_date": "2026-08-04",
+    "days_until_expiry": 15
+  },
+  {
+    "product_code": "3019081238650",
+    "stock_quantity": 55,
+    "avg_daily_sales": 5.5,
+    "expiry_date": "2026-08-12",
+    "days_until_expiry": 23
+  },
+  {
+    "product_code": "3165958535015",
+    "stock_quantity": 52,
+    "avg_daily_sales": 5.2,
+    "expiry_date": "2026-08-13",
+    "days_until_expiry": 24
+  },
+  {
+    "product_code": "3083681040609",
+    "stock_quantity": 54,
+    "avg_daily_sales": 5.4,
+    "expiry_date": "2026-08-10",
+    "days_until_expiry": 21
+  },
+  {
+    "product_code": "8005110171710",
+    "stock_quantity": 52,
+    "avg_daily_sales": 5.2,
+    "expiry_date": "2026-08-15",
+    "days_until_expiry": 26
+  },
+  {
+    "product_code": "3263670434910",
+    "stock_quantity": 57,
+    "avg_daily_sales": 5.7,
+    "expiry_date": "2026-08-10",
+    "days_until_expiry": 21
+  },
+  {
+    "product_code": "6111162000402",
+    "stock_quantity": 56,
+    "avg_daily_sales": 5.6,
+    "expiry_date": "2026-09-10",
+    "days_until_expiry": 52
+  },
+  {
+    "product_code": "8005110005404",
+    "stock_quantity": 54,
+    "avg_daily_sales": 5.4,
+    "expiry_date": "2026-09-04",
+    "days_until_expiry": 46
+  },
+  {
+    "product_code": "3017620422003",
+    "stock_quantity": 55,
+    "avg_daily_sales": 5.5,
+    "expiry_date": "2026-09-10",
+    "days_until_expiry": 52
+  },
+  {
+    "product_code": "3760020507350",
+    "stock_quantity": 54,
+    "avg_daily_sales": 5.4,
+    "expiry_date": "2026-08-26",
+    "days_until_expiry": 37
+  },
+  {
+    "product_code": "8052575090254",
+    "stock_quantity": 55,
+    "avg_daily_sales": 5.5,
+    "expiry_date": "2026-08-21",
+    "days_until_expiry": 32
+  },
+  {
+    "product_code": "3017620425035",
+    "stock_quantity": 57,
+    "avg_daily_sales": 5.7,
+    "expiry_date": "2026-09-14",
+    "days_until_expiry": 56
+  },
+  {
+    "product_code": "8052575090230",
+    "stock_quantity": 54,
+    "avg_daily_sales": 5.4,
+    "expiry_date": "2026-09-05",
+    "days_until_expiry": 47
+  },
+  {
+    "product_code": "3608580065340",
+    "stock_quantity": 55,
+    "avg_daily_sales": 5.5,
+    "expiry_date": "2026-07-23",
+    "days_until_expiry": 3
+  },
+  {
+    "product_code": "3017620429484",
+    "stock_quantity": 56,
+    "avg_daily_sales": 5.6,
+    "expiry_date": "2026-07-23",
+    "days_until_expiry": 3
+  },
+  {
+    "product_code": "3608580124047",
+    "stock_quantity": 53,
+    "avg_daily_sales": 5.3,
+    "expiry_date": "2026-07-23",
+    "days_until_expiry": 3
+  },
+  {
+    "product_code": "8000500426494",
+    "stock_quantity": 53,
+    "avg_daily_sales": 5.3,
+    "expiry_date": "2026-09-05",
+    "days_until_expiry": 47
+  },
+  {
+    "product_code": "6111162000839",
+    "stock_quantity": 56,
+    "avg_daily_sales": 5.6,
+    "expiry_date": "2026-08-11",
+    "days_until_expiry": 22
+  },
+  {
+    "product_code": "6111162000716",
+    "stock_quantity": 55,
+    "avg_daily_sales": 5.5,
+    "expiry_date": "2026-08-19",
+    "days_until_expiry": 30
+  },
+  {
+    "product_code": "6111184001074",
+    "stock_quantity": 55,
+    "avg_daily_sales": 5.5,
+    "expiry_date": "2026-09-04",
+    "days_until_expiry": 46
+  },
+  {
+    "product_code": "16256163",
+    "stock_quantity": 54,
+    "avg_daily_sales": 5.4,
+    "expiry_date": "2026-09-03",
+    "days_until_expiry": 45
+  },
+  {
+    "product_code": "59032823",
+    "stock_quantity": 55,
+    "avg_daily_sales": 5.5,
+    "expiry_date": "2026-08-31",
+    "days_until_expiry": 42
+  },
+  {
+    "product_code": "6111184000213",
+    "stock_quantity": 57,
+    "avg_daily_sales": 5.7,
+    "expiry_date": "2026-08-13",
+    "days_until_expiry": 24
+  },
+  {
+    "product_code": "3330720237361",
+    "stock_quantity": 51,
+    "avg_daily_sales": 5.1,
+    "expiry_date": "2026-08-12",
+    "days_until_expiry": 23
+  },
+  {
+    "product_code": "3608580124108",
+    "stock_quantity": 53,
+    "avg_daily_sales": 5.3,
+    "expiry_date": "2026-09-08",
+    "days_until_expiry": 50
+  },
+  {
+    "product_code": "8052575090292",
+    "stock_quantity": 54,
+    "avg_daily_sales": 5.4,
+    "expiry_date": "2026-09-16",
+    "days_until_expiry": 58
+  },
+  {
+    "product_code": "8000500179864",
+    "stock_quantity": 55,
+    "avg_daily_sales": 5.5,
+    "expiry_date": "2026-08-08",
+    "days_until_expiry": 19
+  },
+  {
+    "product_code": "3033710065783",
+    "stock_quantity": 57,
+    "avg_daily_sales": 5.7,
+    "expiry_date": "2026-08-22",
+    "days_until_expiry": 33
+  },
+  {
+    "product_code": "8052575090346",
+    "stock_quantity": 56,
+    "avg_daily_sales": 5.6,
+    "expiry_date": "2026-08-06",
+    "days_until_expiry": 17
+  },
+  {
+    "product_code": "3478820023184",
+    "stock_quantity": 56,
+    "avg_daily_sales": 5.6,
+    "expiry_date": "2026-08-29",
+    "days_until_expiry": 40
+  },
+  {
+    "product_code": "3608580142966",
+    "stock_quantity": 55,
+    "avg_daily_sales": 5.5,
+    "expiry_date": "2026-08-15",
+    "days_until_expiry": 26
+  },
+  {
+    "product_code": "3608580065371",
+    "stock_quantity": 55,
+    "avg_daily_sales": 5.5,
+    "expiry_date": "2026-08-14",
+    "days_until_expiry": 25
+  },
+  {
+    "product_code": "6111162000723",
+    "stock_quantity": 53,
+    "avg_daily_sales": 5.3,
+    "expiry_date": "2026-09-18",
+    "days_until_expiry": 60
+  },
+  {
+    "product_code": "3664346312936",
+    "stock_quantity": 50,
+    "avg_daily_sales": 5.0,
+    "expiry_date": "2026-08-06",
+    "days_until_expiry": 17
+  },
+  {
+    "product_code": "3017620421006",
+    "stock_quantity": 57,
+    "avg_daily_sales": 5.7,
+    "expiry_date": "2026-08-19",
+    "days_until_expiry": 30
+  },
+  {
+    "product_code": "3175681290440",
+    "stock_quantity": 54,
+    "avg_daily_sales": 5.4,
+    "expiry_date": "2026-08-04",
+    "days_until_expiry": 15
+  },
+  {
+    "product_code": "8000500082379",
+    "stock_quantity": 57,
+    "avg_daily_sales": 5.7,
+    "expiry_date": "2026-09-02",
+    "days_until_expiry": 44
+  },
+  {
+    "product_code": "3229820796857",
+    "stock_quantity": 55,
+    "avg_daily_sales": 5.5,
+    "expiry_date": "2026-07-22",
+    "days_until_expiry": 2
+  },
+  {
+    "product_code": "7613287514325",
+    "stock_quantity": 56,
+    "avg_daily_sales": 5.6,
+    "expiry_date": "2026-08-21",
+    "days_until_expiry": 32
+  },
+  {
+    "product_code": "7613032779566",
+    "stock_quantity": 54,
+    "avg_daily_sales": 5.4,
+    "expiry_date": "2026-07-21",
+    "days_until_expiry": 1
+  },
+  {
+    "product_code": "3168930010890",
+    "stock_quantity": 54,
+    "avg_daily_sales": 5.4,
+    "expiry_date": "2026-08-23",
+    "days_until_expiry": 34
+  },
+  {
+    "product_code": "7622210713926",
+    "stock_quantity": 56,
+    "avg_daily_sales": 5.6,
+    "expiry_date": "2026-09-09",
+    "days_until_expiry": 51
+  },
+  {
+    "product_code": "5010477365316",
+    "stock_quantity": 55,
+    "avg_daily_sales": 5.5,
+    "expiry_date": "2026-07-21",
+    "days_until_expiry": 1
+  },
+  {
+    "product_code": "3421557502446",
+    "stock_quantity": 54,
+    "avg_daily_sales": 5.4,
+    "expiry_date": "2026-08-12",
+    "days_until_expiry": 23
+  },
+  {
+    "product_code": "3770008009653",
+    "stock_quantity": 54,
+    "avg_daily_sales": 5.4,
+    "expiry_date": "2026-07-23",
+    "days_until_expiry": 3
+  },
+  {
+    "product_code": "6111162000822",
+    "stock_quantity": 54,
+    "avg_daily_sales": 5.4,
+    "expiry_date": "2026-09-15",
+    "days_until_expiry": 57
+  },
+  {
+    "product_code": "3229820794556",
+    "stock_quantity": 57,
+    "avg_daily_sales": 5.7,
+    "expiry_date": "2026-08-09",
+    "days_until_expiry": 20
+  },
+  {
+    "product_code": "3387390326574",
+    "stock_quantity": 54,
+    "avg_daily_sales": 5.4,
+    "expiry_date": "2026-07-22",
+    "days_until_expiry": 2
+  },
+  {
+    "product_code": "3229820797946",
+    "stock_quantity": 55,
+    "avg_daily_sales": 5.5,
+    "expiry_date": "2026-09-15",
+    "days_until_expiry": 57
+  },
+  {
+    "product_code": "8402001010873",
+    "stock_quantity": 58,
+    "avg_daily_sales": 5.8,
+    "expiry_date": "2026-09-11",
+    "days_until_expiry": 53
+  },
+  {
+    "product_code": "6111162001164",
+    "stock_quantity": 55,
+    "avg_daily_sales": 5.5,
+    "expiry_date": "2026-07-22",
+    "days_until_expiry": 2
+  },
+  {
+    "product_code": "8000500435670",
+    "stock_quantity": 56,
+    "avg_daily_sales": 5.6,
+    "expiry_date": "2026-08-06",
+    "days_until_expiry": 17
+  },
+  {
+    "product_code": "3175681297104",
+    "stock_quantity": 54,
+    "avg_daily_sales": 5.4,
+    "expiry_date": "2026-09-14",
+    "days_until_expiry": 56
+  },
+  {
+    "product_code": "3608580823445",
+    "stock_quantity": 56,
+    "avg_daily_sales": 5.6,
+    "expiry_date": "2026-08-17",
+    "days_until_expiry": 28
+  },
+  {
+    "product_code": "5010477356277",
+    "stock_quantity": 52,
+    "avg_daily_sales": 5.2,
+    "expiry_date": "2026-08-29",
+    "days_until_expiry": 40
+  },
+  {
+    "product_code": "3608580758686",
+    "stock_quantity": 52,
+    "avg_daily_sales": 5.2,
+    "expiry_date": "2026-09-12",
+    "days_until_expiry": 54
+  },
+  {
+    "product_code": "3700278400881",
+    "stock_quantity": 53,
+    "avg_daily_sales": 5.3,
+    "expiry_date": "2026-09-07",
+    "days_until_expiry": 49
+  },
+  {
+    "product_code": "5010477354051",
+    "stock_quantity": 57,
+    "avg_daily_sales": 5.7,
+    "expiry_date": "2026-09-05",
+    "days_until_expiry": 47
+  },
+  {
+    "product_code": "3017620420702",
+    "stock_quantity": 55,
+    "avg_daily_sales": 5.5,
+    "expiry_date": "2026-08-20",
+    "days_until_expiry": 31
+  },
+  {
+    "product_code": "6111021013208",
+    "stock_quantity": 56,
+    "avg_daily_sales": 5.6,
+    "expiry_date": "2026-08-23",
+    "days_until_expiry": 34
+  },
+  {
+    "product_code": "3560071407650",
+    "stock_quantity": 54,
+    "avg_daily_sales": 5.4,
+    "expiry_date": "2026-08-12",
+    "days_until_expiry": 23
+  },
+  {
+    "product_code": "3330720244017",
+    "stock_quantity": 56,
+    "avg_daily_sales": 5.6,
+    "expiry_date": "2026-09-03",
+    "days_until_expiry": 45
+  },
+  {
+    "product_code": "8052575090247",
+    "stock_quantity": 50,
+    "avg_daily_sales": 5.0,
+    "expiry_date": "2026-08-07",
+    "days_until_expiry": 18
+  },
+  {
+    "product_code": "3088540004440",
+    "stock_quantity": 55,
+    "avg_daily_sales": 5.5,
+    "expiry_date": "2026-08-19",
+    "days_until_expiry": 30
+  },
+  {
+    "product_code": "20621469",
+    "stock_quantity": 55,
+    "avg_daily_sales": 5.5,
+    "expiry_date": "2026-09-07",
+    "days_until_expiry": 49
+  },
+  {
+    "product_code": "5010477348555",
+    "stock_quantity": 55,
+    "avg_daily_sales": 5.5,
+    "expiry_date": "2026-08-22",
+    "days_until_expiry": 33
+  },
+  {
+    "product_code": "3560070614202",
+    "stock_quantity": 55,
+    "avg_daily_sales": 5.5,
+    "expiry_date": "2026-08-05",
+    "days_until_expiry": 16
+  },
+  {
+    "product_code": "8076809513753",
+    "stock_quantity": 56,
+    "avg_daily_sales": 5.6,
+    "expiry_date": "2026-09-13",
+    "days_until_expiry": 55
+  },
+  {
+    "product_code": "6111184001562",
+    "stock_quantity": 55,
+    "avg_daily_sales": 5.5,
+    "expiry_date": "2026-08-09",
+    "days_until_expiry": 20
+  },
+  {
+    "product_code": "8076809523547",
+    "stock_quantity": 55,
+    "avg_daily_sales": 5.5,
+    "expiry_date": "2026-09-17",
+    "days_until_expiry": 59
+  },
+  {
+    "product_code": "6111184004129",
+    "stock_quantity": 53,
+    "avg_daily_sales": 5.3,
+    "expiry_date": "2026-09-08",
+    "days_until_expiry": 50
+  },
+  {
+    "product_code": "8720182556738",
+    "stock_quantity": 56,
+    "avg_daily_sales": 5.6,
+    "expiry_date": "2026-07-21",
+    "days_until_expiry": 1
+  },
+  {
+    "product_code": "6111184004730",
+    "stock_quantity": 55,
+    "avg_daily_sales": 5.5,
+    "expiry_date": "2026-09-02",
+    "days_until_expiry": 44
+  },
+  {
+    "product_code": "3175680015228",
+    "stock_quantity": 58,
+    "avg_daily_sales": 5.8,
+    "expiry_date": "2026-07-21",
+    "days_until_expiry": 1
+  },
+  {
+    "product_code": "8445290615350",
+    "stock_quantity": 54,
+    "avg_daily_sales": 5.4,
+    "expiry_date": "2026-08-15",
+    "days_until_expiry": 26
+  },
+  {
+    "product_code": "6111184001661",
+    "stock_quantity": 55,
+    "avg_daily_sales": 5.5,
+    "expiry_date": "2026-09-16",
+    "days_until_expiry": 58
+  },
+  {
+    "product_code": "8715700407760",
+    "stock_quantity": 51,
+    "avg_daily_sales": 5.1,
+    "expiry_date": "2026-09-04",
+    "days_until_expiry": 46
+  },
+  {
+    "product_code": "3033710084913",
+    "stock_quantity": 52,
+    "avg_daily_sales": 5.2,
+    "expiry_date": "2026-08-21",
+    "days_until_expiry": 32
+  },
+  {
+    "product_code": "6111251753912",
+    "stock_quantity": 56,
+    "avg_daily_sales": 5.6,
+    "expiry_date": "2026-07-22",
+    "days_until_expiry": 2
+  },
+  {
+    "product_code": "6111251753899",
+    "stock_quantity": 58,
+    "avg_daily_sales": 5.8,
+    "expiry_date": "2026-09-13",
+    "days_until_expiry": 55
+  },
+  {
+    "product_code": "3292070005161",
+    "stock_quantity": 56,
+    "avg_daily_sales": 5.6,
+    "expiry_date": "2026-09-18",
+    "days_until_expiry": 60
+  },
+  {
+    "product_code": "6111184007618",
+    "stock_quantity": 54,
+    "avg_daily_sales": 5.4,
+    "expiry_date": "2026-07-21",
+    "days_until_expiry": 1
+  },
+  {
+    "product_code": "6111184000619",
+    "stock_quantity": 52,
+    "avg_daily_sales": 5.2,
+    "expiry_date": "2026-08-15",
+    "days_until_expiry": 26
+  },
+  {
+    "product_code": "87157215",
+    "stock_quantity": 52,
+    "avg_daily_sales": 5.2,
+    "expiry_date": "2026-07-22",
+    "days_until_expiry": 2
+  },
+  {
+    "product_code": "8715035110106",
+    "stock_quantity": 53,
+    "avg_daily_sales": 5.3,
+    "expiry_date": "2026-07-23",
+    "days_until_expiry": 3
+  },
+  {
+    "product_code": "8720182460721",
+    "stock_quantity": 55,
+    "avg_daily_sales": 5.5,
+    "expiry_date": "2026-08-15",
+    "days_until_expiry": 26
+  },
+  {
+    "product_code": "3038354199603",
+    "stock_quantity": 53,
+    "avg_daily_sales": 5.3,
+    "expiry_date": "2026-07-21",
+    "days_until_expiry": 1
+  },
+  {
+    "product_code": "8076809513722",
+    "stock_quantity": 53,
+    "avg_daily_sales": 5.3,
+    "expiry_date": "2026-07-23",
+    "days_until_expiry": 3
+  },
+  {
+    "product_code": "6111184003276",
+    "stock_quantity": 57,
+    "avg_daily_sales": 5.7,
+    "expiry_date": "2026-07-22",
+    "days_until_expiry": 2
+  },
+  {
+    "product_code": "6111184000657",
+    "stock_quantity": 54,
+    "avg_daily_sales": 5.4,
+    "expiry_date": "2026-09-06",
+    "days_until_expiry": 48
+  },
+  {
+    "product_code": "8076809545396",
+    "stock_quantity": 56,
+    "avg_daily_sales": 5.6,
+    "expiry_date": "2026-09-18",
+    "days_until_expiry": 60
+  },
+  {
+    "product_code": "6111184001203",
+    "stock_quantity": 56,
+    "avg_daily_sales": 5.6,
+    "expiry_date": "2026-08-09",
+    "days_until_expiry": 20
+  },
+  {
+    "product_code": "8715700423913",
+    "stock_quantity": 56,
+    "avg_daily_sales": 5.6,
+    "expiry_date": "2026-09-18",
+    "days_until_expiry": 60
+  },
+  {
+    "product_code": "8710522922019",
+    "stock_quantity": 57,
+    "avg_daily_sales": 5.7,
+    "expiry_date": "2026-09-01",
+    "days_until_expiry": 43
+  },
+  {
+    "product_code": "6111250474191",
+    "stock_quantity": 52,
+    "avg_daily_sales": 5.2,
+    "expiry_date": "2026-07-21",
+    "days_until_expiry": 1
+  },
+  {
+    "product_code": "3011360030498",
+    "stock_quantity": 52,
+    "avg_daily_sales": 5.2,
+    "expiry_date": "2026-08-15",
+    "days_until_expiry": 26
+  },
+  {
+    "product_code": "8480000038524",
+    "stock_quantity": 53,
+    "avg_daily_sales": 5.3,
+    "expiry_date": "2026-08-13",
+    "days_until_expiry": 24
+  },
+  {
+    "product_code": "7610313390076",
+    "stock_quantity": 54,
+    "avg_daily_sales": 5.4,
+    "expiry_date": "2026-08-28",
+    "days_until_expiry": 39
+  },
+  {
+    "product_code": "8712100731822",
+    "stock_quantity": 58,
+    "avg_daily_sales": 5.8,
+    "expiry_date": "2026-08-12",
+    "days_until_expiry": 23
+  },
+  {
+    "product_code": "8715700421353",
+    "stock_quantity": 53,
+    "avg_daily_sales": 5.3,
+    "expiry_date": "2026-08-15",
+    "days_until_expiry": 26
+  },
+  {
+    "product_code": "6111245370064",
+    "stock_quantity": 51,
+    "avg_daily_sales": 5.1,
+    "expiry_date": "2026-08-29",
+    "days_until_expiry": 40
+  },
+  {
+    "product_code": "8076809513388",
+    "stock_quantity": 55,
+    "avg_daily_sales": 5.5,
+    "expiry_date": "2026-09-01",
+    "days_until_expiry": 43
+  },
+  {
+    "product_code": "8712100751370",
+    "stock_quantity": 55,
+    "avg_daily_sales": 5.5,
+    "expiry_date": "2026-09-07",
+    "days_until_expiry": 49
+  },
+  {
+    "product_code": "6111184000701",
+    "stock_quantity": 55,
+    "avg_daily_sales": 5.5,
+    "expiry_date": "2026-08-18",
+    "days_until_expiry": 29
+  },
+  {
+    "product_code": "8711200548002",
+    "stock_quantity": 53,
+    "avg_daily_sales": 5.3,
+    "expiry_date": "2026-09-07",
+    "days_until_expiry": 49
+  },
+  {
+    "product_code": "8718114734484",
+    "stock_quantity": 55,
+    "avg_daily_sales": 5.5,
+    "expiry_date": "2026-08-30",
+    "days_until_expiry": 41
+  },
+  {
+    "product_code": "8585002484093",
+    "stock_quantity": 53,
+    "avg_daily_sales": 5.3,
+    "expiry_date": "2026-09-14",
+    "days_until_expiry": 56
+  },
+  {
+    "product_code": "8722700197508",
+    "stock_quantity": 56,
+    "avg_daily_sales": 5.6,
+    "expiry_date": "2026-08-16",
+    "days_until_expiry": 27
+  },
+  {
+    "product_code": "8715035110304",
+    "stock_quantity": 53,
+    "avg_daily_sales": 5.3,
+    "expiry_date": "2026-09-12",
+    "days_until_expiry": 54
+  },
+  {
+    "product_code": "6111250472241",
+    "stock_quantity": 54,
+    "avg_daily_sales": 5.4,
+    "expiry_date": "2026-08-07",
+    "days_until_expiry": 18
+  },
+  {
+    "product_code": "8715700112596",
+    "stock_quantity": 54,
+    "avg_daily_sales": 5.4,
+    "expiry_date": "2026-09-07",
+    "days_until_expiry": 49
+  },
+  {
+    "product_code": "8720182557315",
+    "stock_quantity": 55,
+    "avg_daily_sales": 5.5,
+    "expiry_date": "2026-08-19",
+    "days_until_expiry": 30
+  },
+  {
+    "product_code": "87157635",
+    "stock_quantity": 55,
+    "avg_daily_sales": 5.5,
+    "expiry_date": "2026-07-22",
+    "days_until_expiry": 2
+  },
+  {
+    "product_code": "8720182557452",
+    "stock_quantity": 53,
+    "avg_daily_sales": 5.3,
+    "expiry_date": "2026-09-13",
+    "days_until_expiry": 55
+  },
+  {
+    "product_code": "8722700113348",
+    "stock_quantity": 57,
+    "avg_daily_sales": 5.7,
+    "expiry_date": "2026-08-20",
+    "days_until_expiry": 31
+  },
+  {
+    "product_code": "8715700017006",
+    "stock_quantity": 55,
+    "avg_daily_sales": 5.5,
+    "expiry_date": "2026-09-08",
+    "days_until_expiry": 50
+  },
+  {
+    "product_code": "6111184004716",
+    "stock_quantity": 54,
+    "avg_daily_sales": 5.4,
+    "expiry_date": "2026-08-25",
+    "days_until_expiry": 36
+  },
+  {
+    "product_code": "8711200584383",
+    "stock_quantity": 55,
+    "avg_daily_sales": 5.5,
+    "expiry_date": "2026-09-14",
+    "days_until_expiry": 56
+  },
+  {
+    "product_code": "3292070001576",
+    "stock_quantity": 50,
+    "avg_daily_sales": 5.0,
+    "expiry_date": "2026-08-06",
+    "days_until_expiry": 17
+  },
+  {
+    "product_code": "8005110517006",
+    "stock_quantity": 52,
+    "avg_daily_sales": 5.2,
+    "expiry_date": "2026-09-06",
+    "days_until_expiry": 48
+  },
+  {
+    "product_code": "8076809513746",
+    "stock_quantity": 56,
+    "avg_daily_sales": 5.6,
+    "expiry_date": "2026-09-10",
+    "days_until_expiry": 52
+  },
+  {
+    "product_code": "3250541920139",
+    "stock_quantity": 56,
+    "avg_daily_sales": 5.6,
+    "expiry_date": "2026-07-22",
+    "days_until_expiry": 2
+  },
+  {
+    "product_code": "8715035130104",
+    "stock_quantity": 56,
+    "avg_daily_sales": 5.6,
+    "expiry_date": "2026-08-05",
+    "days_until_expiry": 16
+  },
+  {
+    "product_code": "8076809543934",
+    "stock_quantity": 56,
+    "avg_daily_sales": 5.6,
+    "expiry_date": "2026-07-22",
+    "days_until_expiry": 2
+  },
+  {
+    "product_code": "50457243",
+    "stock_quantity": 53,
+    "avg_daily_sales": 5.3,
+    "expiry_date": "2026-08-07",
+    "days_until_expiry": 18
+  },
+  {
+    "product_code": "8480000171320",
+    "stock_quantity": 52,
+    "avg_daily_sales": 5.2,
+    "expiry_date": "2026-09-14",
+    "days_until_expiry": 56
+  },
+  {
+    "product_code": "8076809517751",
+    "stock_quantity": 55,
+    "avg_daily_sales": 5.5,
+    "expiry_date": "2026-08-31",
+    "days_until_expiry": 42
+  },
+  {
+    "product_code": "8712100441639",
+    "stock_quantity": 55,
+    "avg_daily_sales": 5.5,
+    "expiry_date": "2026-07-23",
+    "days_until_expiry": 3
+  },
+  {
+    "product_code": "4012200032947",
+    "stock_quantity": 59,
+    "avg_daily_sales": 5.9,
+    "expiry_date": "2026-09-02",
+    "days_until_expiry": 44
+  },
+  {
+    "product_code": "7613035781627",
+    "stock_quantity": 54,
+    "avg_daily_sales": 5.4,
+    "expiry_date": "2026-07-23",
+    "days_until_expiry": 3
+  },
+  {
+    "product_code": "50457236",
+    "stock_quantity": 58,
+    "avg_daily_sales": 5.8,
+    "expiry_date": "2026-08-09",
+    "days_until_expiry": 20
+  },
+  {
+    "product_code": "3038359004544",
+    "stock_quantity": 54,
+    "avg_daily_sales": 5.4,
+    "expiry_date": "2026-08-06",
+    "days_until_expiry": 17
+  },
+  {
+    "product_code": "8710522920725",
+    "stock_quantity": 53,
+    "avg_daily_sales": 5.3,
+    "expiry_date": "2026-09-08",
+    "days_until_expiry": 50
+  },
+  {
+    "product_code": "87157277",
+    "stock_quantity": 53,
+    "avg_daily_sales": 5.3,
+    "expiry_date": "2026-08-13",
+    "days_until_expiry": 24
+  },
+  {
+    "product_code": "20425555",
+    "stock_quantity": 57,
+    "avg_daily_sales": 5.7,
+    "expiry_date": "2026-08-17",
+    "days_until_expiry": 28
+  },
+  {
+    "product_code": "3183280001800",
+    "stock_quantity": 58,
+    "avg_daily_sales": 5.8,
+    "expiry_date": "2026-08-27",
+    "days_until_expiry": 38
+  },
+  {
+    "product_code": "8480000808585",
+    "stock_quantity": 54,
+    "avg_daily_sales": 5.4,
+    "expiry_date": "2026-08-22",
+    "days_until_expiry": 33
+  },
+  {
+    "product_code": "7613036891530",
+    "stock_quantity": 57,
+    "avg_daily_sales": 5.7,
+    "expiry_date": "2026-08-11",
+    "days_until_expiry": 22
+  },
+  {
+    "product_code": "8711200548033",
+    "stock_quantity": 54,
+    "avg_daily_sales": 5.4,
+    "expiry_date": "2026-08-26",
+    "days_until_expiry": 37
+  },
+  {
+    "product_code": "3183280000728",
+    "stock_quantity": 54,
+    "avg_daily_sales": 5.4,
+    "expiry_date": "2026-08-26",
+    "days_until_expiry": 37
+  },
+  {
+    "product_code": "8720182460042",
+    "stock_quantity": 54,
+    "avg_daily_sales": 5.4,
+    "expiry_date": "2026-08-05",
+    "days_until_expiry": 16
+  },
+  {
+    "product_code": "7613033687884",
+    "stock_quantity": 55,
+    "avg_daily_sales": 5.5,
+    "expiry_date": "2026-08-12",
+    "days_until_expiry": 23
+  },
+  {
+    "product_code": "3038352875035",
+    "stock_quantity": 52,
+    "avg_daily_sales": 5.2,
+    "expiry_date": "2026-08-18",
+    "days_until_expiry": 29
+  },
+  {
+    "product_code": "3660603004774",
+    "stock_quantity": 53,
+    "avg_daily_sales": 5.3,
+    "expiry_date": "2026-07-23",
+    "days_until_expiry": 3
+  },
+  {
+    "product_code": "3179140213964",
+    "stock_quantity": 56,
+    "avg_daily_sales": 5.6,
+    "expiry_date": "2026-09-05",
+    "days_until_expiry": 47
+  },
+  {
+    "product_code": "8714100846179",
+    "stock_quantity": 55,
+    "avg_daily_sales": 5.5,
+    "expiry_date": "2026-09-09",
+    "days_until_expiry": 51
+  },
+  {
+    "product_code": "8711200547982",
+    "stock_quantity": 55,
+    "avg_daily_sales": 5.5,
+    "expiry_date": "2026-08-18",
+    "days_until_expiry": 29
+  },
+  {
+    "product_code": "8410066131334",
+    "stock_quantity": 55,
+    "avg_daily_sales": 5.5,
+    "expiry_date": "2026-08-12",
+    "days_until_expiry": 23
+  },
+  {
+    "product_code": "8480000235794",
+    "stock_quantity": 55,
+    "avg_daily_sales": 5.5,
+    "expiry_date": "2026-09-12",
+    "days_until_expiry": 54
+  },
+  {
+    "product_code": "6111184009520",
+    "stock_quantity": 55,
+    "avg_daily_sales": 5.5,
+    "expiry_date": "2026-07-21",
+    "days_until_expiry": 1
+  },
+  {
+    "product_code": "3034450001123",
+    "stock_quantity": 54,
+    "avg_daily_sales": 5.4,
+    "expiry_date": "2026-08-07",
+    "days_until_expiry": 18
+  },
+  {
+    "product_code": "7613036750011",
+    "stock_quantity": 55,
+    "avg_daily_sales": 5.5,
+    "expiry_date": "2026-09-08",
+    "days_until_expiry": 50
+  },
+  {
+    "product_code": "3036810201280",
+    "stock_quantity": 55,
+    "avg_daily_sales": 5.5,
+    "expiry_date": "2026-08-27",
+    "days_until_expiry": 38
+  },
+  {
+    "product_code": "3038359011450",
+    "stock_quantity": 56,
+    "avg_daily_sales": 5.6,
+    "expiry_date": "2026-07-23",
+    "days_until_expiry": 3
+  },
+  {
+    "product_code": "8715700421957",
+    "stock_quantity": 54,
+    "avg_daily_sales": 5.4,
+    "expiry_date": "2026-09-06",
+    "days_until_expiry": 48
+  },
+  {
+    "product_code": "3292070006564",
+    "stock_quantity": 52,
+    "avg_daily_sales": 5.2,
+    "expiry_date": "2026-09-13",
+    "days_until_expiry": 55
+  },
+  {
+    "product_code": "8410066139231",
+    "stock_quantity": 56,
+    "avg_daily_sales": 5.6,
+    "expiry_date": "2026-09-11",
+    "days_until_expiry": 53
+  },
+  {
+    "product_code": "8585002484079",
+    "stock_quantity": 57,
+    "avg_daily_sales": 5.7,
+    "expiry_date": "2026-09-03",
+    "days_until_expiry": 45
+  },
+  {
+    "product_code": "8722700125174",
+    "stock_quantity": 56,
+    "avg_daily_sales": 5.6,
+    "expiry_date": "2026-09-04",
+    "days_until_expiry": 46
+  },
+  {
+    "product_code": "6111250474641",
+    "stock_quantity": 55,
+    "avg_daily_sales": 5.5,
+    "expiry_date": "2026-08-26",
+    "days_until_expiry": 37
+  },
+  {
+    "product_code": "8076809581868",
+    "stock_quantity": 55,
+    "avg_daily_sales": 5.5,
+    "expiry_date": "2026-08-08",
+    "days_until_expiry": 19
+  },
+  {
+    "product_code": "87157154",
+    "stock_quantity": 54,
+    "avg_daily_sales": 5.4,
+    "expiry_date": "2026-08-13",
+    "days_until_expiry": 24
+  },
+  {
+    "product_code": "3302740047404",
+    "stock_quantity": 52,
+    "avg_daily_sales": 5.2,
+    "expiry_date": "2026-09-17",
+    "days_until_expiry": 59
+  },
+  {
+    "product_code": "3302740047367",
+    "stock_quantity": 54,
+    "avg_daily_sales": 5.4,
+    "expiry_date": "2026-08-09",
+    "days_until_expiry": 20
+  },
+  {
+    "product_code": "3154230802280",
+    "stock_quantity": 54,
+    "avg_daily_sales": 5.4,
+    "expiry_date": "2026-08-04",
+    "days_until_expiry": 15
+  },
+  {
+    "product_code": "3302740059193",
+    "stock_quantity": 54,
+    "avg_daily_sales": 5.4,
+    "expiry_date": "2026-07-22",
+    "days_until_expiry": 2
+  },
+  {
+    "product_code": "3302740039362",
+    "stock_quantity": 54,
+    "avg_daily_sales": 5.4,
+    "expiry_date": "2026-08-23",
+    "days_until_expiry": 34
+  },
+  {
+    "product_code": "3302740050268",
+    "stock_quantity": 54,
+    "avg_daily_sales": 5.4,
+    "expiry_date": "2026-08-04",
+    "days_until_expiry": 15
+  },
+  {
+    "product_code": "3154230809890",
+    "stock_quantity": 55,
+    "avg_daily_sales": 5.5,
+    "expiry_date": "2026-07-22",
+    "days_until_expiry": 2
+  },
+  {
+    "product_code": "3154230800965",
+    "stock_quantity": 55,
+    "avg_daily_sales": 5.5,
+    "expiry_date": "2026-07-22",
+    "days_until_expiry": 2
+  },
+  {
+    "product_code": "3154230802259",
+    "stock_quantity": 55,
+    "avg_daily_sales": 5.5,
+    "expiry_date": "2026-09-10",
+    "days_until_expiry": 52
+  },
+  {
+    "product_code": "3095758049019",
+    "stock_quantity": 54,
+    "avg_daily_sales": 5.4,
+    "expiry_date": "2026-08-07",
+    "days_until_expiry": 18
+  },
+  {
+    "product_code": "8480000057105",
+    "stock_quantity": 55,
+    "avg_daily_sales": 5.5,
+    "expiry_date": "2026-07-22",
+    "days_until_expiry": 2
+  },
+  {
+    "product_code": "3154230802310",
+    "stock_quantity": 56,
+    "avg_daily_sales": 5.6,
+    "expiry_date": "2026-08-30",
+    "days_until_expiry": 41
+  },
+  {
+    "product_code": "3302740021244",
+    "stock_quantity": 53,
+    "avg_daily_sales": 5.3,
+    "expiry_date": "2026-08-14",
+    "days_until_expiry": 25
+  },
+  {
+    "product_code": "3302740025136",
+    "stock_quantity": 55,
+    "avg_daily_sales": 5.5,
+    "expiry_date": "2026-09-08",
+    "days_until_expiry": 50
+  },
+  {
+    "product_code": "3095754220016",
+    "stock_quantity": 52,
+    "avg_daily_sales": 5.2,
+    "expiry_date": "2026-09-14",
+    "days_until_expiry": 56
+  },
+  {
+    "product_code": "3154230810162",
+    "stock_quantity": 57,
+    "avg_daily_sales": 5.7,
+    "expiry_date": "2026-08-07",
+    "days_until_expiry": 18
+  },
+  {
+    "product_code": "3095757047108",
+    "stock_quantity": 55,
+    "avg_daily_sales": 5.5,
+    "expiry_date": "2026-09-01",
+    "days_until_expiry": 43
+  },
+  {
+    "product_code": "3302740059100",
+    "stock_quantity": 53,
+    "avg_daily_sales": 5.3,
+    "expiry_date": "2026-08-14",
+    "days_until_expiry": 25
+  },
+  {
+    "product_code": "3095754136010",
+    "stock_quantity": 55,
+    "avg_daily_sales": 5.5,
+    "expiry_date": "2026-09-14",
+    "days_until_expiry": 56
+  },
+  {
+    "product_code": "8437010848230",
+    "stock_quantity": 56,
+    "avg_daily_sales": 5.6,
+    "expiry_date": "2026-09-15",
+    "days_until_expiry": 57
+  },
+  {
+    "product_code": "3166359678103",
+    "stock_quantity": 55,
+    "avg_daily_sales": 5.5,
+    "expiry_date": "2026-09-12",
+    "days_until_expiry": 54
+  },
+  {
+    "product_code": "3095759062017",
+    "stock_quantity": 51,
+    "avg_daily_sales": 5.1,
+    "expiry_date": "2026-08-09",
+    "days_until_expiry": 20
+  },
+  {
+    "product_code": "3154230809838",
+    "stock_quantity": 55,
+    "avg_daily_sales": 5.5,
+    "expiry_date": "2026-08-27",
+    "days_until_expiry": 38
+  },
+  {
+    "product_code": "3095758914010",
+    "stock_quantity": 57,
+    "avg_daily_sales": 5.7,
+    "expiry_date": "2026-08-10",
+    "days_until_expiry": 21
+  },
+  {
+    "product_code": "3154230040286",
+    "stock_quantity": 55,
+    "avg_daily_sales": 5.5,
+    "expiry_date": "2026-09-09",
+    "days_until_expiry": 51
+  },
+  {
+    "product_code": "3302740047411",
+    "stock_quantity": 55,
+    "avg_daily_sales": 5.5,
+    "expiry_date": "2026-07-23",
+    "days_until_expiry": 3
+  },
+  {
+    "product_code": "3266980138721",
+    "stock_quantity": 56,
+    "avg_daily_sales": 5.6,
+    "expiry_date": "2026-07-22",
+    "days_until_expiry": 2
+  },
+  {
+    "product_code": "3154230810049",
+    "stock_quantity": 52,
+    "avg_daily_sales": 5.2,
+    "expiry_date": "2026-08-30",
+    "days_until_expiry": 41
+  },
+  {
+    "product_code": "3024720022422",
+    "stock_quantity": 56,
+    "avg_daily_sales": 5.6,
+    "expiry_date": "2026-08-14",
+    "days_until_expiry": 25
+  },
+  {
+    "product_code": "8410783344468",
+    "stock_quantity": 56,
+    "avg_daily_sales": 5.6,
+    "expiry_date": "2026-08-12",
+    "days_until_expiry": 23
+  },
+  {
+    "product_code": "3302740046926",
+    "stock_quantity": 54,
+    "avg_daily_sales": 5.4,
+    "expiry_date": "2026-08-06",
+    "days_until_expiry": 17
+  },
+  {
+    "product_code": "8480000592569",
+    "stock_quantity": 53,
+    "avg_daily_sales": 5.3,
+    "expiry_date": "2026-09-06",
+    "days_until_expiry": 48
+  },
+  {
+    "product_code": "3302740047114",
+    "stock_quantity": 55,
+    "avg_daily_sales": 5.5,
+    "expiry_date": "2026-08-27",
+    "days_until_expiry": 38
+  },
+  {
+    "product_code": "3154230801795",
+    "stock_quantity": 58,
+    "avg_daily_sales": 5.8,
+    "expiry_date": "2026-08-07",
+    "days_until_expiry": 18
+  },
+  {
+    "product_code": "3270160812936",
+    "stock_quantity": 52,
+    "avg_daily_sales": 5.2,
+    "expiry_date": "2026-07-21",
+    "days_until_expiry": 1
+  },
+  {
+    "product_code": "3281780085105",
+    "stock_quantity": 57,
+    "avg_daily_sales": 5.7,
+    "expiry_date": "2026-09-17",
+    "days_until_expiry": 59
+  },
+  {
+    "product_code": "8421384012014",
+    "stock_quantity": 51,
+    "avg_daily_sales": 5.1,
+    "expiry_date": "2026-07-21",
+    "days_until_expiry": 1
+  },
+  {
+    "product_code": "5060317350033",
+    "stock_quantity": 55,
+    "avg_daily_sales": 5.5,
+    "expiry_date": "2026-09-04",
+    "days_until_expiry": 46
+  },
+  {
+    "product_code": "3302740047374",
+    "stock_quantity": 54,
+    "avg_daily_sales": 5.4,
+    "expiry_date": "2026-08-18",
+    "days_until_expiry": 29
+  },
+  {
+    "product_code": "5060055251548",
+    "stock_quantity": 52,
+    "avg_daily_sales": 5.2,
+    "expiry_date": "2026-09-16",
+    "days_until_expiry": 58
+  },
+  {
+    "product_code": "3302740059186",
+    "stock_quantity": 55,
+    "avg_daily_sales": 5.5,
+    "expiry_date": "2026-08-08",
+    "days_until_expiry": 19
+  },
+  {
+    "product_code": "3154230809548",
+    "stock_quantity": 55,
+    "avg_daily_sales": 5.5,
+    "expiry_date": "2026-08-18",
+    "days_until_expiry": 29
+  },
+  {
+    "product_code": "3302740057670",
+    "stock_quantity": 57,
+    "avg_daily_sales": 5.7,
+    "expiry_date": "2026-07-22",
+    "days_until_expiry": 2
+  },
+  {
+    "product_code": "3154230801023",
+    "stock_quantity": 55,
+    "avg_daily_sales": 5.5,
+    "expiry_date": "2026-08-08",
+    "days_until_expiry": 19
+  },
+  {
+    "product_code": "3095756102013",
+    "stock_quantity": 52,
+    "avg_daily_sales": 5.2,
+    "expiry_date": "2026-07-21",
+    "days_until_expiry": 1
+  },
+  {
+    "product_code": "3248832940539",
+    "stock_quantity": 56,
+    "avg_daily_sales": 5.6,
+    "expiry_date": "2026-09-11",
+    "days_until_expiry": 53
+  },
+  {
+    "product_code": "8480000867865",
+    "stock_quantity": 56,
+    "avg_daily_sales": 5.6,
+    "expiry_date": "2026-07-22",
+    "days_until_expiry": 2
+  },
+  {
+    "product_code": "8480000860743",
+    "stock_quantity": 54,
+    "avg_daily_sales": 5.4,
+    "expiry_date": "2026-08-06",
+    "days_until_expiry": 17
+  },
+  {
+    "product_code": "3302740047336",
+    "stock_quantity": 54,
+    "avg_daily_sales": 5.4,
+    "expiry_date": "2026-08-06",
+    "days_until_expiry": 17
+  },
+  {
+    "product_code": "3302740050237",
+    "stock_quantity": 54,
+    "avg_daily_sales": 5.4,
+    "expiry_date": "2026-08-20",
+    "days_until_expiry": 31
+  },
+  {
+    "product_code": "3661112501792",
+    "stock_quantity": 56,
+    "avg_daily_sales": 5.6,
+    "expiry_date": "2026-08-09",
+    "days_until_expiry": 20
+  },
+  {
+    "product_code": "3095758913013",
+    "stock_quantity": 54,
+    "avg_daily_sales": 5.4,
+    "expiry_date": "2026-09-03",
+    "days_until_expiry": 45
+  },
+  {
+    "product_code": "3422210436245",
+    "stock_quantity": 55,
+    "avg_daily_sales": 5.5,
+    "expiry_date": "2026-09-07",
+    "days_until_expiry": 49
+  },
+  {
+    "product_code": "3181450100599",
+    "stock_quantity": 56,
+    "avg_daily_sales": 5.6,
+    "expiry_date": "2026-09-04",
+    "days_until_expiry": 46
+  },
+  {
+    "product_code": "3154230801313",
+    "stock_quantity": 53,
+    "avg_daily_sales": 5.3,
+    "expiry_date": "2026-09-17",
+    "days_until_expiry": 59
+  },
+  {
+    "product_code": "3154230801368",
+    "stock_quantity": 53,
+    "avg_daily_sales": 5.3,
+    "expiry_date": "2026-09-14",
+    "days_until_expiry": 56
+  },
+  {
+    "product_code": "30000117",
+    "stock_quantity": 51,
+    "avg_daily_sales": 5.1,
+    "expiry_date": "2026-08-28",
+    "days_until_expiry": 39
+  },
+  {
+    "product_code": "3180940083138",
+    "stock_quantity": 52,
+    "avg_daily_sales": 5.2,
+    "expiry_date": "2026-08-10",
+    "days_until_expiry": 21
+  },
+  {
+    "product_code": "3266980018245",
+    "stock_quantity": 56,
+    "avg_daily_sales": 5.6,
+    "expiry_date": "2026-08-10",
+    "days_until_expiry": 21
+  },
+  {
+    "product_code": "3154230050667",
+    "stock_quantity": 52,
+    "avg_daily_sales": 5.2,
+    "expiry_date": "2026-08-05",
+    "days_until_expiry": 16
+  },
+  {
+    "product_code": "8480000086679",
+    "stock_quantity": 55,
+    "avg_daily_sales": 5.5,
+    "expiry_date": "2026-07-23",
+    "days_until_expiry": 3
+  },
+  {
+    "product_code": "3095757901011",
+    "stock_quantity": 54,
+    "avg_daily_sales": 5.4,
+    "expiry_date": "2026-08-14",
+    "days_until_expiry": 25
+  },
+  {
+    "product_code": "7613039829264",
+    "stock_quantity": 54,
+    "avg_daily_sales": 5.4,
+    "expiry_date": "2026-09-17",
+    "days_until_expiry": 59
+  },
+  {
+    "product_code": "7613035289291",
+    "stock_quantity": 53,
+    "avg_daily_sales": 5.3,
+    "expiry_date": "2026-08-05",
+    "days_until_expiry": 16
+  },
+  {
+    "product_code": "3270160339945",
+    "stock_quantity": 52,
+    "avg_daily_sales": 5.2,
+    "expiry_date": "2026-09-05",
+    "days_until_expiry": 47
+  },
+  {
+    "product_code": "3095758048012",
+    "stock_quantity": 52,
+    "avg_daily_sales": 5.2,
+    "expiry_date": "2026-09-06",
+    "days_until_expiry": 48
+  },
+  {
+    "product_code": "3095756196012",
+    "stock_quantity": 54,
+    "avg_daily_sales": 5.4,
+    "expiry_date": "2026-09-05",
+    "days_until_expiry": 47
+  },
+  {
+    "product_code": "8410843144007",
+    "stock_quantity": 55,
+    "avg_daily_sales": 5.5,
+    "expiry_date": "2026-08-13",
+    "days_until_expiry": 24
+  },
+  {
+    "product_code": "6065757697105",
+    "stock_quantity": 53,
+    "avg_daily_sales": 5.3,
+    "expiry_date": "2026-08-31",
+    "days_until_expiry": 42
+  },
+  {
+    "product_code": "8437005669765",
+    "stock_quantity": 57,
+    "avg_daily_sales": 5.7,
+    "expiry_date": "2026-07-22",
+    "days_until_expiry": 2
+  },
+  {
+    "product_code": "3302740076466",
+    "stock_quantity": 53,
+    "avg_daily_sales": 5.3,
+    "expiry_date": "2026-08-11",
+    "days_until_expiry": 22
+  },
+  {
+    "product_code": "3154230802136",
+    "stock_quantity": 54,
+    "avg_daily_sales": 5.4,
+    "expiry_date": "2026-08-18",
+    "days_until_expiry": 29
+  },
+  {
+    "product_code": "3560071264734",
+    "stock_quantity": 56,
+    "avg_daily_sales": 5.6,
+    "expiry_date": "2026-09-06",
+    "days_until_expiry": 48
+  },
+  {
+    "product_code": "3449865367250",
+    "stock_quantity": 54,
+    "avg_daily_sales": 5.4,
+    "expiry_date": "2026-09-03",
+    "days_until_expiry": 45
+  },
+  {
+    "product_code": "3596690773098",
+    "stock_quantity": 56,
+    "avg_daily_sales": 5.6,
+    "expiry_date": "2026-09-08",
+    "days_until_expiry": 50
+  },
+  {
+    "product_code": "3560070382828",
+    "stock_quantity": 55,
+    "avg_daily_sales": 5.5,
+    "expiry_date": "2026-09-17",
+    "days_until_expiry": 59
+  },
+  {
+    "product_code": "20334734",
+    "stock_quantity": 54,
+    "avg_daily_sales": 5.4,
+    "expiry_date": "2026-07-21",
+    "days_until_expiry": 1
+  },
+  {
+    "product_code": "3266980035303",
+    "stock_quantity": 54,
+    "avg_daily_sales": 5.4,
+    "expiry_date": "2026-07-21",
+    "days_until_expiry": 1
+  },
+  {
+    "product_code": "3270160862481",
+    "stock_quantity": 56,
+    "avg_daily_sales": 5.6,
+    "expiry_date": "2026-08-06",
+    "days_until_expiry": 17
+  },
+  {
+    "product_code": "8480000566614",
+    "stock_quantity": 56,
+    "avg_daily_sales": 5.6,
+    "expiry_date": "2026-09-10",
+    "days_until_expiry": 52
+  },
+  {
+    "product_code": "3270160202706",
+    "stock_quantity": 55,
+    "avg_daily_sales": 5.5,
+    "expiry_date": "2026-07-22",
+    "days_until_expiry": 2
+  },
+  {
+    "product_code": "3302740024504",
+    "stock_quantity": 55,
+    "avg_daily_sales": 5.5,
+    "expiry_date": "2026-07-22",
+    "days_until_expiry": 2
+  },
+  {
+    "product_code": "3154230801955",
+    "stock_quantity": 55,
+    "avg_daily_sales": 5.5,
+    "expiry_date": "2026-08-05",
+    "days_until_expiry": 16
+  },
+  {
+    "product_code": "8480000551085",
+    "stock_quantity": 53,
+    "avg_daily_sales": 5.3,
+    "expiry_date": "2026-09-06",
+    "days_until_expiry": 48
+  },
+  {
+    "product_code": "3154230809920",
+    "stock_quantity": 53,
+    "avg_daily_sales": 5.3,
+    "expiry_date": "2026-09-01",
+    "days_until_expiry": 43
+  },
+  {
+    "product_code": "20398972",
+    "stock_quantity": 56,
+    "avg_daily_sales": 5.6,
+    "expiry_date": "2026-09-13",
+    "days_until_expiry": 55
+  },
+  {
+    "product_code": "3095757648107",
+    "stock_quantity": 53,
+    "avg_daily_sales": 5.3,
+    "expiry_date": "2026-08-29",
+    "days_until_expiry": 40
+  },
+  {
+    "product_code": "6111032007685",
+    "stock_quantity": 56,
+    "avg_daily_sales": 5.6,
+    "expiry_date": "2026-09-16",
+    "days_until_expiry": 58
+  },
+  {
+    "product_code": "3181450100605",
+    "stock_quantity": 53,
+    "avg_daily_sales": 5.3,
+    "expiry_date": "2026-09-14",
+    "days_until_expiry": 56
+  },
+  {
+    "product_code": "3537580706123",
+    "stock_quantity": 56,
+    "avg_daily_sales": 5.6,
+    "expiry_date": "2026-08-24",
+    "days_until_expiry": 35
+  },
+  {
+    "product_code": "3270160203611",
+    "stock_quantity": 58,
+    "avg_daily_sales": 5.8,
+    "expiry_date": "2026-09-10",
+    "days_until_expiry": 52
+  },
+  {
+    "product_code": "3154230809272",
+    "stock_quantity": 50,
+    "avg_daily_sales": 5.0,
+    "expiry_date": "2026-09-18",
+    "days_until_expiry": 60
+  },
+  {
+    "product_code": "3095758050015",
+    "stock_quantity": 52,
+    "avg_daily_sales": 5.2,
+    "expiry_date": "2026-09-12",
+    "days_until_expiry": 54
+  },
+  {
+    "product_code": "3302740047121",
+    "stock_quantity": 53,
+    "avg_daily_sales": 5.3,
+    "expiry_date": "2026-08-16",
+    "days_until_expiry": 27
+  },
+  {
+    "product_code": "4056489513056",
+    "stock_quantity": 54,
+    "avg_daily_sales": 5.4,
+    "expiry_date": "2026-08-25",
+    "days_until_expiry": 36
+  },
+  {
+    "product_code": "3596690128041",
+    "stock_quantity": 56,
+    "avg_daily_sales": 5.6,
+    "expiry_date": "2026-08-22",
+    "days_until_expiry": 33
+  },
+  {
+    "product_code": "3230890016752",
+    "stock_quantity": 56,
+    "avg_daily_sales": 5.6,
+    "expiry_date": "2026-08-23",
+    "days_until_expiry": 34
+  },
+  {
+    "product_code": "8480000566522",
+    "stock_quantity": 53,
+    "avg_daily_sales": 5.3,
+    "expiry_date": "2026-09-01",
+    "days_until_expiry": 43
+  },
+  {
+    "product_code": "3596690773104",
+    "stock_quantity": 54,
+    "avg_daily_sales": 5.4,
+    "expiry_date": "2026-09-01",
+    "days_until_expiry": 43
+  },
+  {
+    "product_code": "3154230811763",
+    "stock_quantity": 56,
+    "avg_daily_sales": 5.6,
+    "expiry_date": "2026-09-08",
+    "days_until_expiry": 50
+  },
+  {
+    "product_code": "20150907",
+    "stock_quantity": 56,
+    "avg_daily_sales": 5.6,
+    "expiry_date": "2026-08-30",
+    "days_until_expiry": 41
+  },
+  {
+    "product_code": "3608580789758",
+    "stock_quantity": 57,
+    "avg_daily_sales": 5.7,
+    "expiry_date": "2026-08-16",
+    "days_until_expiry": 27
+  },
+  {
+    "product_code": "4056489296805",
+    "stock_quantity": 54,
+    "avg_daily_sales": 5.4,
+    "expiry_date": "2026-07-21",
+    "days_until_expiry": 1
+  },
+  {
+    "product_code": "8000500435557",
+    "stock_quantity": 53,
+    "avg_daily_sales": 5.3,
+    "expiry_date": "2026-08-18",
+    "days_until_expiry": 29
+  },
+  {
+    "product_code": "6111126001841",
+    "stock_quantity": 53,
+    "avg_daily_sales": 5.3,
+    "expiry_date": "2026-09-05",
+    "days_until_expiry": 47
+  },
+  {
+    "product_code": "3502490171606",
+    "stock_quantity": 55,
+    "avg_daily_sales": 5.5,
+    "expiry_date": "2026-08-31",
+    "days_until_expiry": 42
+  },
+  {
+    "product_code": "6111250472265",
+    "stock_quantity": 54,
+    "avg_daily_sales": 5.4,
+    "expiry_date": "2026-08-26",
+    "days_until_expiry": 37
+  },
+  {
+    "product_code": "0898999000503",
+    "stock_quantity": 57,
+    "avg_daily_sales": 5.7,
+    "expiry_date": "2026-08-07",
+    "days_until_expiry": 18
+  },
+  {
+    "product_code": "3523680438224",
+    "stock_quantity": 55,
+    "avg_daily_sales": 5.5,
+    "expiry_date": "2026-09-07",
+    "days_until_expiry": 49
+  },
+  {
+    "product_code": "3017233001008",
+    "stock_quantity": 56,
+    "avg_daily_sales": 5.6,
+    "expiry_date": "2026-08-08",
+    "days_until_expiry": 19
+  },
+  {
+    "product_code": "3560071501570",
+    "stock_quantity": 56,
+    "avg_daily_sales": 5.6,
+    "expiry_date": "2026-09-17",
+    "days_until_expiry": 59
+  },
+  {
+    "product_code": "4056489167037",
+    "stock_quantity": 55,
+    "avg_daily_sales": 5.5,
+    "expiry_date": "2026-07-21",
+    "days_until_expiry": 1
+  },
+  {
+    "product_code": "3245414620131",
+    "stock_quantity": 54,
+    "avg_daily_sales": 5.4,
+    "expiry_date": "2026-09-05",
+    "days_until_expiry": 47
+  },
+  {
+    "product_code": "3560071270315",
+    "stock_quantity": 53,
+    "avg_daily_sales": 5.3,
+    "expiry_date": "2026-07-23",
+    "days_until_expiry": 3
+  },
+  {
+    "product_code": "3297760097990",
+    "stock_quantity": 53,
+    "avg_daily_sales": 5.3,
+    "expiry_date": "2026-07-23",
+    "days_until_expiry": 3
+  },
+  {
+    "product_code": "5449000046413",
+    "stock_quantity": 55,
+    "avg_daily_sales": 5.5,
+    "expiry_date": "2026-08-06",
+    "days_until_expiry": 17
+  },
+  {
+    "product_code": "20534479",
+    "stock_quantity": 58,
+    "avg_daily_sales": 5.8,
+    "expiry_date": "2026-09-02",
+    "days_until_expiry": 44
+  },
+  {
+    "product_code": "8480000168467",
+    "stock_quantity": 52,
+    "avg_daily_sales": 5.2,
+    "expiry_date": "2026-09-17",
+    "days_until_expiry": 59
+  },
+  {
+    "product_code": "8480000200204",
+    "stock_quantity": 54,
+    "avg_daily_sales": 5.4,
+    "expiry_date": "2026-09-14",
+    "days_until_expiry": 56
+  },
+  {
+    "product_code": "3092718637392",
+    "stock_quantity": 57,
+    "avg_daily_sales": 5.7,
+    "expiry_date": "2026-08-31",
+    "days_until_expiry": 42
+  },
+  {
+    "product_code": "3123349014556",
+    "stock_quantity": 54,
+    "avg_daily_sales": 5.4,
+    "expiry_date": "2026-09-01",
+    "days_until_expiry": 43
+  },
+  {
+    "product_code": "20060831",
+    "stock_quantity": 54,
+    "avg_daily_sales": 5.4,
+    "expiry_date": "2026-08-14",
+    "days_until_expiry": 25
+  },
+  {
+    "product_code": "6111126005481",
+    "stock_quantity": 54,
+    "avg_daily_sales": 5.4,
+    "expiry_date": "2026-09-13",
+    "days_until_expiry": 55
+  },
+  {
+    "product_code": "94001129",
+    "stock_quantity": 54,
+    "avg_daily_sales": 5.4,
+    "expiry_date": "2026-07-21",
+    "days_until_expiry": 1
+  },
+  {
+    "product_code": "20840815",
+    "stock_quantity": 56,
+    "avg_daily_sales": 5.6,
+    "expiry_date": "2026-09-07",
+    "days_until_expiry": 49
+  },
+  {
+    "product_code": "20840785",
+    "stock_quantity": 55,
+    "avg_daily_sales": 5.5,
+    "expiry_date": "2026-08-13",
+    "days_until_expiry": 24
+  },
+  {
+    "product_code": "4056489104254",
+    "stock_quantity": 56,
+    "avg_daily_sales": 5.6,
+    "expiry_date": "2026-09-03",
+    "days_until_expiry": 45
+  },
+  {
+    "product_code": "4056489126669",
+    "stock_quantity": 57,
+    "avg_daily_sales": 5.7,
+    "expiry_date": "2026-09-12",
+    "days_until_expiry": 54
+  },
+  {
+    "product_code": "3502490177127",
+    "stock_quantity": 57,
+    "avg_daily_sales": 5.7,
+    "expiry_date": "2026-08-31",
+    "days_until_expiry": 42
+  },
+  {
+    "product_code": "8850389100684",
+    "stock_quantity": 51,
+    "avg_daily_sales": 5.1,
+    "expiry_date": "2026-09-07",
+    "days_until_expiry": 49
+  },
+  {
+    "product_code": "3021762412129",
+    "stock_quantity": 55,
+    "avg_daily_sales": 5.5,
+    "expiry_date": "2026-07-21",
+    "days_until_expiry": 1
+  },
+  {
+    "product_code": "8717163676721",
+    "stock_quantity": 52,
+    "avg_daily_sales": 5.2,
+    "expiry_date": "2026-07-21",
+    "days_until_expiry": 1
+  },
+  {
+    "product_code": "20305819",
+    "stock_quantity": 55,
+    "avg_daily_sales": 5.5,
+    "expiry_date": "2026-09-13",
+    "days_until_expiry": 55
+  },
+  {
+    "product_code": "8480000152039",
+    "stock_quantity": 52,
+    "avg_daily_sales": 5.2,
+    "expiry_date": "2026-08-04",
+    "days_until_expiry": 15
+  },
+  {
+    "product_code": "3256223800218",
+    "stock_quantity": 53,
+    "avg_daily_sales": 5.3,
+    "expiry_date": "2026-08-21",
+    "days_until_expiry": 32
+  },
+  {
+    "product_code": "3560071046897",
+    "stock_quantity": 57,
+    "avg_daily_sales": 5.7,
+    "expiry_date": "2026-08-19",
+    "days_until_expiry": 30
+  },
+  {
+    "product_code": "6111242103443",
+    "stock_quantity": 53,
+    "avg_daily_sales": 5.3,
+    "expiry_date": "2026-07-21",
+    "days_until_expiry": 1
+  },
+  {
+    "product_code": "20250263",
+    "stock_quantity": 54,
+    "avg_daily_sales": 5.4,
+    "expiry_date": "2026-08-10",
+    "days_until_expiry": 21
+  },
+  {
+    "product_code": "0815074022915",
+    "stock_quantity": 56,
+    "avg_daily_sales": 5.6,
+    "expiry_date": "2026-09-16",
+    "days_until_expiry": 58
+  },
+  {
+    "product_code": "3297760097044",
+    "stock_quantity": 54,
+    "avg_daily_sales": 5.4,
+    "expiry_date": "2026-08-05",
+    "days_until_expiry": 16
+  },
+  {
+    "product_code": "3245414620148",
+    "stock_quantity": 54,
+    "avg_daily_sales": 5.4,
+    "expiry_date": "2026-08-13",
+    "days_until_expiry": 24
+  },
+  {
+    "product_code": "20622374",
+    "stock_quantity": 55,
+    "avg_daily_sales": 5.5,
+    "expiry_date": "2026-08-14",
+    "days_until_expiry": 25
+  },
+  {
+    "product_code": "3564707141710",
+    "stock_quantity": 53,
+    "avg_daily_sales": 5.3,
+    "expiry_date": "2026-09-13",
+    "days_until_expiry": 55
+  },
+  {
+    "product_code": "20229030",
+    "stock_quantity": 56,
+    "avg_daily_sales": 5.6,
+    "expiry_date": "2026-08-25",
+    "days_until_expiry": 36
+  },
+  {
+    "product_code": "4056489655664",
+    "stock_quantity": 54,
+    "avg_daily_sales": 5.4,
+    "expiry_date": "2026-08-08",
+    "days_until_expiry": 19
+  },
+  {
+    "product_code": "6291100213146",
+    "stock_quantity": 54,
+    "avg_daily_sales": 5.4,
+    "expiry_date": "2026-09-01",
+    "days_until_expiry": 43
+  },
+  {
+    "product_code": "3502490013944",
+    "stock_quantity": 52,
+    "avg_daily_sales": 5.2,
+    "expiry_date": "2026-08-16",
+    "days_until_expiry": 27
+  },
+  {
+    "product_code": "3297760097327",
+    "stock_quantity": 53,
+    "avg_daily_sales": 5.3,
+    "expiry_date": "2026-09-07",
+    "days_until_expiry": 49
+  },
+  {
+    "product_code": "3068233500404",
+    "stock_quantity": 53,
+    "avg_daily_sales": 5.3,
+    "expiry_date": "2026-07-23",
+    "days_until_expiry": 3
+  },
+  {
+    "product_code": "3560071051334",
+    "stock_quantity": 57,
+    "avg_daily_sales": 5.7,
+    "expiry_date": "2026-08-15",
+    "days_until_expiry": 26
+  },
+  {
+    "product_code": "20840792",
+    "stock_quantity": 55,
+    "avg_daily_sales": 5.5,
+    "expiry_date": "2026-08-28",
+    "days_until_expiry": 39
+  },
+  {
+    "product_code": "3330720280015",
+    "stock_quantity": 55,
+    "avg_daily_sales": 5.5,
+    "expiry_date": "2026-08-09",
+    "days_until_expiry": 20
+  },
+  {
+    "product_code": "3245414088184",
+    "stock_quantity": 56,
+    "avg_daily_sales": 5.6,
+    "expiry_date": "2026-07-21",
+    "days_until_expiry": 1
+  },
+  {
+    "product_code": "4056489362043",
+    "stock_quantity": 53,
+    "avg_daily_sales": 5.3,
+    "expiry_date": "2026-09-04",
+    "days_until_expiry": 46
+  },
+  {
+    "product_code": "3021762412433",
+    "stock_quantity": 56,
+    "avg_daily_sales": 5.6,
+    "expiry_date": "2026-08-31",
+    "days_until_expiry": 42
+  },
+  {
+    "product_code": "3700476611638",
+    "stock_quantity": 55,
+    "avg_daily_sales": 5.5,
+    "expiry_date": "2026-09-02",
+    "days_until_expiry": 44
+  },
+  {
+    "product_code": "4056489100553",
+    "stock_quantity": 54,
+    "avg_daily_sales": 5.4,
+    "expiry_date": "2026-07-21",
+    "days_until_expiry": 1
+  },
+  {
+    "product_code": "3560071011475",
+    "stock_quantity": 53,
+    "avg_daily_sales": 5.3,
+    "expiry_date": "2026-07-23",
+    "days_until_expiry": 3
+  },
+  {
+    "product_code": "3560070439942",
+    "stock_quantity": 54,
+    "avg_daily_sales": 5.4,
+    "expiry_date": "2026-08-23",
+    "days_until_expiry": 34
+  },
+  {
+    "product_code": "3068232250003",
+    "stock_quantity": 52,
+    "avg_daily_sales": 5.2,
+    "expiry_date": "2026-08-28",
+    "days_until_expiry": 39
+  },
+  {
+    "product_code": "4088600565019",
+    "stock_quantity": 51,
+    "avg_daily_sales": 5.1,
+    "expiry_date": "2026-09-17",
+    "days_until_expiry": 59
+  },
+  {
+    "product_code": "3179142054725",
+    "stock_quantity": 56,
+    "avg_daily_sales": 5.6,
+    "expiry_date": "2026-09-10",
+    "days_until_expiry": 52
+  },
+  {
+    "product_code": "8480000610898",
+    "stock_quantity": 52,
+    "avg_daily_sales": 5.2,
+    "expiry_date": "2026-09-15",
+    "days_until_expiry": 57
+  },
+  {
+    "product_code": "8480000156594",
+    "stock_quantity": 55,
+    "avg_daily_sales": 5.5,
+    "expiry_date": "2026-08-25",
+    "days_until_expiry": 36
+  },
+  {
+    "product_code": "4008258414019",
+    "stock_quantity": 56,
+    "avg_daily_sales": 5.6,
+    "expiry_date": "2026-08-17",
+    "days_until_expiry": 28
+  },
+  {
+    "product_code": "26006079",
+    "stock_quantity": 55,
+    "avg_daily_sales": 5.5,
+    "expiry_date": "2026-07-21",
+    "days_until_expiry": 1
+  },
+  {
+    "product_code": "3347761000663",
+    "stock_quantity": 55,
+    "avg_daily_sales": 5.5,
+    "expiry_date": "2026-08-06",
+    "days_until_expiry": 17
+  },
+  {
+    "product_code": "20240332",
+    "stock_quantity": 57,
+    "avg_daily_sales": 5.7,
+    "expiry_date": "2026-08-22",
+    "days_until_expiry": 33
+  },
+  {
+    "product_code": "3250391435289",
+    "stock_quantity": 52,
+    "avg_daily_sales": 5.2,
+    "expiry_date": "2026-09-08",
+    "days_until_expiry": 50
+  },
+  {
+    "product_code": "8410261782034",
+    "stock_quantity": 53,
+    "avg_daily_sales": 5.3,
+    "expiry_date": "2026-08-15",
+    "days_until_expiry": 26
+  },
+  {
+    "product_code": "4068706493409",
+    "stock_quantity": 54,
+    "avg_daily_sales": 5.4,
+    "expiry_date": "2026-08-21",
+    "days_until_expiry": 32
+  },
+  {
+    "product_code": "3564700670934",
+    "stock_quantity": 54,
+    "avg_daily_sales": 5.4,
+    "expiry_date": "2026-08-29",
+    "days_until_expiry": 40
+  },
+  {
+    "product_code": "3278692550142",
+    "stock_quantity": 54,
+    "avg_daily_sales": 5.4,
+    "expiry_date": "2026-08-30",
+    "days_until_expiry": 41
+  },
+  {
+    "product_code": "3250391435401",
+    "stock_quantity": 51,
+    "avg_daily_sales": 5.1,
+    "expiry_date": "2026-08-26",
+    "days_until_expiry": 37
+  },
+  {
+    "product_code": "8000500417195",
+    "stock_quantity": 53,
+    "avg_daily_sales": 5.3,
+    "expiry_date": "2026-09-06",
+    "days_until_expiry": 48
+  },
+  {
+    "product_code": "0832650006008",
+    "stock_quantity": 52,
+    "avg_daily_sales": 5.2,
+    "expiry_date": "2026-08-29",
+    "days_until_expiry": 40
+  },
+  {
+    "product_code": "3191220006327",
+    "stock_quantity": 54,
+    "avg_daily_sales": 5.4,
+    "expiry_date": "2026-08-15",
+    "days_until_expiry": 26
+  },
+  {
+    "product_code": "20250294",
+    "stock_quantity": 53,
+    "avg_daily_sales": 5.3,
+    "expiry_date": "2026-09-12",
+    "days_until_expiry": 54
+  },
+  {
+    "product_code": "3270160682089",
+    "stock_quantity": 52,
+    "avg_daily_sales": 5.2,
+    "expiry_date": "2026-09-11",
+    "days_until_expiry": 53
+  },
+  {
+    "product_code": "3276558440996",
+    "stock_quantity": 57,
+    "avg_daily_sales": 5.7,
+    "expiry_date": "2026-08-23",
+    "days_until_expiry": 34
+  },
+  {
+    "product_code": "3297760097280",
+    "stock_quantity": 54,
+    "avg_daily_sales": 5.4,
+    "expiry_date": "2026-08-29",
+    "days_until_expiry": 40
+  },
+  {
+    "product_code": "20449568",
+    "stock_quantity": 51,
+    "avg_daily_sales": 5.1,
+    "expiry_date": "2026-08-13",
+    "days_until_expiry": 24
+  },
+  {
+    "product_code": "3245414089198",
+    "stock_quantity": 55,
+    "avg_daily_sales": 5.5,
+    "expiry_date": "2026-09-15",
+    "days_until_expiry": 57
+  },
+  {
+    "product_code": "3297760097020",
+    "stock_quantity": 54,
+    "avg_daily_sales": 5.4,
+    "expiry_date": "2026-09-18",
+    "days_until_expiry": 60
+  },
+  {
+    "product_code": "94185454",
+    "stock_quantity": 55,
+    "avg_daily_sales": 5.5,
+    "expiry_date": "2026-08-29",
+    "days_until_expiry": 40
+  },
+  {
+    "product_code": "3250393399237",
+    "stock_quantity": 54,
+    "avg_daily_sales": 5.4,
+    "expiry_date": "2026-08-19",
+    "days_until_expiry": 30
+  },
+  {
+    "product_code": "4335619071643",
+    "stock_quantity": 57,
+    "avg_daily_sales": 5.7,
+    "expiry_date": "2026-08-13",
+    "days_until_expiry": 24
+  },
+  {
+    "product_code": "3330720251404",
+    "stock_quantity": 55,
+    "avg_daily_sales": 5.5,
+    "expiry_date": "2026-09-10",
+    "days_until_expiry": 52
+  },
+  {
+    "product_code": "3564700169773",
+    "stock_quantity": 56,
+    "avg_daily_sales": 5.6,
+    "expiry_date": "2026-08-05",
+    "days_until_expiry": 16
+  },
+  {
+    "product_code": "8000500416921",
+    "stock_quantity": 55,
+    "avg_daily_sales": 5.5,
+    "expiry_date": "2026-09-11",
+    "days_until_expiry": 53
+  },
+  {
+    "product_code": "5000234049795",
+    "stock_quantity": 55,
+    "avg_daily_sales": 5.5,
+    "expiry_date": "2026-08-31",
+    "days_until_expiry": 42
+  },
+  {
+    "product_code": "3564707117821",
+    "stock_quantity": 53,
+    "avg_daily_sales": 5.3,
+    "expiry_date": "2026-08-12",
+    "days_until_expiry": 23
+  },
+  {
+    "product_code": "3192340348960",
+    "stock_quantity": 57,
+    "avg_daily_sales": 5.7,
+    "expiry_date": "2026-09-08",
+    "days_until_expiry": 50
+  },
+  {
+    "product_code": "3502490013852",
+    "stock_quantity": 53,
+    "avg_daily_sales": 5.3,
+    "expiry_date": "2026-08-22",
+    "days_until_expiry": 33
+  },
+  {
+    "product_code": "0024000011859",
+    "stock_quantity": 55,
+    "avg_daily_sales": 5.5,
+    "expiry_date": "2026-08-04",
+    "days_until_expiry": 15
+  },
+  {
+    "product_code": "5060406461831",
+    "stock_quantity": 55,
+    "avg_daily_sales": 5.5,
+    "expiry_date": "2026-09-05",
+    "days_until_expiry": 47
+  },
+  {
+    "product_code": "3433791013602",
+    "stock_quantity": 55,
+    "avg_daily_sales": 5.5,
+    "expiry_date": "2026-07-22",
+    "days_until_expiry": 2
+  },
+  {
+    "product_code": "3083681148619",
+    "stock_quantity": 54,
+    "avg_daily_sales": 5.4,
+    "expiry_date": "2026-09-15",
+    "days_until_expiry": 57
+  },
+  {
+    "product_code": "6111021090056",
+    "stock_quantity": 56,
+    "avg_daily_sales": 5.6,
+    "expiry_date": "2026-08-13",
+    "days_until_expiry": 24
+  },
+  {
+    "product_code": "3276558775128",
+    "stock_quantity": 53,
+    "avg_daily_sales": 5.3,
+    "expiry_date": "2026-09-05",
+    "days_until_expiry": 47
+  },
+  {
+    "product_code": "3083681148626",
+    "stock_quantity": 56,
+    "avg_daily_sales": 5.6,
+    "expiry_date": "2026-09-09",
+    "days_until_expiry": 51
+  },
+  {
+    "product_code": "20023751",
+    "stock_quantity": 53,
+    "avg_daily_sales": 5.3,
+    "expiry_date": "2026-09-02",
+    "days_until_expiry": 44
+  },
+  {
+    "product_code": "3281780894950",
+    "stock_quantity": 53,
+    "avg_daily_sales": 5.3,
+    "expiry_date": "2026-07-23",
+    "days_until_expiry": 3
+  },
+  {
+    "product_code": "3504182960123",
+    "stock_quantity": 54,
+    "avg_daily_sales": 5.4,
+    "expiry_date": "2026-08-04",
+    "days_until_expiry": 15
+  },
+  {
+    "product_code": "3270190212980",
+    "stock_quantity": 55,
+    "avg_daily_sales": 5.5,
+    "expiry_date": "2026-07-21",
+    "days_until_expiry": 1
+  },
+  {
+    "product_code": "3083681116939",
+    "stock_quantity": 55,
+    "avg_daily_sales": 5.5,
+    "expiry_date": "2026-07-22",
+    "days_until_expiry": 2
+  },
+  {
+    "product_code": "3083681116908",
+    "stock_quantity": 53,
+    "avg_daily_sales": 5.3,
+    "expiry_date": "2026-08-21",
+    "days_until_expiry": 32
+  },
+  {
+    "product_code": "8445291209039",
+    "stock_quantity": 55,
+    "avg_daily_sales": 5.5,
+    "expiry_date": "2026-07-21",
+    "days_until_expiry": 1
+  },
+  {
+    "product_code": "8712566432127",
+    "stock_quantity": 55,
+    "avg_daily_sales": 5.5,
+    "expiry_date": "2026-08-12",
+    "days_until_expiry": 23
+  },
+  {
+    "product_code": "3083680482035",
+    "stock_quantity": 57,
+    "avg_daily_sales": 5.7,
+    "expiry_date": "2026-08-09",
+    "days_until_expiry": 20
+  },
+  {
+    "product_code": "3083681059793",
+    "stock_quantity": 56,
+    "avg_daily_sales": 5.6,
+    "expiry_date": "2026-08-12",
+    "days_until_expiry": 23
+  },
+  {
+    "product_code": "3083681148916",
+    "stock_quantity": 54,
+    "avg_daily_sales": 5.4,
+    "expiry_date": "2026-09-06",
+    "days_until_expiry": 48
+  },
+  {
+    "product_code": "3083681148602",
+    "stock_quantity": 55,
+    "avg_daily_sales": 5.5,
+    "expiry_date": "2026-09-07",
+    "days_until_expiry": 49
+  },
+  {
+    "product_code": "8005110004766",
+    "stock_quantity": 53,
+    "avg_daily_sales": 5.3,
+    "expiry_date": "2026-07-22",
+    "days_until_expiry": 2
+  },
+  {
+    "product_code": "3083681017809",
+    "stock_quantity": 55,
+    "avg_daily_sales": 5.5,
+    "expiry_date": "2026-09-17",
+    "days_until_expiry": 59
+  },
+  {
+    "product_code": "3250399980743",
+    "stock_quantity": 54,
+    "avg_daily_sales": 5.4,
+    "expiry_date": "2026-08-28",
+    "days_until_expiry": 39
+  },
+  {
+    "product_code": "8720182748461",
+    "stock_quantity": 53,
+    "avg_daily_sales": 5.3,
+    "expiry_date": "2026-08-11",
+    "days_until_expiry": 22
+  },
+  {
+    "product_code": "3478820013185",
+    "stock_quantity": 58,
+    "avg_daily_sales": 5.8,
+    "expiry_date": "2026-08-05",
+    "days_until_expiry": 16
+  },
+  {
+    "product_code": "20638757",
+    "stock_quantity": 54,
+    "avg_daily_sales": 5.4,
+    "expiry_date": "2026-08-11",
+    "days_until_expiry": 22
+  },
+  {
+    "product_code": "3083681117042",
+    "stock_quantity": 54,
+    "avg_daily_sales": 5.4,
+    "expiry_date": "2026-09-03",
+    "days_until_expiry": 45
+  },
+  {
+    "product_code": "20004279",
+    "stock_quantity": 56,
+    "avg_daily_sales": 5.6,
+    "expiry_date": "2026-09-15",
+    "days_until_expiry": 57
+  },
+  {
+    "product_code": "3083681149975",
+    "stock_quantity": 54,
+    "avg_daily_sales": 5.4,
+    "expiry_date": "2026-08-29",
+    "days_until_expiry": 40
+  },
+  {
+    "product_code": "3270160754656",
+    "stock_quantity": 54,
+    "avg_daily_sales": 5.4,
+    "expiry_date": "2026-08-04",
+    "days_until_expiry": 15
+  },
+  {
+    "product_code": "3083681094282",
+    "stock_quantity": 56,
+    "avg_daily_sales": 5.6,
+    "expiry_date": "2026-07-22",
+    "days_until_expiry": 2
+  },
+  {
+    "product_code": "3456300007817",
+    "stock_quantity": 54,
+    "avg_daily_sales": 5.4,
+    "expiry_date": "2026-09-15",
+    "days_until_expiry": 57
+  },
+  {
+    "product_code": "3083681105247",
+    "stock_quantity": 54,
+    "avg_daily_sales": 5.4,
+    "expiry_date": "2026-08-23",
+    "days_until_expiry": 34
+  },
+  {
+    "product_code": "3270190207511",
+    "stock_quantity": 54,
+    "avg_daily_sales": 5.4,
+    "expiry_date": "2026-08-24",
+    "days_until_expiry": 35
+  },
+  {
+    "product_code": "3083680002929",
+    "stock_quantity": 53,
+    "avg_daily_sales": 5.3,
+    "expiry_date": "2026-09-10",
+    "days_until_expiry": 52
+  },
+  {
+    "product_code": "3281780894967",
+    "stock_quantity": 55,
+    "avg_daily_sales": 5.5,
+    "expiry_date": "2026-08-07",
+    "days_until_expiry": 18
+  },
+  {
+    "product_code": "8480000160447",
+    "stock_quantity": 54,
+    "avg_daily_sales": 5.4,
+    "expiry_date": "2026-08-25",
+    "days_until_expiry": 36
+  },
+  {
+    "product_code": "20198114",
+    "stock_quantity": 56,
+    "avg_daily_sales": 5.6,
+    "expiry_date": "2026-09-06",
+    "days_until_expiry": 48
+  },
+  {
+    "product_code": "3083681011791",
+    "stock_quantity": 52,
+    "avg_daily_sales": 5.2,
+    "expiry_date": "2026-08-29",
+    "days_until_expiry": 40
+  },
+  {
+    "product_code": "8005110171215",
+    "stock_quantity": 53,
+    "avg_daily_sales": 5.3,
+    "expiry_date": "2026-08-30",
+    "days_until_expiry": 41
+  },
+  {
+    "product_code": "3270160873227",
+    "stock_quantity": 54,
+    "avg_daily_sales": 5.4,
+    "expiry_date": "2026-09-12",
+    "days_until_expiry": 54
+  },
+  {
+    "product_code": "3307130801154",
+    "stock_quantity": 57,
+    "avg_daily_sales": 5.7,
+    "expiry_date": "2026-09-07",
+    "days_until_expiry": 49
+  },
+  {
+    "product_code": "3270190134695",
+    "stock_quantity": 55,
+    "avg_daily_sales": 5.5,
+    "expiry_date": "2026-08-22",
+    "days_until_expiry": 33
+  },
+  {
+    "product_code": "3270160592173",
+    "stock_quantity": 55,
+    "avg_daily_sales": 5.5,
+    "expiry_date": "2026-09-12",
+    "days_until_expiry": 54
+  },
+  {
+    "product_code": "3270190153917",
+    "stock_quantity": 57,
+    "avg_daily_sales": 5.7,
+    "expiry_date": "2026-07-23",
+    "days_until_expiry": 3
+  },
+  {
+    "product_code": "3083681017779",
+    "stock_quantity": 53,
+    "avg_daily_sales": 5.3,
+    "expiry_date": "2026-08-27",
+    "days_until_expiry": 38
+  },
+  {
+    "product_code": "5010292961182",
+    "stock_quantity": 54,
+    "avg_daily_sales": 5.4,
+    "expiry_date": "2026-08-13",
+    "days_until_expiry": 24
+  },
+  {
+    "product_code": "3083681117158",
+    "stock_quantity": 59,
+    "avg_daily_sales": 5.9,
+    "expiry_date": "2026-08-21",
+    "days_until_expiry": 32
+  },
+  {
+    "product_code": "3270160115365",
+    "stock_quantity": 54,
+    "avg_daily_sales": 5.4,
+    "expiry_date": "2026-07-21",
+    "days_until_expiry": 1
+  },
+  {
+    "product_code": "3083680481991",
+    "stock_quantity": 53,
+    "avg_daily_sales": 5.3,
+    "expiry_date": "2026-07-23",
+    "days_until_expiry": 3
+  },
+  {
+    "product_code": "3250390473275",
+    "stock_quantity": 57,
+    "avg_daily_sales": 5.7,
+    "expiry_date": "2026-09-16",
+    "days_until_expiry": 58
+  },
+  {
+    "product_code": "3270190181231",
+    "stock_quantity": 55,
+    "avg_daily_sales": 5.5,
+    "expiry_date": "2026-09-14",
+    "days_until_expiry": 56
+  },
+  {
+    "product_code": "3083681127850",
+    "stock_quantity": 53,
+    "avg_daily_sales": 5.3,
+    "expiry_date": "2026-08-11",
+    "days_until_expiry": 22
+  },
+  {
+    "product_code": "20543167",
+    "stock_quantity": 54,
+    "avg_daily_sales": 5.4,
+    "expiry_date": "2026-09-14",
+    "days_until_expiry": 56
+  },
+  {
+    "product_code": "40879321",
+    "stock_quantity": 57,
+    "avg_daily_sales": 5.7,
+    "expiry_date": "2026-07-22",
+    "days_until_expiry": 2
+  },
+  {
+    "product_code": "3504182960345",
+    "stock_quantity": 55,
+    "avg_daily_sales": 5.5,
+    "expiry_date": "2026-09-08",
+    "days_until_expiry": 50
+  },
+  {
+    "product_code": "3250391468423",
+    "stock_quantity": 53,
+    "avg_daily_sales": 5.3,
+    "expiry_date": "2026-08-23",
+    "days_until_expiry": 34
+  },
+  {
+    "product_code": "3560070457335",
+    "stock_quantity": 56,
+    "avg_daily_sales": 5.6,
+    "expiry_date": "2026-08-15",
+    "days_until_expiry": 26
+  },
+  {
+    "product_code": "8410076350213",
+    "stock_quantity": 55,
+    "avg_daily_sales": 5.5,
+    "expiry_date": "2026-08-19",
+    "days_until_expiry": 30
+  },
+  {
+    "product_code": "8005110172106",
+    "stock_quantity": 54,
+    "avg_daily_sales": 5.4,
+    "expiry_date": "2026-08-25",
+    "days_until_expiry": 36
+  },
+  {
+    "product_code": "3083681149852",
+    "stock_quantity": 56,
+    "avg_daily_sales": 5.6,
+    "expiry_date": "2026-07-21",
+    "days_until_expiry": 1
+  },
+  {
+    "product_code": "3760020507947",
+    "stock_quantity": 55,
+    "avg_daily_sales": 5.5,
+    "expiry_date": "2026-09-17",
+    "days_until_expiry": 59
+  },
+  {
+    "product_code": "3270190207535",
+    "stock_quantity": 54,
+    "avg_daily_sales": 5.4,
+    "expiry_date": "2026-08-11",
+    "days_until_expiry": 22
+  },
+  {
+    "product_code": "20487942",
+    "stock_quantity": 54,
+    "avg_daily_sales": 5.4,
+    "expiry_date": "2026-07-23",
+    "days_until_expiry": 3
+  },
+  {
+    "product_code": "3017800509968",
+    "stock_quantity": 52,
+    "avg_daily_sales": 5.2,
+    "expiry_date": "2026-09-10",
+    "days_until_expiry": 52
+  },
+  {
+    "product_code": "3560070323289",
+    "stock_quantity": 52,
+    "avg_daily_sales": 5.2,
+    "expiry_date": "2026-09-11",
+    "days_until_expiry": 53
+  },
+  {
+    "product_code": "6194055500135",
+    "stock_quantity": 53,
+    "avg_daily_sales": 5.3,
+    "expiry_date": "2026-07-23",
+    "days_until_expiry": 3
+  },
+  {
+    "product_code": "3250390114888",
+    "stock_quantity": 57,
+    "avg_daily_sales": 5.7,
+    "expiry_date": "2026-07-22",
+    "days_until_expiry": 2
+  },
+  {
+    "product_code": "3245390221780",
+    "stock_quantity": 56,
+    "avg_daily_sales": 5.6,
+    "expiry_date": "2026-09-11",
+    "days_until_expiry": 53
+  },
+  {
+    "product_code": "3307130802625",
+    "stock_quantity": 53,
+    "avg_daily_sales": 5.3,
+    "expiry_date": "2026-08-10",
+    "days_until_expiry": 21
+  },
+  {
+    "product_code": "3270160599783",
+    "stock_quantity": 51,
+    "avg_daily_sales": 5.1,
+    "expiry_date": "2026-09-18",
+    "days_until_expiry": 60
+  },
+  {
+    "product_code": "3270160757701",
+    "stock_quantity": 57,
+    "avg_daily_sales": 5.7,
+    "expiry_date": "2026-07-21",
+    "days_until_expiry": 1
+  },
+  {
+    "product_code": "3564700005200",
+    "stock_quantity": 52,
+    "avg_daily_sales": 5.2,
+    "expiry_date": "2026-08-14",
+    "days_until_expiry": 25
+  },
+  {
+    "product_code": "3270160863150",
+    "stock_quantity": 55,
+    "avg_daily_sales": 5.5,
+    "expiry_date": "2026-08-05",
+    "days_until_expiry": 16
+  },
+  {
+    "product_code": "20191573",
+    "stock_quantity": 55,
+    "avg_daily_sales": 5.5,
+    "expiry_date": "2026-07-23",
+    "days_until_expiry": 3
+  },
+  {
+    "product_code": "8005110060007",
+    "stock_quantity": 54,
+    "avg_daily_sales": 5.4,
+    "expiry_date": "2026-08-06",
+    "days_until_expiry": 17
+  },
+  {
+    "product_code": "8005110002960",
+    "stock_quantity": 53,
+    "avg_daily_sales": 5.3,
+    "expiry_date": "2026-09-09",
+    "days_until_expiry": 51
+  },
+  {
+    "product_code": "6111242680944",
+    "stock_quantity": 53,
+    "avg_daily_sales": 5.3,
+    "expiry_date": "2026-08-08",
+    "days_until_expiry": 19
+  },
+  {
+    "product_code": "3036810210275",
+    "stock_quantity": 55,
+    "avg_daily_sales": 5.5,
+    "expiry_date": "2026-09-02",
+    "days_until_expiry": 44
+  },
+  {
+    "product_code": "3504181360337",
+    "stock_quantity": 52,
+    "avg_daily_sales": 5.2,
+    "expiry_date": "2026-08-18",
+    "days_until_expiry": 29
+  },
+  {
+    "product_code": "3017800509999",
+    "stock_quantity": 55,
+    "avg_daily_sales": 5.5,
+    "expiry_date": "2026-09-01",
+    "days_until_expiry": 43
+  },
+  {
+    "product_code": "3254474018635",
+    "stock_quantity": 56,
+    "avg_daily_sales": 5.6,
+    "expiry_date": "2026-08-29",
+    "days_until_expiry": 40
+  },
+  {
+    "product_code": "3560070331703",
+    "stock_quantity": 55,
+    "avg_daily_sales": 5.5,
+    "expiry_date": "2026-07-21",
+    "days_until_expiry": 1
+  },
+  {
+    "product_code": "3083681042450",
+    "stock_quantity": 51,
+    "avg_daily_sales": 5.1,
+    "expiry_date": "2026-08-31",
+    "days_until_expiry": 42
+  },
+  {
+    "product_code": "3270160875054",
+    "stock_quantity": 52,
+    "avg_daily_sales": 5.2,
+    "expiry_date": "2026-08-10",
+    "days_until_expiry": 21
+  },
+  {
+    "product_code": "20884260",
+    "stock_quantity": 58,
+    "avg_daily_sales": 5.8,
+    "expiry_date": "2026-07-23",
+    "days_until_expiry": 3
+  },
+  {
+    "product_code": "3017800207901",
+    "stock_quantity": 52,
+    "avg_daily_sales": 5.2,
+    "expiry_date": "2026-08-24",
+    "days_until_expiry": 35
   }
 ]
