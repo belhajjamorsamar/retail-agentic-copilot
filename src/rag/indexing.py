@@ -2,17 +2,20 @@
 Indexation des chunks : embeddings + stockage dans ChromaDB.
 
 Décision importante : avant de tout ré-indexer, on vérifie si un index
-existe déjà. Régénérer des embeddings à chaque test coûterait de l'argent
-inutilement (appel API OpenAI facturé à chaque embedding) — un vrai
-risque identifié tôt dans ce projet. On ne ré-indexe que si demandé
-explicitement (force=True) ou si aucun index n'existe encore.
+existe déjà. Régénérer des embeddings à chaque test coûterait du temps et
+de l'argent inutilement — un vrai risque identifié tôt dans ce projet. On
+ne ré-indexe que si demandé explicitement (force=True) ou si aucun index
+n'existe encore.
+
+Le modèle d'embedding est mis en cache (get_embeddings) pour n'être chargé
+qu'une seule fois en mémoire, plutôt qu'à chaque appel de get_vector_store()
+— ça évite plusieurs secondes de rechargement à chaque question posée.
 """
 
 from pathlib import Path
 
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_chroma import Chroma
-from langchain_core.documents import Document
 
 from src.rag.build_documents import build_documents
 from src.rag.chunking import chunk_documents
@@ -21,10 +24,21 @@ from config import EMBEDDING_MODEL, CHROMA_PERSIST_DIR, CHROMA_COLLECTION_NAME
 
 logger = get_logger(__name__)
 
+# Cache du modèle d'embedding — évite de le recharger à chaque appel
+_embeddings_cache = None
+
+
+def get_embeddings():
+    """Retourne le modèle d'embedding, chargé une seule fois (mis en cache)."""
+    global _embeddings_cache
+    if _embeddings_cache is None:
+        _embeddings_cache = HuggingFaceEmbeddings(model_name=EMBEDDING_MODEL)
+    return _embeddings_cache
+
 
 def get_vector_store() -> Chroma:
     """Retourne l'objet Chroma connecté à notre collection persistante."""
-    embeddings = HuggingFaceEmbeddings(model_name=EMBEDDING_MODEL)
+    embeddings = get_embeddings()
     return Chroma(
         collection_name=CHROMA_COLLECTION_NAME,
         embedding_function=embeddings,
@@ -49,12 +63,11 @@ def build_index(force: bool = False) -> Chroma:
         )
         return get_vector_store()
 
-    logger.info("Construction d'un nouvel index (appels API OpenAI en cours)...")
+    logger.info("Construction d'un nouvel index...")
 
     docs = build_documents()
     chunks = chunk_documents(docs)
-
-    embeddings = HuggingFaceEmbeddings(model_name=EMBEDDING_MODEL)
+    embeddings = get_embeddings()  # ← utilise le cache aussi ici, pas de nouvel objet
 
     vector_store = Chroma.from_documents(
         documents=chunks,
@@ -62,9 +75,6 @@ def build_index(force: bool = False) -> Chroma:
         collection_name=CHROMA_COLLECTION_NAME,
         persist_directory=CHROMA_PERSIST_DIR,
     )
-    # ↑ from_documents() fait TOUT en une ligne : transforme chaque chunk
-    #   en embedding (appel API OpenAI), puis les stocke dans ChromaDB,
-    #   puis sauvegarde sur disque (persist_directory)
 
     logger.info("Index construit et sauvegardé : %d chunks indexés", len(chunks))
     return vector_store
@@ -72,8 +82,6 @@ def build_index(force: bool = False) -> Chroma:
 
 if __name__ == "__main__":
     vector_store = build_index()
-
-    # Test rapide : une recherche de similarité pour vérifier que l'index marche
     results = vector_store.similarity_search("yaourt sans lactose", k=3)
     logger.info("Test de recherche — 'yaourt sans lactose' :")
     for i, doc in enumerate(results):
