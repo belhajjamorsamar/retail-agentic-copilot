@@ -5,7 +5,6 @@ Routes de l'API — définit les endpoints exposés au frontend.
 from fastapi import APIRouter, HTTPException
 
 from src.orchestration.supervisor import run_supervisor
-from src.rag.retrieval import search
 from src.api.schemas import ChatRequest, ChatResponse
 from src.utils.logger import get_logger
 
@@ -16,21 +15,14 @@ router = APIRouter()
 
 @router.post("/chat", response_model=ChatResponse)
 def chat(request: ChatRequest) -> ChatResponse:
-    """Reçoit une question, retourne la réponse du superviseur (RAG et/ou stock) + ses sources."""
+    """Reçoit une question, retourne la réponse du superviseur + ses vraies sources."""
 
     if not request.question.strip():
         raise HTTPException(status_code=400, detail="La question ne peut pas être vide.")
 
     try:
-        answer_text = run_supervisor(request.question)
-        # ↑ changement clé : on passe par le superviseur, plus par le RAG seul
-
-        chunks = search(request.question)
-        sources = list({c.metadata.get("product_name", "?") for c in chunks})
-        # ↑ note : ces sources ne couvrent que le volet "produit" — le volet
-        #   "stock" n'a pas de "source" au même sens, c'est un calcul,
-        #   pas une recherche documentaire (limite à documenter aussi)
-
+        answer_text, sources = run_supervisor(request.question)
+        # ↑ une seule source de vérité — plus de recherche séparée non filtrée
         return ChatResponse(answer=answer_text, sources=sources)
 
     except Exception as exc:
