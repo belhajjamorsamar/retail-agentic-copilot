@@ -1,0 +1,35 @@
+{
+  "total_cases": 4,
+  "retrieval_recall": 1.0,
+  "answer_accuracy": 1.0,
+  "details": [
+    {
+      "question": "Avez-vous du lait sans lactose ?",
+      "expected_product": "Lait sans lactose",
+      "retrieval_hit": true,
+      "answer_correct": true,
+      "answer_preview": "Salut ! On a le Lait sans lactose (Jaouda)."
+    },
+    {
+      "question": "Je cherche une boisson au cola",
+      "expected_product": "Coca-Cola",
+      "retrieval_hit": true,
+      "answer_correct": true,
+      "answer_preview": "Salut ! On a le Coca-Cola (Coca-Cola)."
+    },
+    {
+      "question": "Quels produits contiennent des cacahuètes ?",
+      "expected_product": "Be Nuts",
+      "retrieval_hit": true,
+      "answer_correct": true,
+      "answer_preview": "Salut ! On a la Be Nuts! Pâte à tartiner Cacahuète (Andros)."
+    },
+    {
+      "question": "Avez-vous des pneus de voiture ?",
+      "expected_product": null,
+      "retrieval_hit": true,
+      "answer_correct": true,
+      "answer_preview": "Désolé, je n'ai rien trouvé qui corresponde à votre demande."
+    }
+  ]
+}
